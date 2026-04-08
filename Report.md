@@ -5,14 +5,14 @@
 ## <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
 
 <p align="center">Ingeniería de Software</p>
-<p align="center">Periodo 202520</p>
-<p align="center">1ASI0729 | Desarrollo de Aplicaciones Open Source</p>
-<p align="center"><strong>NRC:</strong> 7344</p>
+<p align="center">Periodo 202610</p>
+<p align="center">1ASI0730 | Aplicaciones Web</p>
+<p align="center"><strong>NRC:</strong> 17953</p>
 <p align="center"><strong>Docente:</strong> Ivan Robles Fernández</p>
 
 # <p align="center">Informe del Trabajo Final</p>
-<p align="center"><strong>Startup:</strong> SODA</p>
-<p align="center"><strong>Producto:</strong> Powersense</p>
+<p align="center"><strong>Startup:</strong> No se</p>
+<p align="center"><strong>Producto:</strong> VetCare</p>
 
 
 
