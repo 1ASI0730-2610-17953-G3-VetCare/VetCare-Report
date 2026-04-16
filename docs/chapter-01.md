@@ -61,35 +61,36 @@
 
 ### 1.2.1. Antecedentes y Problemática
 
-En el sector veterinario actual, la mayoría de los centros operan con sistemas desconectados o procesos manuales que generan ineficiencias críticas. La falta de integración entre el área médica y el área financiera provoca fugas de capital, errores en el stock de insumos y una visión incompleta de la salud financiera del negocio. Según Digitalization of Veterinary Practice Management (2025), las clínicas que no automatizan su flujo administrativo pierden una parte significativa de su capacidad operativa debido a la duplicidad de tareas.
+En el sector veterinario actual, la mayoría de los centros operan con sistemas desconectados o procesos manuales que generan ineficiencias críticas. La falta de integración entre el área médica y el área financiera provoca fugas de capital, errores en el stock de insumos y una visión incompleta de la salud financiera del negocio. Según Beyer, Chomiak-Orsa, Pietrzykowski y Rozkrut (2025), la transformación digital y la mejora de los procesos de negocio son imperativos para que las clínicas veterinarias modernas superen la fragmentación operativa y alcancen niveles competitivos de productividad.
 
 Al analizar esta situación con la metodología de las **5 W’s y 2 H’s** se identifican los siguientes elementos:
 
 **Who (Quiénes)**
-Principalmente **administradores de clínicas veterinarias** que necesitan control total sobre el flujo de caja y la rentabilidad, y **médicos veterinarios** que requieren una herramienta ágil para gestionar historiales clínicos sin complicaciones administrativas.
+Principalmente **administradores de clínicas veterinarias** que necesitan control total sobre el flujo de caja y la rentabilidad, y **médicos veterinarios** que requieren una herramienta ágil para gestionar historiales clínicos sin complicaciones administrativas, permitiendo un enfoque basado en datos para el manejo de casos (Mallikarjun et al., 2024).
 
 **What (Qué)**
-La problemática radica en la **fragmentación de la información operativa**. Las veterinarias carecen de una plataforma única que conecte lo que sucede en el consultorio (consumo de insumos) con la contabilidad y el almacén, dificultando la gestión del inventario y el control de ingresos reales.
+La problemática radica en la **fragmentación de la información operativa**. Las veterinarias carecen de una plataforma única que conecte lo que sucede en el consultorio con la contabilidad y el almacén, dificultando la gestión del inventario y el control de ingresos reales.
 
 **When (Cuándo)**
-El desafío es constante en el flujo de trabajo diario, desde la programación hasta el cobro. Según Operational Efficiency in Health Facilities (2026), la ineficiencia se agudiza al no contar con sistemas que sincronicen el uso de materiales con el registro financiero en tiempo real.
+El desafío es constante en el flujo de trabajo diario, desde la programación hasta el cobro. La ineficiencia se agudiza al no contar con sistemas que sincronicen el uso de materiales con el registro financiero en tiempo real, limitando la capacidad de respuesta de la clínica.
 
 **Where (Dónde)**
-En la **infraestructura operativa de las clínicas veterinarias** urbanas. El problema se localiza en el "back-office" del negocio, donde la falta de herramientas de inteligencia de negocios (BI) impide una toma de decisiones estratégica.
+En la **infraestructura operativa de las clínicas veterinarias** urbanas. El problema se localiza en el "back-office" del negocio, donde la ausencia de herramientas de Business Intelligence (BI) impide una toma de decisiones estratégica. Según Soltani y Siadati (2019), la implementación de BI tiene un impacto directo en el incremento de la eficiencia y la calidad de la salud en centros especializados.
 
 **Why (Por qué)**
 Las causas principales son:
-* **Sistemas aislados:** Uso de herramientas manuales para inventarios que no se comunican con el historial médico.
+* **Sistemas aislados:** Uso de herramientas manuales que no se comunican con el historial médico, obstaculizando la mejora de procesos (Beyer et al., 2025).
 * **Fugas de inventario:** Falta de un sistema que descuente automáticamente los insumos utilizados en cada cita médica.
 * **Carencia de analítica:** Los administradores no cuentan con reportes visuales en tiempo real para identificar la rentabilidad real de sus servicios.
 
 **How (Cómo)**
-Se manifiesta en una administración reactiva, pérdida de stock, procesos de pago lentos y una carga administrativa excesiva. Según Digitalization of Veterinary Practice Management (2025), esto reduce drásticamente el tiempo que el profesional dedica a la atención médica efectiva.
+Se manifiesta en una administración reactiva, pérdida de stock y procesos de pago lentos. Según Beyer et al. (2025), la digitalización es la clave para reestructurar estos procesos y eliminar las redundancias que afectan la rentabilidad.
 
 **How Much (Cuánto)**
-* La automatización de flujos administrativos reduce la carga de trabajo manual en un **40%**, según Digitalization of Veterinary Practice Management (2025).
-* La implementación de sistemas integrados presenta una correlación de **$r = 0.703$** con la mejora de la eficiencia operativa, según Operational Efficiency in Health Facilities (2026).
-* El uso de inteligencia de negocios y reportes financieros automáticos puede incrementar la retención de clientes y la salud financiera en un **87%**, según The Impact of Business Intelligence (2025).
+* La transformación digital permite optimizar los procesos de negocio en clínicas veterinarias, reduciendo errores operativos significativamente (Beyer et al., 2025).
+* La implementación de herramientas de inteligencia de negocios (BI) incrementa la eficiencia operativa y la calidad del servicio en centros de salud, según Soltani y Siadati (2019).
+* El uso de sistemas de entrenamiento y gestión de datos estandarizados permite una precisión diagnóstica superior y un mejor manejo de recursos, tal como se observa en estudios de detección y manejo animal (Mallikarjun et al., 2024).
+
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
