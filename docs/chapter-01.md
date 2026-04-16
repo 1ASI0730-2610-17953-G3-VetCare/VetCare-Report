@@ -74,3 +74,13 @@
 ## 1.3. Segmentos objetivo
 
 ---
+
+El mercado peruano exige la modernización de los servicios de salud animal. Según CPI (2023), la mayoría de hogares urbanos tiene mascotas, elevando la demanda veterinaria. Sin embargo, gremios como la Cámara de Comercio de Lima (2022) advierten que, pese a la apertura de más clínicas, persisten desafíos de gestión y falta de digitalización que limitan su eficiencia y rentabilidad.
+
+Dentro de este panorama, VET-Smart concentrará su fase inicial en dos segmentos clave:
+
+* **Médicos veterinarios en clínicas de mediano a alto flujo** que carecen de herramientas integradas. La gestión manual de historiales e inventarios consume un tiempo crítico. Ante la alta demanda, requieren una plataforma clínica (EHR) en tiempo real para optimizar consultas, controlar medicamentos y mejorar la atención al paciente, reduciendo su dependencia de procesos analógicos.
+
+* **Administradores de centros veterinarios**, usualmente entre 30 y 55 años, enfocados en la eficiencia operativa y financiera. La plataforma (ERP) les brindará herramientas de inteligencia de negocios, control de flujo de caja y pagos integrados mediante reportes claros, facilitando decisiones para maximizar la rentabilidad.
+
+Esta selección prioriza usuarios con una necesidad crítica de optimización y mayor disposición tecnológica. Esto permitirá una implementación ágil y generará evidencia de impacto para, en el futuro, expandirse hacia otros segmentos del mercado del cuidado animal.
