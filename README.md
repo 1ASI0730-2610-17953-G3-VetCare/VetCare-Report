@@ -65,7 +65,7 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
-| Criterio específico | Alumno | Cumplimiento |
+| Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :---: |
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta | Nuñez Soto, Andy Arturo <br><br> Roman Zevallos, Sebastian Jared <br><br> Romero Vilela, Dario Alberto <br><br> Sanchez Benavente, Leonardo Matias <br><br> Sejuro Medina, Mario Gabriel |  |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | Nuñez Soto, Andy Arturo <br><br> Roman Zevallos, Sebastian Jared <br><br> Romero Vilela, Dario Alberto <br><br> Sanchez Benavente, Leonardo Matias <br><br> Sejuro Medina, Mario Gabriel |  |
