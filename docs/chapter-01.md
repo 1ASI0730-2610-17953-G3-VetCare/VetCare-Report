@@ -89,7 +89,7 @@ Se manifiesta en una administración reactiva, pérdida de stock, procesos de pa
 **How Much (Cuánto)**
 * La automatización de flujos administrativos reduce la carga de trabajo manual en un **40%**, según Digitalization of Veterinary Practice Management (2025).
 * La implementación de sistemas integrados presenta una correlación de **$r = 0.703$** con la mejora de la eficiencia operativa, según Operational Efficiency in Health Facilities (2026).
-* El uso de inteligencia de negocios y reportes financieros automáticos puede incrementar la retención de clientes y la salud financiera en un **86%**, según The Impact of Business Intelligence (2025).
+* El uso de inteligencia de negocios y reportes financieros automáticos puede incrementar la retención de clientes y la salud financiera en un **87%**, según The Impact of Business Intelligence (2025).
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
