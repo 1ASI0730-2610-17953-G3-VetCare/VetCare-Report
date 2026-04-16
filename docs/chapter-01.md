@@ -36,10 +36,10 @@
 
 <br>
 
-| Nombre y Apellido | Romero Vilela, Dario Alberto - U202419286 |
-| :--- | :--- |
+| Nombre y Apellido | Romero Vilela, Dario Alberto - U202419286                                                                                                                                                                                                          |
+| :--- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Descripción** | Desarrollador Back-End centrado en la implementación de la lógica de negocios y la integración entre los sistemas del lado del servidor. Es responsable de construir y documentar las APIs que nutren de información a toda la plataforma clínica. |
-| **Foto** | <img src="../assets/member_Romero_Dario.png" alt="Foto Dario" width="150" /> |
+| **Foto** | <img src="../assets/member_Romero_Dario.png" alt="Foto Dario" width="150" />                                                                                                                                                                       |
 
 <br>
 
@@ -139,6 +139,8 @@ Por tanto, nos preguntamos: **¿Cómo podríamos ofrecer a los médicos veterina
   *Sabremos que estamos bien cuando* las métricas de uso y las evaluaciones de los médicos veterinarios demuestren una reducción del 40% en el tiempo invertido en tareas de *back-office*.
 
 #### 1.2.2.4. Lean UX Canvas
+
+<img src="../assets/lean_ux_canvas.png" alt="Lean UX picture"/>
 
 ## 1.3. Segmentos objetivo
 
