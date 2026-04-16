@@ -5,11 +5,11 @@
 
   <br>
 
-  <h4>Carrera: Ingeniería de Software</h4>
-  <h4>Periodo: 2026-10</h4>
-  <h4>Nombre del curso: Aplicaciones Web (1ASI0730)</h4>
-  <h4>NRC: 17953</h4>
-  <h4>Nombre del profesor: Sánchez Ponce, Alex Humberto</h4>
+  <h3>Carrera: Ingeniería de Software</h3>
+  <h3>Periodo: 2026-10</h3>
+  <h3>Nombre del curso: Aplicaciones Web (1ASI0730)</h3>
+  <h3>NRC: 17953</h3>
+  <h3>Nombre del profesor: Sánchez Ponce, Alex Humberto</h3>
 
   <br>
 
@@ -46,9 +46,13 @@
 
 # Project Report Collaboration Insights
 
+<div align="center">
+
 | Repositorio del Informe del Proyecto |
 | :--- |
 | https://github.com/1ASI0730-2610-17953-G3-VetCare/VetCare-Report |
+
+</div>
 
 <br>
 
