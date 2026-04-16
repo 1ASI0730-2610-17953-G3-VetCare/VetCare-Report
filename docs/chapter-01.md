@@ -57,42 +57,39 @@
 
 ## 1.2. Solution Profile
 
-**VET-SmartDiet** es una plataforma de gestión clínica integral (Practice Management Software - PMS) diseñada para digitalizar y automatizar el control nutricional en centros veterinarios. El ecosistema vincula el diagnóstico médico con una red de dispositivos IoT que actúan como terminales de captura de datos en tiempo real. Al centralizar la información de ingesta y evolución del paciente en una base de datos unificada, la plataforma permite que los administradores optimicen recursos, reduzcan el error humano en el seguimiento post-consulta y generen nuevas líneas de ingresos mediante servicios de monitoreo preventivo de alta precisión.
+**VetCare** es una plataforma integral de gestión empresarial (ERP) y clínica (EHR) diseñada para centralizar la operativa de los centros veterinarios. Nuestra solución elimina la fragmentación administrativa al unificar en un solo ecosistema el historial clínico digital, la gestión de citas, el control de inventarios con descuento automático y la administración financiera avanzada. Al proporcionar dashboards de inteligencia de negocios y pasarelas de pago integradas, VetCare permite que los administradores tomen decisiones basadas en datos reales para maximizar la rentabilidad, mientras los médicos optimizan su tiempo mediante procesos clínicos automatizados.
 
 ### 1.2.1. Antecedentes y Problemática
 
-En la actualidad, la gestión de las clínicas veterinarias enfrenta desafíos críticos en la trazabilidad de los tratamientos externos y la eficiencia operativa. Aunque la digitalización de historias clínicas ha avanzado, persiste una "brecha informativa" una vez que el paciente abandona el consultorio, lo que impacta directamente en la rentabilidad del negocio y en la reputación de la clínica.
-
-La gestión veterinaria tradicional depende de reportes subjetivos de los dueños, lo que genera diagnósticos imprecisos y una atención reactiva ante emergencias que podrían haberse detectado proactivamente. Según proyecciones del mercado de software veterinario para el periodo 2025-2026, la falta de integración entre dispositivos médicos y sistemas de gestión reduce la eficiencia del personal en un 40% debido a tareas de seguimiento manual ineficientes.
+En el sector veterinario actual, la mayoría de los centros operan con sistemas desconectados o procesos manuales que generan ineficiencias críticas. La falta de integración entre el área médica y el área financiera provoca fugas de capital, errores en el stock de insumos y una visión incompleta de la salud financiera del negocio. Según Digitalization of Veterinary Practice Management (2025), las clínicas que no automatizan su flujo administrativo pierden una parte significativa de su capacidad operativa debido a la duplicidad de tareas.
 
 Al analizar esta situación con la metodología de las **5 W’s y 2 H’s** se identifican los siguientes elementos:
 
 **Who (Quiénes)**
-Administradores de clínicas veterinarias que buscan optimizar la rentabilidad y el control de inventarios de alimentos terapéuticos; médicos veterinarios especialistas que requieren datos precisos para validar sus protocolos; y personal técnico que necesita automatizar el flujo de datos para reducir la carga administrativa.
+Principalmente **administradores de clínicas veterinarias** que necesitan control total sobre el flujo de caja y la rentabilidad, y **médicos veterinarios** que requieren una herramienta ágil para gestionar historiales clínicos sin complicaciones administrativas.
 
 **What (Qué)**
-La problemática radica en la carencia de herramientas tecnológicas integradas que capturen telemetría real (consumo, frecuencia, peso) fuera de la clínica. Esto dificulta que el administrador gestione eficientemente el ciclo de vida del paciente y genera una pérdida de ingresos por falta de recurrencia y baja adherencia a los tratamientos prescritos.
+La problemática radica en la **fragmentación de la información operativa**. Las veterinarias carecen de una plataforma única que conecte lo que sucede en el consultorio (consumo de insumos) con la contabilidad y el almacén, dificultando la gestión del inventario y el control de ingresos reales.
 
 **When (Cuándo)**
-El desafío es actual y creciente, manifestándose en la operativa diaria y volviéndose crítico durante el seguimiento de patologías crónicas. Investigaciones sobre gestión de instalaciones inteligentes indican que la ventana de intervención oportuna se pierde sin un monitoreo constante, forzando a la clínica a realizar una gestión de crisis en lugar de una atención programada.
+El desafío es constante en el flujo de trabajo diario, desde la programación hasta el cobro. Según Operational Efficiency in Health Facilities (2026), la ineficiencia se agudiza al no contar con sistemas que sincronicen el uso de materiales con el registro financiero en tiempo real.
 
 **Where (Dónde)**
-A nivel operativo, el problema se localiza en la desconexión entre el entorno doméstico del paciente y el sistema central de la clínica. En zonas urbanas con alta densidad de pacientes, la falta de automatización satura la agenda médica con consultas de control que podrían gestionarse de forma remota mediante flujos de datos automatizados.
+En la **infraestructura operativa de las clínicas veterinarias** urbanas. El problema se localiza en el "back-office" del negocio, donde la falta de herramientas de inteligencia de negocios (BI) impide una toma de decisiones estratégica.
 
 **Why (Por qué)**
-Las causas principales identificadas son:
-* **Fragmentación de datos:** Los sistemas actuales son estáticos y no reciben información en tiempo real desde nodos externos.
-* **Dependencia del factor humano:** El flujo de datos depende totalmente de la disciplina del cuidador, no de la supervisión médica automatizada.
-* **Inexistencia de alertas tempranas:** La administración no cuenta con indicadores de anomalías que permitan anticipar la necesidad de una consulta o reabastecimiento de insumos.
+Las causas principales son:
+* **Sistemas aislados:** Uso de herramientas manuales para inventarios que no se comunican con el historial médico.
+* **Fugas de inventario:** Falta de un sistema que descuente automáticamente los insumos utilizados en cada cita médica.
+* **Carencia de analítica:** Los administradores no cuentan con reportes visuales en tiempo real para identificar la rentabilidad real de sus servicios.
 
 **How (Cómo)**
-Se manifiesta en un bajo porcentaje de casos con seguimiento exitoso fuera del consultorio, una gestión ineficiente del tiempo clínico y la ausencia de plataformas que faciliten la analítica predictiva sobre la evolución de los pacientes.
+Se manifiesta en una administración reactiva, pérdida de stock, procesos de pago lentos y una carga administrativa excesiva. Según Digitalization of Veterinary Practice Management (2025), esto reduce drásticamente el tiempo que el profesional dedica a la atención médica efectiva.
 
 **How Much (Cuánto)**
-* Estudios sobre *Smart Veterinary Facilities* (2026) muestran que la eficiencia operativa presenta una correlación positiva fuerte ($r = 0.703$) en centros que adoptan gestión basada en datos e IoT.
-* La automatización del flujo de datos externos reduce la carga de trabajo administrativo en un **40%** (*The Role of ICT in Veterinary*, 2025).
-* La adopción de tecnologías de monitoreo remoto tiene el potencial de incrementar la retención de clientes en un **86%** al transformar la clínica en un gestor de salud constante y proactivo.
-
+* La automatización de flujos administrativos reduce la carga de trabajo manual en un **40%**, según Digitalization of Veterinary Practice Management (2025).
+* La implementación de sistemas integrados presenta una correlación de **$r = 0.703$** con la mejora de la eficiencia operativa, según Operational Efficiency in Health Facilities (2026).
+* El uso de inteligencia de negocios y reportes financieros automáticos puede incrementar la retención de clientes y la salud financiera en un **86%**, según The Impact of Business Intelligence (2025).
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
