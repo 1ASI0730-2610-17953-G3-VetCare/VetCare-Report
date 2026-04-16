@@ -57,9 +57,41 @@
 
 ## 1.2. Solution Profile
 
----
+**VET-SmartDiet** es una plataforma de gestión clínica integral (Practice Management Software - PMS) diseñada para digitalizar y automatizar el control nutricional en centros veterinarios. El ecosistema vincula el diagnóstico médico con una red de dispositivos IoT que actúan como terminales de captura de datos en tiempo real. Al centralizar la información de ingesta y evolución del paciente en una base de datos unificada, la plataforma permite que los administradores optimicen recursos, reduzcan el error humano en el seguimiento post-consulta y generen nuevas líneas de ingresos mediante servicios de monitoreo preventivo de alta precisión.
 
-### 1.2.1. Antecedentes y problemática
+### 1.2.1. Antecedentes y Problemática
+
+En la actualidad, la gestión de las clínicas veterinarias enfrenta desafíos críticos en la trazabilidad de los tratamientos externos y la eficiencia operativa. Aunque la digitalización de historias clínicas ha avanzado, persiste una "brecha informativa" una vez que el paciente abandona el consultorio, lo que impacta directamente en la rentabilidad del negocio y en la reputación de la clínica.
+
+La gestión veterinaria tradicional depende de reportes subjetivos de los dueños, lo que genera diagnósticos imprecisos y una atención reactiva ante emergencias que podrían haberse detectado proactivamente. Según proyecciones del mercado de software veterinario para el periodo 2025-2026, la falta de integración entre dispositivos médicos y sistemas de gestión reduce la eficiencia del personal en un 40% debido a tareas de seguimiento manual ineficientes.
+
+Al analizar esta situación con la metodología de las **5 W’s y 2 H’s** se identifican los siguientes elementos:
+
+**Who (Quiénes)**
+Administradores de clínicas veterinarias que buscan optimizar la rentabilidad y el control de inventarios de alimentos terapéuticos; médicos veterinarios especialistas que requieren datos precisos para validar sus protocolos; y personal técnico que necesita automatizar el flujo de datos para reducir la carga administrativa.
+
+**What (Qué)**
+La problemática radica en la carencia de herramientas tecnológicas integradas que capturen telemetría real (consumo, frecuencia, peso) fuera de la clínica. Esto dificulta que el administrador gestione eficientemente el ciclo de vida del paciente y genera una pérdida de ingresos por falta de recurrencia y baja adherencia a los tratamientos prescritos.
+
+**When (Cuándo)**
+El desafío es actual y creciente, manifestándose en la operativa diaria y volviéndose crítico durante el seguimiento de patologías crónicas. Investigaciones sobre gestión de instalaciones inteligentes indican que la ventana de intervención oportuna se pierde sin un monitoreo constante, forzando a la clínica a realizar una gestión de crisis en lugar de una atención programada.
+
+**Where (Dónde)**
+A nivel operativo, el problema se localiza en la desconexión entre el entorno doméstico del paciente y el sistema central de la clínica. En zonas urbanas con alta densidad de pacientes, la falta de automatización satura la agenda médica con consultas de control que podrían gestionarse de forma remota mediante flujos de datos automatizados.
+
+**Why (Por qué)**
+Las causas principales identificadas son:
+* **Fragmentación de datos:** Los sistemas actuales son estáticos y no reciben información en tiempo real desde nodos externos.
+* **Dependencia del factor humano:** El flujo de datos depende totalmente de la disciplina del cuidador, no de la supervisión médica automatizada.
+* **Inexistencia de alertas tempranas:** La administración no cuenta con indicadores de anomalías que permitan anticipar la necesidad de una consulta o reabastecimiento de insumos.
+
+**How (Cómo)**
+Se manifiesta en un bajo porcentaje de casos con seguimiento exitoso fuera del consultorio, una gestión ineficiente del tiempo clínico y la ausencia de plataformas que faciliten la analítica predictiva sobre la evolución de los pacientes.
+
+**How Much (Cuánto)**
+* Estudios sobre *Smart Veterinary Facilities* (2026) muestran que la eficiencia operativa presenta una correlación positiva fuerte ($r = 0.703$) en centros que adoptan gestión basada en datos e IoT.
+* La automatización del flujo de datos externos reduce la carga de trabajo administrativo en un **40%** (*The Role of ICT in Veterinary*, 2025).
+* La adopción de tecnologías de monitoreo remoto tiene el potencial de incrementar la retención de clientes en un **86%** al transformar la clínica en un gestor de salud constante y proactivo.
 
 ### 1.2.2. Lean UX Process
 
