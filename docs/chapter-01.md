@@ -94,9 +94,48 @@ Se manifiesta en una administración reactiva, pérdida de stock, procesos de pa
 
 #### 1.2.2.1. Lean UX Problem Statements
 
+**Problem Statement 1: Enfoque en la Gestión Administrativa y Financiera**
+Nuestra solución, VetCare, ofrece una plataforma de gestión empresarial (ERP) diseñada para centralizar el control financiero y logístico de los centros veterinarios. A través del ecosistema, los administradores acceden a herramientas de inteligencia de negocios, control de inventario con descuento automático y pasarelas de pago integradas, contribuyendo a maximizar la rentabilidad operativa del negocio.
+
+Se ha identificado que los administradores de clínicas veterinarias operan con sistemas financieros y de almacén desconectados de la operativa médica real. Esta falta de integración provoca fugas de capital, errores recurrentes en el stock de insumos y una visión incompleta de la salud financiera, impidiendo una toma de decisiones estratégica.
+
+Por tanto, nos preguntamos: **¿Cómo podríamos proporcionar a los administradores una plataforma unificada que sincronice el uso clínico de insumos con la contabilidad en tiempo real, reduciendo las pérdidas de inventario y facilitando el control exacto del flujo de caja?**
+
+---
+
+**Problem Statement 2: Enfoque en la Eficiencia Clínica y Médica**
+Nuestra solución, VetCare, ofrece un ecosistema clínico digital (EHR) que permite a los médicos veterinarios gestionar historiales, programar citas y registrar procedimientos de forma ágil e integrada. Esto elimina la fragmentación administrativa en el consultorio y optimiza el tiempo que el profesional dedica a la atención médica.
+
+Se ha identificado que el personal médico sufre de una carga administrativa excesiva debido a procesos manuales, uso de herramientas analógicas o sistemas genéricos que no se comunican con el *back-office*. Esta duplicidad de tareas reduce drásticamente su eficiencia operativa, consumiendo hasta un 40% del tiempo que debería estar destinado al cuidado efectivo del paciente.
+
+Por tanto, nos preguntamos: **¿Cómo podríamos ofrecer a los médicos veterinarios una herramienta clínica automatizada que elimine las tareas administrativas repetitivas, permitiéndoles optimizar la duración de sus consultas y enfocarse al cien por ciento en la atención al paciente?**
+
 #### 1.2.2.2. Lean UX Assumptions
 
+* **Creo que mis clientes necesitan** centralizar su operativa clínica y financiera en un solo entorno digital, ya que la desconexión actual de sistemas genera fugas de inventario, pérdida de capital y un exceso de horas invertidas en tareas administrativas.
+* **Estas necesidades se pueden resolver mediante** nuestra plataforma VetCare, que unifica el historial clínico con el control de inventarios (aplicando descuentos automáticos por uso), integra pasarelas de pago y proporciona dashboards financieros en tiempo real.
+* **Mis clientes iniciales serán** administradores enfocados en la eficiencia financiera y médicos veterinarios de clínicas urbanas de mediano a alto flujo que requieren modernizar su gestión para manejar la creciente demanda de servicios.
+* **El valor #1 que un cliente quiere de nuestro servicio es** la eliminación de la duplicidad de tareas, obteniendo un control exacto de los ingresos y el stock sin sacrificar el tiempo vital dedicado a la consulta médica.
+* **El cliente también puede obtener estos beneficios adicionales mediante** el seguimiento detallado de ingresos y egresos, una programación ágil de citas y un ecosistema de pagos integrado que mejora sustancialmente la experiencia final del dueño de la mascota.
+* **Voy a adquirir la mayoría de mis clientes a través de** estrategias de venta B2B directa, demostraciones del software enfocadas en el retorno de inversión (ROI) operativo y participación en eventos o congresos de gestión veterinaria a nivel local.
+* **Haré dinero a través de** un modelo de suscripción (SaaS) escalonado según el tamaño de la clínica (número de usuarios o sucursales) y mediante comisiones transaccionales derivadas del uso de la pasarela de pagos integrada en el ecosistema.
+* **Mi competencia principal en el mercado serán** los softwares de gestión veterinaria genéricos que funcionan únicamente como agendas o historias clínicas estáticas, así como el uso de herramientas ofimáticas tradicionales para llevar la contabilidad.
+* **Los venceremos debido a nuestro valor diferencial:** la capacidad de conectar directamente la acción médica (EHR) con el impacto financiero (ERP), ofreciendo inteligencia de negocios y automatización del flujo de caja en una interfaz altamente intuitiva.
+* **Mi mayor riesgo de producto es** la resistencia al cambio y la curva de aprendizaje por parte del personal de clínicas acostumbradas a procesos analógicos. Resolveremos esto diseñando una experiencia de usuario (UX) impecable, ofreciendo soporte constante y demostrando rápidamente la reducción de su carga de trabajo diaria.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+* **Hipótesis 1 (Enfoque Logístico y Financiero)**
+  Creemos que automatizar el control de inventario, vinculando el descuento de insumos directamente a los registros del historial clínico, eliminará las fugas de capital por errores manuales.
+  *Sabremos que estamos bien cuando* las clínicas que implementen VetCare reporten una reducción significativa en las discrepancias de stock a fin de mes y mejoren su correlación de eficiencia operativa.
+
+* **Hipótesis 2 (Enfoque Estratégico y Analítico)**
+  Creemos que proporcionar a los administradores dashboards de inteligencia de negocios con seguimiento detallado de ingresos y egresos mejorará sustancialmente la toma de decisiones estratégicas.
+  *Sabremos que estamos bien cuando* los centros veterinarios logren incrementar su retención de clientes y reporten una mejora en su percepción de salud financiera en hasta un 87%, validando el impacto de la analítica en tiempo real.
+
+* **Hipótesis 3 (Enfoque Clínico y Operativo)**
+  Creemos que integrar la programación de citas, el historial médico y la pasarela de pagos en una única plataforma digital reducirá la fragmentación operativa del personal médico.
+  *Sabremos que estamos bien cuando* las métricas de uso y las evaluaciones de los médicos veterinarios demuestren una reducción del 40% en el tiempo invertido en tareas de *back-office*.
 
 #### 1.2.2.4. Lean UX Canvas
 
