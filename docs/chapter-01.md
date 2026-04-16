@@ -7,12 +7,18 @@
 
 ### 1.1.1. Descripción de la Startup
 
-**VET-SmartDiet** es una *startup* tecnológica emergente enfocada en la digitalización y mejora del sector veterinario. A través de nuestro producto principal, **VetCare**, ofrecemos una plataforma integral de gestión clínica que conecta el cuidado médico veterinario con el seguimiento continuo por parte de los propietarios. Nuestro propósito es transformar el cuidado preventivo y el tratamiento de las mascotas mediante un ecosistema digital que automatice procesos, facilite la comunicación y sincronice la atención clínica con el bienestar en el hogar.
+**VET-Smart** es una *startup* tecnológica enfocada en la optimización operativa y financiera del sector veterinario. Nuestro producto principal, **VetCare**, es una plataforma integral de gestión empresarial (ERP) y clínica (EHR) diseñada para centralizar y automatizar las operaciones de centros veterinarios modernos. El ecosistema permite a los **médicos veterinarios** gestionar historiales clínicos, citas y el control de inventario en tiempo real, mientras proporciona a los **administradores** herramientas avanzadas de inteligencia de negocios, control de flujos de caja y procesamiento de pagos integrados para maximizar la rentabilidad de la clínica.
 
 | Atributo | Declaración Estratégica |
 | :--- | :--- |
-| **Misión** | Garantizar la salud y el bienestar integral de las mascotas mediante herramientas de software clínico que faciliten el control preventivo, optimicen los diagnósticos y aseguren el estricto cumplimiento terapéutico bajo una constante supervisión médica y tecnológica. |
-| **Visión** | Ser el ecosistema digital líder en el sector de la medicina veterinaria a nivel regional, redefiniendo la interacción entre especialistas y dueños a través de tecnología innovadora que garantice la longevidad y mejore la calidad de vida animal. |
+| **Misión** | Impulsar la eficiencia de las clínicas veterinarias mediante una plataforma integral que unifique la gestión clínica, administrativa y financiera, permitiendo a los profesionales enfocarse en la salud animal mientras aseguran la sostenibilidad y el crecimiento de su negocio. |
+| **Visión** | Consolidarse como el estándar tecnológico en la gestión de centros veterinarios a nivel regional, transformando clínicas tradicionales en empresas digitales, rentables y centradas en la excelencia del servicio médico. |
+
+#### Valor Agregado de la Plataforma:
+* **Gestión Clínica Operativa:** Registro ágil de pacientes, consultas y procedimientos médicos.
+* **Control de Inventario Inteligente:** Descuento automático de insumos y productos tras cada cita médica.
+* **Administración Financiera:** Seguimiento detallado de ingresos y egresos con reportes visuales (dashboards) para la toma de decisiones.
+* **Pasarela de Pagos Integrada:** Gestión de transacciones directamente desde la plataforma para facilitar el flujo de caja.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
