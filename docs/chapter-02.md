@@ -94,7 +94,13 @@
 
 ### 2.3.4. Empathy Mapping
 
+<img src="../assets/Empathy_Map_Veterinario.png" alt="Empathy map Veterinario"/>
+
+---
+
 <img src="../assets/Empathy_Map_admin.png" alt="Empathy map administrador"/>
+
+
 
 
 ## 2.4. Big Picture EventStorming
