@@ -312,9 +312,9 @@ As an administrator, I want the system to calculate the production of each docto
 * **When** the administrator runs the Commission Report for Doctor A
 * **Then** the system displays a calculated payout amount of "200.00"
 
-### Epic 4: RESTful API (Developer / Technical Stories)
+### Epic 4: Technical Stories(Developer / Restful APIs)
 
-#### US031: Retrieve Patient History Endpoint
+#### TS001: Retrieve Patient History Endpoint
 
 As a developer, I want to create a GET endpoint in Node.js to retrieve a patient's medical history so that the frontend application can display it.
 
@@ -324,7 +324,7 @@ As a developer, I want to create a GET endpoint in Node.js to retrieve a patient
 * **When** an authenticated GET request is made to /api/v1/patients/{id}/history with a valid patient ID
 * **Then** the system queries the database and returns a 200 OK status with a JSON payload containing the medical records
 
-#### US032: Update Stock Quantity Endpoint
+#### TS002: Update Stock Quantity Endpoint
 
 As a developer, I want to implement a PUT endpoint to update inventory quantities so that stock remains synchronized across the platform.
 
@@ -334,7 +334,7 @@ As a developer, I want to implement a PUT endpoint to update inventory quantitie
 * **When** a PUT request is made to /api/v1/inventory/{sku}
 * **Then** the system updates the MySQL record for the given SKU and returns a 200 OK status response
 
-#### US033: Validate JWT Authentication
+#### TS003: Validate JWT Authentication
 
 As a developer, I want to implement JWT authentication middleware on all API routes so that only authorized users can access the system data.
 
@@ -344,7 +344,7 @@ As a developer, I want to implement JWT authentication middleware on all API rou
 * **When** the client makes a request to a protected RESTful endpoint
 * **Then** the system blocks the request and returns a 401 Unauthorized HTTP status code
 
-#### US034: Create Consultation Transaction
+#### TS004: Create Consultation Transaction
 
 As a developer, I want to process consultation creation and stock deduction within a single MySQL transaction so that data remains consistent if an error occurs.
 
@@ -354,7 +354,7 @@ As a developer, I want to process consultation creation and stock deduction with
 * **When** the database query for the stock deduction fails during the process
 * **Then** the system rolls back the entire transaction, discarding the consultation creation, and returns a 500 Internal Server Error status
 
-#### US035: Create New Appointment Endpoint
+#### TS005: Create New Appointment Endpoint
 
 As a developer, I want to build a POST endpoint for scheduling appointments so that the frontend calendar can save new reservations.
 
@@ -364,7 +364,7 @@ As a developer, I want to build a POST endpoint for scheduling appointments so t
 * **When** a POST request is made to /api/v1/appointments
 * **Then** the system inserts the record into the database and returns a 201 Created status with the new appointment ID
 
-#### US036: Dashboard Metrics Aggregation
+#### TS006: Dashboard Metrics Aggregation
 
 As a developer, I want to create a GET endpoint that aggregates daily revenue and patient count so that the admin dashboard loads quickly.
 
@@ -374,7 +374,7 @@ As a developer, I want to create a GET endpoint that aggregates daily revenue an
 * **When** a GET request is made to /api/v1/dashboard/summary
 * **Then** the system executes a group-by query and returns a 200 OK status with a JSON object of the daily totals
 
-#### US037: User Login & Token Generation
+#### TS007: User Login & Token Generation
 
 As a developer, I want to implement a POST endpoint for user login so that the system can verify credentials and issue a JWT.
 
@@ -384,7 +384,7 @@ As a developer, I want to implement a POST endpoint for user login so that the s
 * **When** a POST request is made to /api/v1/auth/login
 * **Then** the system verifies the password hash and returns a 200 OK status with a signed JWT in the response payload
 
-#### US038: Soft Delete Voided Invoice
+#### TS008: Soft Delete Voided Invoice
 
 As a developer, I want to implement a DELETE endpoint that performs a soft-delete on invoices so that voided records are hidden but kept for audits.
 
@@ -394,7 +394,7 @@ As a developer, I want to implement a DELETE endpoint that performs a soft-delet
 * **When** an authenticated DELETE request is made to /api/v1/invoices/{id}
 * **Then** the system updates the is_voided boolean to true in the database and returns a 204 No Content status
 
-#### US039: Query Low Stock Products
+#### TS009: Query Low Stock Products
 
 As a developer, I want to create a GET endpoint that filters products below their minimum threshold so that the frontend can display alerts.
 
@@ -404,7 +404,7 @@ As a developer, I want to create a GET endpoint that filters products below thei
 * **When** a GET request is made to /api/v1/inventory/alerts
 * **Then** the system returns a 200 OK status with a JSON array containing only the affected products
 
-#### US040: Validate Token Endpoint
+#### TS010: Validate Token Endpoint
 
 As a developer, I want to create an endpoint that verifies if a JWT is still active so that the frontend can persist the user session upon page refresh.
 
