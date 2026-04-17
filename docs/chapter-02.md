@@ -11,9 +11,7 @@
 
 **Wakyma Vets**<br> Wakyma es una solución *cloud-native* moderna que pone el foco en la **experiencia de usuario (UX) y la fidelización del cliente**. Su fortaleza reside en un dashboard administrativo simplificado que prioriza la visibilidad de la rentabilidad diaria y la automatización de recordatorios de pago y citas mediante canales digitales. Es ideal para clínicas que buscan digitalización rápida con una curva de aprendizaje mínima. Por el contrario, su capacidad de personalización en el control de inventarios críticos (insumos médicos específicos) es menor comparada con sistemas más robustos, y su enfoque es más comercial que puramente médico-hospitalario.
 ### 2.1.1. Análisis competitivo
-### Competitive Analysis Landscape
-
-### 1.1.3. Análisis Competitivo
+#### Competitive Analysis Landscape
 
 | **Título del Análisis** | **Competitive Analysis Landscape** |
 | :--- | :--- |
@@ -40,8 +38,16 @@
 | **Debilidades** | Producto nuevo en fase de desarrollo (menor historial de marca). | Curva de aprendizaje técnica para el personal administrativo. | Interfaz antigua y procesos de configuración complejos. | Funcionalidades de inventario médico menos profundas. |
 | **Oportunidades** | Crecimiento de la demanda de digitalización en veterinarias peruanas. | Expansión a servicios de telemedicina integrados. | Migración de clientes antiguos a sus nuevas versiones cloud. | Liderar el mercado de pequeñas clínicas con modelos low-cost. |
 | **Amenazas** | Competidores establecidos con mayores presupuestos de marketing. | Entrada de softwares genéricos de citas que bajen precios. | Nuevas normativas gubernamentales que exijan cambios. | Consolidación de otras plataformas de pagos competidoras. |
-### 2.1.2. Estrategias y tácticas frente a competidores
+### 2.1.2. Estrategias y Tácticas frente a Competidores
 
+| **Categoría** | **Estrategia** | **Táctica** |
+| :--- | :--- | :--- |
+| **Estrategias Ofensivas** | Diferenciación por precisión financiera (vs. GVET/Wakyma) | Implementar el módulo **"Gasto por Procedimiento"** para descontar insumos exactos (ml, unidades) en cada cita, calculando la utilidad neta real al instante. |
+| | Modernización de la experiencia clínica (vs. QVET) | Diseñar una interfaz **"Single Page"** que permita al médico registrar la atención y el consumo de stock en una sola pantalla, eliminando la lentitud de los sistemas antiguos. |
+| **Estrategias Defensivas** | Localización y cumplimiento normativo (vs. Softwares Globales) | Integración nativa con **SUNAT** y pasarelas de pago locales (**Izipay/Niubiz**) para ofrecer una solución lista para el mercado peruano sin configuraciones externas. |
+| | Reducción de barreras de entrada (vs. QVET) | Aplicar un modelo de **suscripción SaaS escalable** sin costo de licencia inicial, facilitando que clínicas pequeñas adopten la tecnología sin descapitalizarse. |
+| **Estrategias de Crecimiento** | Marketing de autoridad financiera | Ejecutar una estrategia de **Inbound Marketing** basada en la rentabilidad, usando los Dashboards de VetCare como gancho para atraer administradores preocupados por el control de costos. |
+| | Retención por ecosistema integrado | Centralizar la facturación y los pagos dentro de la plataforma para generar una dependencia positiva basada en la **eficiencia operativa**, dificultando la migración a otros sistemas. |
 ## 2.2. Entrevistas
 
 ---
