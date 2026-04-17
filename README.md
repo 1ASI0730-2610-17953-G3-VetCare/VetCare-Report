@@ -14,7 +14,7 @@
   <br>
 
   <h2>Informe de Trabajo Final</h2>
-  <h2>Nombre del startup: VET-SmartDiet</h2>
+  <h2>Nombre del startup: VET-Smart</h2>
   <h2>Nombre del producto: VetCare</h2>
 
   <br>
