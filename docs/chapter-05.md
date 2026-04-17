@@ -137,11 +137,17 @@ Para lograr el despliegue seguimos los siguientes pasos:
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
+La construcción de la página de inicio, junto con los servicios y aplicaciones, es un paso fundamental en nuestro ciclo de desarrollo. Esto nos permite hacer realidad el diseño y las funciones proyectadas, convirtiendo las ideas iniciales en productos tangibles y listos para su uso. En esta fase traducimos los requerimientos y especificaciones a código fuente, estructurando la plataforma web según las necesidades detectadas.
+
 ---
 
 ### 5.2.1. Sprint 1
 
+El primer sprint marca un hito crucial en nuestro proceso de desarrollo ágil. A lo largo de esta fase, concentraremos nuestros esfuerzos en la implementación de las herramientas y características de mayor prioridad definidas durante la planificación. Esto conlleva transformar los requerimientos técnicos en código funcional, sentando así las bases de nuestro producto a través de un enfoque totalmente iterativo.
+
 #### 5.2.1.1. Sprint Planning 1
+
+La sesión de Sprint Planning es clave dentro de la metodología ágil, ya que en ella el equipo organiza con detalle las actividades de la siguiente iteración. Aquí se determinan las tareas a realizar, los tiempos estimados y los responsables. Su objetivo principal es trazar una hoja de ruta definida y realista, promoviendo el trabajo en equipo y garantizando que todos compartan la misma visión sobre las metas trazadas.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
