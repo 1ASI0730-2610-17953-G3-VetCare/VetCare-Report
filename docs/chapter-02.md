@@ -94,6 +94,8 @@
 
 ### 2.3.3. User Journey Mapping
 
+<img src="../assets/Customer_journey_map_1.png" alt="User Journey Veterinario"/>
+
 ### 2.3.4. Empathy Mapping
 
 <img src="../assets/Empathy_Map_Veterinario.png" alt="Empathy map Veterinario"/>
