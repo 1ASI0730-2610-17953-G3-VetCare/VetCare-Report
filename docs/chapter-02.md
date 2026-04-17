@@ -13,26 +13,33 @@
 ### 2.1.1. Análisis competitivo
 ### Competitive Analysis Landscape
 
-| ¿Por qué llevar a cabo este análisis? | El objetivo es identificar las brechas operativas y financieras en las soluciones actuales del mercado para posicionar a VetCare como el ERP/EHR más eficiente en gestión de rentabilidad y trazabilidad de insumos en Perú. |
-| :--- | :--- |
+### 1.1.3. Análisis Competitivo
 
-| Perfil | ![VETCARE](assets/vetcare_logo.png)<br> **Nuestra Startup: VetCare**                                 | ![GVET](assets/gvet_logo.png) <br> **Competidor 1: Gvet** | ![QVET](assets/qvet_logo.jpg) <br> **Competidor 2: qvet** | ![Wakyma](assets/wakyma_logo.png) <br> **Competidor 3: Wakyma Vets** |
-| :--- |:-----------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------| :--- |
-| **Overview** | Plataforma SaaS integral para gestión de clínicas veterinarias con enfoque en control de utilidades. | Ecosistema digital para veterinarias con fuerte enfoque en experiencia de usuario.      | Software de gestión veterinaria de larga trayectoria centrado en administración contable. | Solución cloud-native moderna enfocada en marketing y fidelización de clientes. |
-| **Ventaja Competitiva** | Control quirúrgico de inventario (gasto exacto por cita) y dashboards de utilidad neta real.         | Integración fluida entre la app del dueño de mascota y el historial clínico del médico. | Robustez contable absoluta y cumplimiento de normativas de auditoría complejas.           | Automatización de la comunicación con el cliente y facilidad de uso (UX/UI). |
-| **Mercado Objetivo** | Administradores y médicos de clínicas veterinarias en crecimiento en Perú.                           | Clínicas veterinarias medianas y grandes en Latinoamérica.                              | Hospitales veterinarios y cadenas con alta carga administrativa y contable.               | Veterinarias jóvenes y centros de bienestar animal que buscan digitalización rápida. |
-| **Estrategias de Marketing** | Inbound marketing enfocado en eficiencia operativa y webinars sobre gestión financiera veterinaria.  | Presencia fuerte en redes sociales y alianzas con facultades de veterinaria.            | Venta directa corporativa y presencia en congresos internacionales de medicina animal.    | Marketing digital agresivo (SaaS) y periodos de prueba gratuitos (Freemium). |
-| **Productos & Servicios** | Gestión clínica (EHR), ERP financiero, inventario automático y pagos integrados.                     | Gestión de citas, historia clínica, tienda online y app para propietarios.              | ERP contable, facturación SUNAT, laboratorios y gestión de hospitalización.               | Agenda digital, recordatorios automáticos, ficha médica y analítica de marketing. |
-| **Precios & Costos** | Modelo de suscripción mensual (SaaS) con niveles según volumen de transacciones.                     | Suscripción por módulos con costos adicionales por número de usuarios/sedes.            | Licenciamiento más costo de mantenimiento anual (suele ser más elevado).                  | Suscripción mensual escalable basada en el número de pacientes activos. |
-| **Canales de Distribución** | Plataforma Web (SaaS) accesible desde cualquier dispositivo.                                         | Web y aplicación móvil para médicos y propietarios.                                     | Software de escritorio con servicios en la nube e interfaz web.                           | Multiplataforma: Web, Android e iOS. |
+| **Título del Análisis** | **Competitive Analysis Landscape** |
+| :--- | :--- |
+| **¿Por qué llevar a cabo este análisis?** | Identificar brechas operativas y financieras en las soluciones actuales para posicionar a VetCare como el ERP/EHR líder en trazabilidad de insumos y gestión de rentabilidad real en el mercado peruano. <br><br> Comparación por criterios estratégicos, operativos y de modelo de negocio. |
+<br>
+
+| **Categoría** | **Criterio** | <div align="center"><img src="../assets/vetcare_logo.png" alt="VetCare" width="60"><br>**Nuestra Startup:<br>VetCare**</div> | <div align="center"><img src="../assets/gvet_logo.png" alt="GVET" width="60"><br>**Competidor 1:<br>Gvet**</div> | <div align="center"><img src="../assets/qvet_logo.jpg" alt="QVET" width="60"><br>**Competidor 2:<br>qvet**</div> | <div align="center"><img src="../assets/wakyma_logo.png" alt="Wakyma" width="60"><br>**Competidor 3:<br>Wakyma Vets**</div> |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Perfil** | Overview | Plataforma SaaS integral (ERP/EHR) con enfoque en control de utilidades. | Ecosistema digital centrado en la experiencia de usuario y movilidad. | Software de larga trayectoria especializado en administración contable. | Solución cloud-native moderna enfocada en marketing y fidelización. |
+| | Ventaja Competitiva | Trazabilidad exacta de insumos (gasto por cita) y dashboards de utilidad neta real. | Integración fluida entre la app del dueño de mascota y el historial clínico. | Robustez contable absoluta y cumplimiento de normativas de auditoría complejas. | Automatización de la comunicación con el cliente y facilidad de uso (UX/UI). |
+| **Perfil de <br> Marketing** | Mercado Objetivo | Clínicas veterinarias en crecimiento en Perú (Admin + Médicos). | Clínicas veterinarias medianas y grandes en Latinoamérica. | Hospitales veterinarios y cadenas con alta carga administrativa. | Veterinarias jóvenes que buscan digitalización rápida y comercial. |
+| | Estrategias de <br> Marketing | Inbound marketing enfocado en eficiencia operativa y gestión financiera. | Presencia fuerte en redes sociales y alianzas con facultades de veterinaria. | Venta directa corporativa y presencia en congresos internacionales. | Marketing digital agresivo y periodos de prueba gratuitos (Freemium). |
+| **Perfil de <br> Producto** | Productos & <br> Servicios | Gestión clínica (EHR), ERP financiero, inventario automático y pagos integrados. | Gestión de citas, historia clínica, tienda online y app para propietarios. | ERP contable, facturación SUNAT, laboratorios y hospitalización. | Agenda digital, recordatorios automáticos, ficha médica y analítica. |
+| | Precios & Costos | Modelo de suscripción mensual (SaaS) escalable por transacciones. | Suscripción por módulos con costos adicionales por usuarios/sedes. | Licenciamiento inicial más costo de mantenimiento anual elevado. | Suscripción mensual competitiva basada en pacientes activos. |
+| | Canales de <br> Distribución | Plataforma Web (SaaS) responsiva. | Web y aplicación móvil nativa. | Software local con servicios en la nube e interfaz web. | Multiplataforma: Web, Android e iOS. |
+
+<br>
+
 ### Análisis SWOT (FODA)
 
-| Categoría |![VETCARE](assets/vetcare_logo.png) VetCare  | ![GVET](assets/gvet_logo.png) <br>Gvet                         | ![QVET](assets/qvet_logo.jpg) qVet                                    | ![Wakyma](assets/wakyma_logo.png)Wakyma Vets |
-| :--- |:-----------------------------------------------------------------------|:---------------------------------------------------------------|:----------------------------------------------------------------------| :--- |
-| **Fortalezas** | Trazabilidad exacta de insumos y dashboards financieros simplificados. | Comunidad de usuarios activa y excelente integración móvil.    | Alta confiabilidad contable y cumplimiento legal en múltiples países. | Interfaz moderna y procesos de comunicación automatizados. |
-| **Debilidades** | Producto nuevo en fase de desarrollo (menor historial de marca).       | Curva de aprendizaje técnica para el personal administrativo.  | Interfaz de usuario antigua y procesos de configuración lentos.       | Funcionalidades de inventario médico menos profundas. |
-| **Oportunidades** | Crecimiento de la demanda de digitalización en veterinarias peruanas.  | Expansión a servicios de telemedicina integrados.              | Migración masiva de sus clientes antiguos a versiones cloud.          | Liderar el mercado de pequeñas clínicas con modelos low-cost. |
-| **Amenazas** | Competidores establecidos con mayores presupuestos de marketing.       | Entrada de softwares genéricos de citas que bajen los precios. | Nuevas normativas gubernamentales que exijan cambios estructurales.   | Consolidación de otras plataformas de pagos que compitan con la propia. |
+| Categoría | <div align="center"><img src="../assets/vetcare_logo.png" alt="VetCare" width="40"><br>VetCare</div> | <div align="center"><img src="../assets/gvet_logo.png" alt="GVET" width="40"><br>Gvet</div> | <div align="center"><img src="../assets/qvet_logo.jpg" alt="QVET" width="40"><br>qVet</div> | <div align="center"><img src="../assets/wakyma_logo.png" alt="Wakyma" width="40"><br>Wakyma Vets</div> |
+| :--- | :--- | :--- | :--- | :--- |
+| **Fortalezas** | Trazabilidad exacta de insumos y dashboards financieros simplificados. | Comunidad activa y excelente integración móvil. | Alta confiabilidad contable y cumplimiento legal. | Interfaz moderna y procesos de comunicación automatizados. |
+| **Debilidades** | Producto nuevo en fase de desarrollo (menor historial de marca). | Curva de aprendizaje técnica para el personal administrativo. | Interfaz antigua y procesos de configuración complejos. | Funcionalidades de inventario médico menos profundas. |
+| **Oportunidades** | Crecimiento de la demanda de digitalización en veterinarias peruanas. | Expansión a servicios de telemedicina integrados. | Migración de clientes antiguos a sus nuevas versiones cloud. | Liderar el mercado de pequeñas clínicas con modelos low-cost. |
+| **Amenazas** | Competidores establecidos con mayores presupuestos de marketing. | Entrada de softwares genéricos de citas que bajen precios. | Nuevas normativas gubernamentales que exijan cambios. | Consolidación de otras plataformas de pagos competidoras. |
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## 2.2. Entrevistas
