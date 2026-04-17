@@ -100,7 +100,7 @@
 
 ---
 
-<img src="../assets/Empathy_Map_admin.png" alt="Empathy map administrador"/>
+
 
 
 
