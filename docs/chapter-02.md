@@ -98,6 +98,103 @@
 
 ### 2.3.2. User Task Matrix
 
+En esta sección se presenta la matriz de tareas que realizan los segmentos objetivo independientemente de la solución de software propuesta. Se analizan las actividades de **Carlos Mendoza (Médico)** y **Jorge Cardozo(Administrador)**, permitiendo identificar los puntos críticos de su flujo de trabajo actual.
+
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2" valign="middle">User Task Matrix</th>
+            <th colspan="2" align="center">Dr. Carlos Mendoza (Médico)</th>
+            <th colspan="2" align="center">Jorge Cardozo (Administrador)</th>
+        </tr>
+        <tr>
+            <th align="center">Frecuencia</th>
+            <th align="center">Importancia</th>
+            <th align="center">Frecuencia</th>
+            <th align="center">Importancia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Registrar historia clínica y síntomas del paciente</td>
+            <td align="center">3</td>
+            <td align="center">3</td>
+            <td align="center">1</td>
+            <td align="center">1</td>
+        </tr>
+        <tr>
+            <td>Controlar el stock de medicamentos e insumos médicos</td>
+            <td align="center">3</td>
+            <td align="center">3</td>
+            <td align="center">2</td>
+            <td align="center">3</td>
+        </tr>
+        <tr>
+            <td>Agendar y organizar las citas del día</td>
+            <td align="center">3</td>
+            <td align="center">2</td>
+            <td align="center">2</td>
+            <td align="center">3</td>
+        </tr>
+        <tr>
+            <td>Realizar el cobro de servicios y productos al cliente</td>
+            <td align="center">3</td>
+            <td align="center">3</td>
+            <td align="center">3</td>
+            <td align="center">3</td>
+        </tr>
+        <tr>
+            <td>Conciliar ingresos diarios con medios de pago</td>
+            <td align="center">1</td>
+            <td align="center">1</td>
+            <td align="center">3</td>
+            <td align="center">3</td>
+        </tr>
+        <tr>
+            <td>Generar reportes de ventas y utilidad mensual</td>
+            <td align="center">1</td>
+            <td align="center">1</td>
+            <td align="center">2</td>
+            <td align="center">3</td>
+        </tr>
+        <tr>
+            <td>Emitir comprobantes de pago (SUNAT)</td>
+            <td align="center">2</td>
+            <td align="center">2</td>
+            <td align="center">3</td>
+            <td align="center">3</td>
+        </tr>
+        <tr>
+            <td>Notificar recordatorios de vacunas o citas</td>
+            <td align="center">2</td>
+            <td align="center">2</td>
+            <td align="center">1</td>
+            <td align="center">2</td>
+        </tr>
+        <tr>
+            <td>Verificar la rentabilidad de procedimientos</td>
+            <td align="center">1</td>
+            <td align="center">2</td>
+            <td align="center">2</td>
+            <td align="center">3</td>
+        </tr>
+    </tbody>
+</table>
+
+**Leyenda:**
+* **Frecuencia:** 1 (Baja), 2 (Media), 3 (Alta).
+* **Importancia:** 1 (Baja), 2 (Media), 3 (Alta).
+
+---
+
+#### Análisis de resultados
+
+Tras el análisis de la matriz, se desprenden las siguientes observaciones:
+
+* **Tareas con mayor coincidencia:** La **gestión de citas** es la tarea central donde ambos perfiles interactúan con alta frecuencia e importancia. Para el médico es su hoja de ruta diaria, mientras que para la administración representa el flujo de caja proyectado.
+* **Tareas críticas para el Veterinario (Carlos):** Sus tareas con puntuación máxima **(3/3)** están ligadas directamente al **registro clínico** y al **control de stock**. Esto valida que el veterinario prioriza la continuidad operativa; sin historial o insumos, su trabajo se detiene.
+* **Tareas críticas para el Administrador (Jorge):** Elena concentra sus valores máximos en la **conciliación de ingresos** y la **emisión de comprobantes**. Su prioridad es la legalidad (SUNAT) y la salud financiera del negocio.
+* **Diferencias principales:** El médico tiene una participación mínima en las tareas de **reportes financieros y conciliación** (frecuencia e importancia 1), delegando totalmente esa responsabilidad en la administradora, quien utiliza estos datos para la toma de decisiones estratégicas.
 ### 2.3.3. User Journey Mapping
 
 <img src="../assets/Customer_journey_map_1.png" alt="User Journey Veterinario"/>
