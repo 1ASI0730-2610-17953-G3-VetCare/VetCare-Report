@@ -197,14 +197,19 @@ Tras el análisis de la matriz, se desprenden las siguientes observaciones:
 * **Diferencias principales:** El médico tiene una participación mínima en las tareas de **reportes financieros y conciliación** (frecuencia e importancia 1), delegando totalmente esa responsabilidad en la administradora, quien utiliza estos datos para la toma de decisiones estratégicas.
 ### 2.3.3. User Journey Mapping
 
+### Journey Map 1: Veterinario
+
 <img src="../assets/Customer_journey_map_1.png" alt="User Journey Veterinario"/>
 
 ---
+
+### Journey Map 2: Administrador
 
 <img src="../assets/Customer_journey_map_2.png" alt="User Journey Administrador"/>
 
 
 ### 2.3.4. Empathy Mapping
+
 
 <img src="../assets/Empathy_Map_Veterinario.png" alt="Empathy map Veterinario"/>
 
