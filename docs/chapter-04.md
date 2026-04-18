@@ -38,29 +38,29 @@
 
 ### 4.4.1. Web Applications Wireframes
 
-![Diagrama de Base de Datos](../assets/UFD.png)
+![Web Applications Wireframes](../assets/UFD.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-![Diagrama de Base de Datos](../assets/WD.png)
+![Web Applications Wireflow Diagram](../assets/WD.png)
 
 ### 4.4.3. Web Applications Mock-ups
 
 Enlace para acceder a los Mockups en Figma: https://www.figma.com/design/7ZgHbtQwGETyMA1dPqxlX1/Mock-Ups-VetCare?node-id=0-1&t=fc3DNOs4kuDIE58K-1
 
-![Diagrama de Base de Datos](../assets/dashboard.png)
-![Diagrama de Base de Datos](../assets/GC1.png)
-![Diagrama de Base de Datos](../assets/GC3.png)
-![Diagrama de Base de Datos](../assets/GC4.png)
-![Diagrama de Base de Datos](../assets/GC5.png)
-![Diagrama de Base de Datos](../assets/GC6.png)
-![Diagrama de Base de Datos](../assets/agenda.png)
-![Diagrama de Base de Datos](../assets/comu.png)
-![Diagrama de Base de Datos](../assets/perfil.png)
+![Web Applications Mock-ups](../assets/dashboard.png)
+![Web Applications Mock-ups](../assets/GC1.png)
+![Web Applications Mock-ups](../assets/GC3.png)
+![Web Applications Mock-ups](../assets/GC4.png)
+![Web Applications Mock-ups](../assets/GC5.png)
+![Web Applications Mock-ups](../assets/GC6.png)
+![Web Applications Mock-ups](../assets/agenda.png)
+![Web Applications Mock-ups](../assets/comu.png)
+![Web Applications Mock-ups](../assets/perfil.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-![Diagrama de Base de Datos](../assets/FD.png)
+![Web Applications User Flow Diagram](../assets/FD.png)
 
 ---
 
@@ -72,15 +72,15 @@ Enlace para acceder a los Mockups en Figma: https://www.figma.com/design/7ZgHbtQ
 
 ### 4.6.2. Software Architecture Context Diagram
 
-![Diagrama de Base de Datos](../assets/C1.png)
+![Context Diagram](../assets/C1.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-![Diagrama de Base de Datos](../assets/C2.png)
+![Container Diagram](../assets/C2.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-![Diagrama de Base de Datos](../assets/C3.png)
+![Components Diagram](../assets/C3.png)
 
 ## 4.7. Software Object-Oriented Design
 
@@ -96,7 +96,7 @@ Por otro lado, la clase **Cita** gestiona la planificación de atenciones, conec
 
 Las relaciones entre clases reflejan asociaciones uno a muchos, como **Cliente → Mascota**, **Mascota → Consulta**, y **Consulta → Tratamiento**, garantizando una estructura coherente y alineada con el dominio del problema.
 
-![Diagrama de Base de Datos](../assets/DBboundedC.png)
+![Class Diagram](../assets/DBboundedC.png)
 
 ---
 
