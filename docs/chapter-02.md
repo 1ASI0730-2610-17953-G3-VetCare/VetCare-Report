@@ -199,6 +199,11 @@ Tras el análisis de la matriz, se desprenden las siguientes observaciones:
 
 <img src="../assets/Customer_journey_map_1.png" alt="User Journey Veterinario"/>
 
+---
+
+<img src="../assets/Customer_journey_map_2.png" alt="User Journey Administrador"/>
+
+
 ### 2.3.4. Empathy Mapping
 
 <img src="../assets/Empathy_Map_Veterinario.png" alt="Empathy map Veterinario"/>
