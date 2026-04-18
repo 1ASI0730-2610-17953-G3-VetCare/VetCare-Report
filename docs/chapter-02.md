@@ -89,6 +89,12 @@
 ### 2.3.1. User Personas
 #### User Persona 1: Medico Veterinario
 <img src = "../assets/user_persona_1.png" alt = "User Persona Veterinario">
+<br>
+<br>
+
+##### User Persona 2: Administrador de Veterinaria
+<img src = "../assets/user_persona_2.png" alt = "User Persona Veterinario">
+<br>
 
 ### 2.3.2. User Task Matrix
 
