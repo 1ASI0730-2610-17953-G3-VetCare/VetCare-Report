@@ -263,4 +263,4 @@ El diseño asegura que cada atributo depende únicamente de su clave primaria, e
 
 Este modelo está alineado con el enfoque *Domain-Driven Design (DDD)*, donde cada tabla representa una entidad del dominio, permitiendo una integración eficiente con la capa de aplicación y presentación del sistema.
 
-![Diagrama de Base de Datos](../assets/db.png)
+![Diagrama de Base de Datos](../assets/DB.png)
