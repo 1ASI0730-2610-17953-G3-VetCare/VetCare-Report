@@ -25,7 +25,7 @@
 | Nombre y Apellido | Nuñez Soto, Andy Arturo - U20231E795 |
 | :--- | :--- |
 | **Descripción** | Especialista en el control de calidad, testing y despliegue del producto final. Se encarga de supervisar que el código cumpla con las convenciones establecidas por el equipo para el correcto funcionamiento de VetCare en todos sus entornos. |
-| **Foto** | _(Pendiente)_ |
+| **Foto** | ![Foto_Arturo](https://drive.google.com/uc?export=view&id=1Wtjq6fplduhNzflaOcK1Fjh5-w24X7Pv)|
 
 <br>
 
