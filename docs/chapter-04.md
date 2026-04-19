@@ -18,159 +18,104 @@ La tipografía de la página debe ser accesible, limpia y altamente legible para
 
 **Color Guide (Paleta de Colores):**
 
-1. **Azul Marino Profundo (#1E293B)** 
-*Representación:* El azul oscuro simboliza profesionalismo, autoridad, seguridad y confianza. En VetCare, se utiliza para elementos estructurales como barras laterales (sidebars), menús de navegación, pies de página y texto principal grueso. Transmite la fiabilidad esencial en el ámbito de la salud clínica.
+1. **Azul Marino Profundo (#1E293B)**
+   *Representación:* El azul oscuro simboliza profesionalismo, autoridad, seguridad y confianza. Se utiliza para barras laterales, menús y texto principal.
 
-<div align="center">
-  <img src="../assets/Azul%20Marino%20Profundo.png" alt="Azul Marino Profundo">
-</div>
+![Azul Marino Profundo](../assets/Azul%20Marino%20Profundo.png)
 
-2. **Cian Vibrante / Turquesa (#06B6D4)** 
-*Representación:* El cian cálido y vibrante evoca salud, frescura, empatía y energía moderna. Es el color principal de interacción (botones de acción, hipervínculos, indicadores de selección). Invita a los usuarios a interactuar en la plataforma manteniendo una vibra amigable, ideal para plataformas vinculadas al cuidado animal.
+2. **Cian Vibrante / Turquesa (#06B6D4)**
+   *Representación:* Evoca salud, frescura y energía moderna. Es el color principal de interacción para botones y links.
 
-<div align="center">
-  <img src="../assets/Cian%20Vibrante%20%20Turquesa.png" alt="Cian Vibrante / Turquesa">
-</div>
+![Cian Vibrante / Turquesa](../assets/Cian%20Vibrante%20%20Turquesa.png)
 
-3. **Gris Claro Neutro (#F3F4F6)** 
-*Representación:* Un color que transmite neutralidad y equilibrio. Funciona como un ancla visual que relaja la vista. Se emplea ampliamente como color de fondo en la aplicación web y landing page para destacar las tarjetas de información blanca (cards) y evitar la fatiga visual tras muchas horas de uso.
+3. **Gris Claro Neutro (#F3F4F6)**
+   *Representación:* Transmite neutralidad y equilibrio. Funciona como fondo para evitar la fatiga visual.
 
-<div align="center">
-  <img src="../assets/Gris%20Claro%20Neutro.png" alt="Gris Claro Neutro">
-</div>
+![Gris Claro Neutro](../assets/Gris%20Claro%20Neutro.png)
 
-4. **Blanco Puro (#FFFFFF)** 
-*Representación:* Simboliza la higiene clínica, pureza y orden. Es utilizado en los contenedores o tarjetas principales donde reside el contenido (como perfiles de mascotas, registros clínicos). Su propósito es ofrecer un espacio claro que separe la información de forma estructurada.
+4. **Blanco Puro (#FFFFFF)**
+   *Representación:* Simboliza higiene clínica y orden. Utilizado en tarjetas de contenido y registros médicos.
 
-<div align="center">
-  <img src="../assets/Blanco%20Puro.png" alt="Blanco Puro">
-</div>
+![Blanco Puro](../assets/Blanco%20Puro.png)
 
-5. **Celeste Claro / Acento (#E0F2FE)** 
-*Representación:* Un color complementario que aporta suavidad al diseño. Usado generalmente en etiquetas (tags), estados de hover en los botones secundarios o alertas de éxito.
+5. **Celeste Claro / Acento (#E0F2FE)**
+   *Representación:* Aporta suavidad. Usado en etiquetas, estados de hover y alertas de éxito.
 
-<div align="center">
-  <img src="../assets/Celeste%20Claro%20%20Acento.png" alt="Celeste Claro / Acento">
-</div>
+![Celeste Claro / Acento](../assets/Celeste%20Claro%20%20Acento.png)
 
 **Buttons:**
-La plataforma VetCare cuenta con botones de diseño intuitivo y generoso manejo del espacio (padding) para evitar clics accidentales. Los **botones principales** (como "Agendar cita" o "Iniciar sesión") utilizan el *Cian Vibrante (#06B6D4)* con textos blancos para un alto contraste, indicando las acciones prioritarias. Los **botones secundarios** suelen incluir bordes sutiles o rellenos en colores más neutros. Todos mantienen bordes redondeados, lo cual disminuye la severidad y aumenta la sensación de amabilidad del sitio, con estados de *hover* que oscurecen ligeramente el color para dar un feedback táctil al usuario.
-
-**Variaciones del logo en diferentes representaciones:**
-- Versión principal detallada para headers y documentos oficiales.
-- Versión minimalista: Únicamente el isotipo (la huella y el escudo) utilizado en la pestaña del navegador (favicon) o avatares de redes sociales.
-- Versión monocromática: Aplicada a marcas de agua, y en interfaces donde el fondo ya cuenta con colores oscuros o saturados y requiere adaptarse estéticamente.
+Los **botones principales** utilizan el *Cian Vibrante (#06B6D4)* con textos blancos. Los **botones secundarios** incluyen bordes sutiles o rellenos neutros. Todos mantienen bordes redondeados para aumentar la sensación de amabilidad.
 
 ### 4.1.2. Web Style Guidelines
 
-Para VetCare, estamos desarrollando una plataforma web y una landing page enfocada en la gestión eficiente y el cuidado de la salud de las mascotas. Por ello, implementaremos un diseño adaptable (Web Responsive Design) que optimice la presentación de la información en diversas resoluciones y pantallas, ya sea computadora, tablet o smartphone. Esto garantizará que el contenido sea accesible y claro en todo momento, mejorando la experiencia tanto para dueños de mascotas como para profesionales veterinarios.
-
-Como equipo, hemos decidido incorporar patrones de lectura visuales e intuitivos (como el patrón en forma de Z o F) para la página principal. Esta técnica es ideal para dirigir la atención de los visitantes hacia los elementos más importantes de VetCare, como el objetivo del proyecto, los planes de suscripción, los beneficios de nuestra plataforma y el sistema de reservas. Colocaremos el logotipo de VetCare en la esquina superior izquierda para reforzar la identidad y el reconocimiento de la marca, mientras que en la esquina superior derecha se encontrará una barra de navegación clara junto con un botón de llamado a la acción (Call to Action) destacado con nuestro color interactivo, que invite al usuario a registrarse o iniciar sesión rápidamente.
+Implementaremos un diseño adaptable (Web Responsive Design) para optimizar la información en diversas resoluciones. Utilizaremos patrones de lectura en forma de Z o F para dirigir la atención hacia los planes de suscripción y el sistema de reservas.
 
 ## 4.2. Information Architecture
-
-VetCare optimiza la gestión veterinaria y el cuidado clínico de las mascotas, ofreciendo un entorno interactivo donde los dueños pueden organizar citas, leer el historial médico y comunicarse con especialistas, mientras que los veterinarios pueden administrar su flujo de pacientes y recursos. La plataforma presenta herramientas como una agenda visual y perfiles detallados, y cuenta con un sistema para acceder fácilmente a la información vital de tratamiento.
-
-A futuro, VetCare se perfila para integrarse de un modo más amplio con un ecosistema de comunidad y sistemas extendidos de bienestar animal, consolidándose como una herramienta central indispensable para clínicas veterinarias y tutores de mascotas.
 
 ---
 
 ### 4.2.1. Organization Systems
-
-La información en VetCare se diseña e implementa de manera modular y jerárquica para permitir a dueños y profesionales ubicar lo que necesitan velozmente, basándonos en la estructura mostrada en los mockups de la aplicación web:
-
-- **Estructura basada en módulos claros:** Tal como se aprecia en el dashboard, la aplicación web divide sus funciones en apartados clave: Dashboard (Inicio), Agenda, Comunicación (Mensajes/Avisos), Historias Clínicas de Pacientes / Mascotas y Perfil de Usuario.
-- **Jerarquización de contenidos:** Las funciones de uso recurrente y diario, como el número de mascotas atendidas, calendario o reportes visuales de ganancias/gastos (para el admin), se encuentran centralizados y destacados mediante tarjetas visuales (cards) ni bien se inicia sesión.
+- **Estructura modular:** División en Dashboard, Agenda, Comunicación e Historias Clínicas.
+- **Jerarquización:** Reportes de ganancias y calendario centralizados en tarjetas visuales.
 
 ### 4.2.2. Labeling Systems
-
-El etiquetado en VetCare es fundamental para evitar confusiones de usabilidad. Por lo tanto, está redactado para ser conciso y familiar:
-
-- **Uso de términos simples y de rápida comprensión:** En el menú lateral interactivo se usan etiquetas (labels) universales como: "Dashboard", "Agenda", "Comunicación", "Perfil" y "Log Out".
-- **Reducción de tecnicismos complejos:** Para los dueños de mascotas, se prefiere un lenguaje neutro en las interfaces de usuario finales (como el uso de "Historial", "Citas" o "Mascotas"), garantizando un entorno amigable e intuitivo, manteniendo la formalidad correspondiente sin ser difícil de digerir.
-- **Consistencia:** Mantener nombres iguales tanto en botones de menú, como en encabezados (headers) de sección para mantener una curva de aprendizaje mínima y no confundir al usuario.
+Etiquetas concisas y familiares: "Dashboard", "Agenda", "Comunicación", "Perfil" y "Log Out".
 
 ### 4.2.3. SEO Tags and Meta Tags
-
-Para lograr un buen posicionamiento web, captar tráfico orgánico de calidad y hacer de la Landing Page de VetCare un sitio fácilmente encontrable:
-
-- **Meta títulos:** Deberán integrar palabras clave precisas relacionadas al rubro como "Gestión Veterinaria", "Software Clínica Veterinaria", "Cuidado de Mascotas", y el propio nombre de marca "VetCare".
-- **Meta descripciones:** Claras, amigables e incluyendo llamadas a la acción directas (ejemplo: "Optimiza las citas de tu centro veterinario y acompaña a tus mascotas de la mejor manera. Regístrate en VetCare").
-- **Etiquetas Alt en Imágenes:** Cada imagen ilustrativa del landing page contará con textos descriptivos concisos para mejorar el rastreo por motores de búsqueda.
-- **Estructura tipo Headings:** Correcta aplicación semántica de jerarquías H1, H2, H3 en secciones donde se enuncian beneficios y funciones para su correcta indexación.
+- **Palabras clave:** Gestión Veterinaria, Software Clínica Veterinaria, VetCare.
+- **Etiquetas Alt:** Textos descriptivos en cada imagen para indexación.
 
 ### 4.2.4. Searching Systems
-
-El sistema de búsqueda está pensado para una rápida asimilación por parte de los clínicos y tutores, con el objetivo de hallar información de inmediato:
-
-- **Búsqueda interna intuitiva:** Utilizando barras de búsqueda posicionadas en las partes superiores de los paneles para que los profesionales puedan encontrar pacientes, clientes o detalles específicos en cuestión de segundos.
-- **Autocompletado y Filtros:** Se dispondrán elementos que ofrezcan opciones al escribir datos, logrando que los resultados sean más dinámicos al, por ejemplo, filtrar citas por fechas específicas dentro de la "Agenda".
+Barras de búsqueda superiores con autocompletado y filtros por fechas para agilizar la ubicación de pacientes.
 
 ### 4.2.5. Navigation Systems
-
-El ecosistema de navegación debe guiar al usuario por VetCare fluidamente, evitando confusiones y sobrecarga visual:
-
-- **Menú Principal Lateral (Sidebar):** Tal como observamos en la interfaz web diseñada (mockups), es un área vertical estática siempre visible en lado izquierdo, con íconos claros acompañando cada opción ("Dashboard", "Agenda", "Comunicación"), facilitando el salto fácil entre contextos.
-- **Botones de llamado a la acción (CTAs):** Ubicados de forma destacada en la zona de trabajo (por ejemplo, para agregar nuevas mascotas, agendar nueva cita), usando el color primario de acento que indicamos en nuestros Style Guidelines.
-- **Compatibilidad Responsive y Adaptabilidad:** Traslación del menú lateral global a un menú interactivo tipo "hamburguesa" accesible cuando el usuario inicia sesión desde un dispositivo móvil o comprimido, preservando que las opciones de "Perfil" y "Log Out" queden resguardadas con jerarquía.
+- **Sidebar:** Menú lateral estático visible en todo momento.
+- **Responsive:** Colapso a menú tipo "hamburguesa" en dispositivos móviles.
 
 ## 4.3. Landing Page UI Design
-
-El diseño de la interfaz de usuario para la landing page de VetCare será un elemento clave, ya que representará la primera impresión que recibirán los usuarios (tutores y veterinarios) sobre la aplicación. Su objetivo es ofrecer una experiencia visual atractiva, profesional y fácil de usar que despierte el interés de los visitantes y los motive a conocer más sobre las soluciones de gestión clínica y cuidado animal que brinda la plataforma.
 
 ---
 
 ### 4.3.1. Landing Page Wireframe
 
-Los Wireframes de la página son una versión simplificada de la manera en la que se organizará la información. Se hace una organización de la estructura visual de todos los componentes previo a centrarse en la estética de la página. Gracias a esto, podemos observar la jerarquía de los elementos de VetCare y qué características se necesitan cambiar, agilizando el tiempo de desarrollo.
+Los Wireframes representan la jerarquía de los elementos de VetCare para agilizar el desarrollo.
 
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/blwW1Ip.jpeg" width="90%" />
-  <img src="https://i.imgur.com/jUOEB7J.png" width="90%" />
-  <img src="https://i.imgur.com/swhzUFv.png" width="90%" />
-  <img src="https://i.imgur.com/0DGaWa2.png" width="90%" />
-  <img src="https://i.imgur.com/fipGm38.png" width="90%" />
-  <img src="https://i.imgur.com/I9K7Wr9.png" width="90%" />
-
-</div>
+![Wireframe 1](https://i.imgur.com/blwW1Ip.jpeg)
+![Wireframe 2](https://i.imgur.com/jUOEB7J.png)
+![Wireframe 3](https://i.imgur.com/swhzUFv.png)
+![Wireframe 4](https://i.imgur.com/0DGaWa2.png)
+![Wireframe 5](https://i.imgur.com/fipGm38.png)
+![Wireframe 6](https://i.imgur.com/I9K7Wr9.png)
 
 ### 4.3.2. Landing Page Mock-up
 
-Un mockup es una representación visual de un producto que muestra cómo lucirá, a diferencia de un wireframe, que se enfoca en la estructura. Aunque no es interactivo, al ser un prototipo de alta fidelidad, ayuda a tomar decisiones finales sobre aspectos como los esquemas de colores (tonos corporativos de VetCare: Azul Marino Profundo, Cian Vibrante, Blanco Puro), el estilo visual enfocado en salud y la tipografía seleccionada. Es una valiosa herramienta en nuestro proceso de diseño para alinear expectativas antes de la codificación y despliegue del landing page.
-
-<div align="center">
-  <img src="../assets/LPM.png" alt="Landing Page Mock-up" width="90%">
-</div>
+![Landing Page Mock-up](../assets/LPM.png)
 
 ## 4.4. Web Applications UX/UI Design
 
 ---
 
 ### 4.4.1. Web Applications Wireframes
-
 ![Web Applications Wireframes](../assets/UFD.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-
 ![Web Applications Wireflow Diagram](../assets/WD.png)
 
 ### 4.4.3. Web Applications Mock-ups
+Enlace a Figma: [Mockups VetCare](https://www.figma.com/design/7ZgHbtQwGETyMA1dPqxlX1/Mock-Ups-VetCare)
 
-Enlace para acceder a los Mockups en Figma: https://www.figma.com/design/7ZgHbtQwGETyMA1dPqxlX1/Mock-Ups-VetCare?node-id=0-1&t=fc3DNOs4kuDIE58K-1
-
-![Web Applications Mock-ups](../assets/dashboard.png)
-![Web Applications Mock-ups](../assets/GC1.png)
-![Web Applications Mock-ups](../assets/GC3.png)
-![Web Applications Mock-ups](../assets/GC4.png)
-![Web Applications Mock-ups](../assets/GC5.png)
-![Web Applications Mock-ups](../assets/GC6.png)
-![Web Applications Mock-ups](../assets/agenda.png)
-![Web Applications Mock-ups](../assets/comu.png)
-![Web Applications Mock-ups](../assets/perfil.png)
+![Dashboard](../assets/dashboard.png)
+![Gestión Clínica 1](../assets/GC1.png)
+![Gestión Clínica 3](../assets/GC3.png)
+![Gestión Clínica 4](../assets/GC4.png)
+![Gestión Clínica 5](../assets/GC5.png)
+![Gestión Clínica 6](../assets/GC6.png)
+![Agenda](../assets/agenda.png)
+![Comunicación](../assets/comu.png)
+![Perfil](../assets/perfil.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
-
-![Web Applications User Flow Diagram](../assets/FD.png)
+![User Flow Diagram](../assets/FD.png)
 
 ---
 
@@ -179,198 +124,38 @@ Enlace para acceder a los Mockups en Figma: https://www.figma.com/design/7ZgHbtQ
 ---
 
 ### 4.6.1. Design-Level EventStorming
+*(Sección pendiente de contenido)*
 
 ### 4.6.2. Software Architecture Context Diagram
-
 ![Context Diagram](../assets/C1.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
-
 ![Container Diagram](../assets/C2.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
-
 ![Components Diagram](../assets/C3.png)
 
 ## 4.7. Software Object-Oriented Design
 
+---
+
 ### 4.7.1. Class Diagrams
-
-El diagrama de clases del sistema representa la estructura del módulo de atención veterinaria, mostrando las principales entidades del dominio, sus atributos y las relaciones entre ellas. Este modelo está basado en principios de diseño orientado a objetos y en el enfoque *Domain-Driven Design (DDD)*, donde cada clase representa un concepto clave del negocio.
-
-Las clases principales incluyen **Cliente**, **Mascota**, **Cita**, **Consulta**, **Tratamiento**, **Vacuna** y **Hospitalización**. La clase **Mascota** actúa como una entidad central dentro del dominio clínico, ya que concentra la información médica del paciente. A partir de ella se relacionan las consultas, vacunas y procesos de hospitalización.
-
-La clase **Consulta** representa el núcleo del sistema clínico, ya que almacena la atención médica realizada a la mascota, incluyendo el modelo SOAP (*Subjetivo, Objetivo, Evaluación y Plan*). A su vez, esta clase se relaciona con **Tratamiento**, permitiendo registrar las acciones médicas derivadas.
-
-Por otro lado, la clase **Cita** gestiona la planificación de atenciones, conectando la agenda del veterinario con el proceso clínico. Asimismo, **Hospitalización** permite modelar casos de atención prolongada, incluyendo la administración de medicamentos a través de la clase **MedicacionHospitalaria**.
-
-Las relaciones entre clases reflejan asociaciones uno a muchos, como **Cliente → Mascota**, **Mascota → Consulta**, y **Consulta → Tratamiento**, garantizando una estructura coherente y alineada con el dominio del problema.
-
 ![Class Diagram](../assets/DBboundedC.png)
 
----
-
 ### 4.7.2. Class Dictionary
-
-**Contexto:** Atención Médica Veterinaria (*Core Domain*)
-
-Este contexto agrupa todas las entidades relacionadas con la atención clínica de las mascotas dentro del sistema.
-
----
-
-#### Cliente *(Entity)*
-
-**Propósito:** Representa al dueño o tutor de las mascotas.
-
-**Atributos:**
-- id  
-- nombre  
-- dni  
-- telefono  
-- email  
-- direccion  
-
-**Relaciones:**
-- Un cliente puede tener múltiples mascotas.
-
----
-
-#### Mascota *(Entity - Aggregate Root)*
-
-**Propósito:** Representa al paciente del sistema veterinario.
-
-**Atributos:**
-- id  
-- nombre  
-- especie  
-- raza  
-- sexo  
-- fecha_nacimiento  
-- peso  
-
-**Relaciones:**
-- Pertenece a un cliente.  
-- Tiene múltiples citas, consultas, vacunas y hospitalizaciones.
-
----
-
-#### Cita *(Entity)*
-
-**Propósito:** Gestiona la programación de atenciones veterinarias.
-
-**Atributos:**
-- id  
-- fecha  
-- estado  
-- motivo  
-
-**Relaciones:**
-- Asociada a una mascota.  
-- Puede generar una consulta.
-
----
-
-#### Consulta *(Entity - Core)*
-
-**Propósito:** Representa la atención médica realizada.
-
-**Atributos:**
-- id  
-- fecha  
-- observaciones  
-- subjetivo  
-- objetivo  
-- evaluacion  
-- plan  
-
-**Relaciones:**
-- Asociada a una cita.  
-- Tiene múltiples tratamientos.
-
----
-
-#### Tratamiento *(Entity)*
-
-**Propósito:** Define las acciones médicas indicadas en una consulta.
-
-**Atributos:**
-- id  
-- descripcion  
-- dosis  
-- frecuencia  
-- duracion  
-
-**Relaciones:**
-- Pertenece a una consulta.
-
----
-
-#### Vacuna *(Entity)*
-
-**Propósito:** Registra las vacunas aplicadas a la mascota.
-
-**Atributos:**
-- id  
-- fecha_aplicacion  
-- proxima_dosis  
-
-**Relaciones:**
-- Asociada a una mascota.
-
----
-
-#### Hospitalización *(Entity)*
-
-**Propósito:** Gestiona el internamiento de la mascota.
-
-**Atributos:**
-- id  
-- fecha_ingreso  
-- fecha_salida  
-- estado  
-
-**Relaciones:**
-- Asociada a una mascota.  
-- Tiene múltiples registros de medicación.
-
----
-
-#### MedicacionHospitalaria *(Entity)*
-
-**Propósito:** Controla los medicamentos administrados durante la hospitalización.
-
-**Atributos:**
-- id  
-- dosis  
-- frecuencia  
-
-**Relaciones:**
-- Asociada a hospitalización.  
-- Referencia a medicamento.
-
----
-
-#### Value Objects (VO)
-
-- **EstadoCita:** pendiente, atendido, cancelado  
-- **EstadoHospitalizacion:** crítico, estable, alta  
-- **TipoVacuna:** catálogo de vacunas  
-- **Medicamento:** catálogo de medicamentos  
+**Entidades principales:** Cliente, Mascota (Aggregate Root), Cita, Consulta, Tratamiento, Vacuna, Hospitalización y MedicacionHospitalaria.
+**Value Objects:** EstadoCita, EstadoHospitalizacion, TipoVacuna, Medicamento.
 
 ---
 
 ## 4.8. Database Design
 
+---
+
 ### 4.8.1. Database Diagram
 
-El diagrama de base de datos representa la estructura lógica del sistema veterinario, diseñado bajo los principios de normalización hasta la Tercera Forma Normal (3FN), garantizando la eliminación de redundancias y la integridad de los datos.
-
-El modelo está compuesto por entidades principales como **clientes**, **mascotas**, **citas**, **consultas**, **tratamientos**, **vacunas** y **hospitalización**, junto con tablas auxiliares o catálogos como **especies**, **razas**, **estados_cita**, **estados_hospitalizacion**, **tipos_vacuna** y **medicamentos**.
-
-Las relaciones entre tablas se establecen mediante claves foráneas, destacando asociaciones uno a muchos como **cliente → mascotas**, **mascota → citas**, y **consulta → tratamientos**. Asimismo, se incorporan tablas intermedias como **medicacion_hospitalaria** para modelar relaciones más complejas.
-
-El diseño asegura que cada atributo depende únicamente de su clave primaria, evitando dependencias parciales o transitivas, cumpliendo así con las tres formas normales. Además, el uso de tablas de catálogo permite mantener consistencia en los datos y facilita la escalabilidad del sistema.
-
-Este modelo está alineado con el enfoque *Domain-Driven Design (DDD)*, donde cada tabla representa una entidad del dominio, permitiendo una integración eficiente con la capa de aplicación y presentación del sistema.
+Diseño normalizado hasta la 3FN, alineado con el enfoque DDD para una integración eficiente entre datos y negocio.
 
 ![Diagrama de Base de Datos](../assets/DB.png)
+
+ESTA ES UNA PRUEBA
