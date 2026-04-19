@@ -157,5 +157,3 @@ Enlace a Figma: [Mockups VetCare](https://www.figma.com/design/7ZgHbtQwGETyMA1dP
 Diseño normalizado hasta la 3FN, alineado con el enfoque DDD para una integración eficiente entre datos y negocio.
 
 ![Diagrama de Base de Datos](../assets/DB.png)
-
-ESTA ES UNA PRUEBA
