@@ -30,7 +30,11 @@
 
 ### 4.3.1. Landing Page Wireframe
 
+![Landing Page Wireframe](../assets/LPW.png)
+
 ### 4.3.2. Landing Page Mock-up
+
+![Landing Page Mock-up](../assets/LPM.png)
 
 ## 4.4. Web Applications UX/UI Design
 
