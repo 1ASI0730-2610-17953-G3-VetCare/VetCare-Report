@@ -36,10 +36,10 @@
 
 <br>
 
-| Nombre y Apellido | Romero Vilela, Dario Alberto - U202419286                                                                                                                                                                                                          |
-| :--- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Descripción** | Desarrollador Back-End centrado en la implementación de la lógica de negocios y la integración entre los sistemas del lado del servidor. Es responsable de construir y documentar las APIs que nutren de información a toda la plataforma clínica. |
-| **Foto** | <img src="../assets/member_Romero_Dario.png" alt="Foto Dario" width="150" />                                                                                                                                                                       |
+| Nombre y Apellido | Romero Vilela, Dario Alberto - U202419286                                                                                                                                                                                                            |
+| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descripción** | Soy Dario Romero Vilela, estudiante de ingenieria de software con conocimientos intermedios en c++, tengo experiencia en trabajo colaborativo, organización y responsabilidad, me caracterizo por ser autodidacta con interes en seguir aprendiendo. |
+| **Foto** | <img src="../assets/member_Romero_Dario.png" alt="Foto Dario" width="150" />                                                                                                                                                                         |
 
 <br>
 
