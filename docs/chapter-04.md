@@ -30,9 +30,19 @@
 
 ### 4.3.1. Landing Page Wireframe
 
-![Landing Page Wireframe](../assets/LPW.png)
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/blwW1Ip.jpeg" width="90%" />
+  <img src="https://i.imgur.com/jUOEB7J.png" width="90%" />
+  <img src="https://i.imgur.com/swhzUFv.png" width="90%" />
+  <img src="https://i.imgur.com/0DGaWa2.png" width="90%" />
+  <img src="https://i.imgur.com/fipGm38.png" width="90%" />
+  <img src="https://i.imgur.com/I9K7Wr9.png" width="90%" />
+
+</div>
 
 ### 4.3.2. Landing Page Mock-up
+
+A continuación los Mock ups, estos son los modelos de diseño que se utilizarán en la elaboración del landing page y servirá de modelo y base para la elaboración del landing page. 
 
 ![Landing Page Mock-up](../assets/LPM.png)
 
