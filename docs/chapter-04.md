@@ -148,7 +148,15 @@ Un mockup es una representación visual de un producto que muestra cómo lucirá
 
 ### 4.4.1. Web Applications Wireframes
 
-![Web Applications Wireframes](../assets/UFD.png)
+Enlace para acceder a los Wireframes en Figma: https://www.figma.com/design/7ZgHbtQwGETyMA1dPqxlX1/Mock-Ups-VetCare?node-id=0-1&t=fc3DNOs4kuDIE58K-1
+
+![Web Applications Wireframes](../assets/W1.png)
+![Web Applications Wireframes](../assets/W2.png)
+![Web Applications Wireframes](../assets/W3.png)
+![Web Applications Wireframes](../assets/W4.png)
+![Web Applications Wireframes](../assets/W5.png)
+![Web Applications Wireframes](../assets/W6.png)
+![Web Applications Wireframes](../assets/W7.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
