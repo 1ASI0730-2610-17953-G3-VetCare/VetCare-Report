@@ -221,9 +221,13 @@ Tras el análisis de la matriz, se desprenden las siguientes observaciones:
 
 
 ## 2.4. Big Picture EventStorming
+<img src="../assets/Big_Picture_Event_Storming.png" alt="Big Picture EventStorming"/>
 
 ---
 
+<img src="../assets/Big_Picture_Event_Storming_Leyenda.png" alt="Big Picture EventStorming Leyenda"/>
+
+---
 ## 2.5. Ubiquitous Language
 
 ---
