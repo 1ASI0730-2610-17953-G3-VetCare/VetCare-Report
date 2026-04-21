@@ -195,6 +195,21 @@ El primer sprint marca un hito crucial en nuestro proceso de desarrollo ágil. A
 
 #### 5.2.1.1. Sprint Planning 1
 
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-04-17 |
+| **Time** | 07:00 PM |
+| **Location** | Google Meet (Reunión virtual) |
+| **Prepared By** | Sejuro Medina, Mario Gabriel |
+| **Attendees (to planning meeting)** | Nuñez Soto, Andy Arturo / Roman Zevallos, Sebastian Jared / Romero Vilela, Dario Alberto / Sanchez Benavente, Leonardo Matias / Sejuro Medina, Mario Gabriel |
+| **Sprint 1 – 1 Review Summary** | Se alcanzaron los objetivos del producto como la realización de todos los capítulos, el despliegue completo de la Landing Page y la mayoría de información necesaria dentro del reporte, sin embargo, una de las tareas/objetivos más importantes que se debía alcanzar fue la presentación de un informe en formato pdf y word. |
+| **Sprint 1 – 1 Retrospective Summary** | El sprint 1 fue un poco menos productivo de lo esperado. El producto resultante no es perfecto, pero sí es funcional. Debemos realizar una mejor coordinación para los futuros trabajos. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | Para este sprint se requiere el cumplimiento de los siguientes objetivos: Finalización de reporte y despliegue sin problemas de la Landing Page que se encuentran en nuestro repositorio. La métrica de cumplimiento se basará en el proceso de cómo nuestro "Board de Trello" luzca con el paso del tiempo, nuestro resultado final debe de mostrar todas las tareas en el lado derecho de la herramienta, ubicándolos en la columna "Terminado". |
+| **Sprint 1 Velocity** | 25 |
+| **Sum of Story Points** | 25 |
+
 La sesión de Sprint Planning es clave dentro de la metodología ágil, ya que en ella el equipo organiza con detalle las actividades de la siguiente iteración. Aquí se determinan las tareas a realizar, los tiempos estimados y los responsables. Su objetivo principal es trazar una hoja de ruta definida y realista, promoviendo el trabajo en equipo y garantizando que todos compartan la misma visión sobre las metas trazadas.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
