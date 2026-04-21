@@ -255,6 +255,31 @@ Este Sprint permitió entregar la Landing Page inicial de VetCare, proporcionand
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing Page, Web Applications y Web Services.
+
+Primero, se mostrarán los commits más importantes para el Reporte, los cuales muestran el ciclo de vida del proyecto y toda la información que se usó, usa y usará para el desarrollo del proyecto:
+
+| Repository | Branch | Commit Message | Commit ID |
+| :--- | :---: | :--- | :---: |
+| /Report | develop | docs(chapter-01): add Lean UX Canvas section to solution profile | c936c17 |
+| /Report | develop | feat(chapter03): add user stories and impact mapping | c202c92 |
+| /Report | develop | docs: update chapter-04 Style Guidelines, Information Architecture and UI Design | eb0ae31 |
+
+**Commits de Documentación y Diseño**
+
+| Autor | Fecha | Commit Message | Commit ID |
+| :--- | :---: | :--- | :---: |
+| Sanchez Benavente, Leonardo Matias | 16/04/2026 | docs: añade segmentos objetivo en chapter-01 | 5242c30 |
+| Roman Zevallos, Sebastian Jared | 16/04/2026 | docs(chapter-03): remove emojis from user story titles | e54f0ed |
+| Nuñez Soto, Andy Arturo | 17/04/2026 | Update chapter-04.md | bdef246 |
+| Sejuro Medina, Mario Gabriel | 17/04/2026 | docs(chapter-02): Added Journey map titles | 9ad00b3 |
+| Romero Vilela, Dario Alberto | 17/04/2026 | "Chapter 2 (empathy-map): add veterinarian empathy map image and analysis" | 9104551 |
+| Sanchez Benavente, Leonardo Matias | 17/04/2026 | docs: update section 5.2 landing page and sprint 1 descriptions | 392c5fd |
+| Sejuro Medina, Mario Gabriel | 20/04/2026 | docs(chapter-05): updated Sprint Backlog 1 | 64886d1 |
+| Roman Zevallos, Sebastian Jared | 20/04/2026 | docs(chapter-05): updated software development | 7230556 |
+| Romero Vilela, Dario Alberto | 20/04/2026 | "docs (Chapter-02): add big picture event storming and color legend" | dd2b3db |
+| Nuñez Soto, Andy Arturo | 19/04/2026 | Add files via upload (Chapter 04 assets) | d54684d |
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
