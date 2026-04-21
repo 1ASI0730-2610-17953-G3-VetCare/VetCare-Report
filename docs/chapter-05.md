@@ -195,24 +195,43 @@ El primer sprint marca un hito crucial en nuestro proceso de desarrollo ágil. A
 
 #### 5.2.1.1. Sprint Planning 1
 
-| Sprint # | Sprint 1 |
-| :--- | :--- |
-| **Sprint Planning Background** | |
-| **Date** | 2026-04-17 |
-| **Time** | 07:00 PM |
-| **Location** | Google Meet (Reunión virtual) |
-| **Prepared By** | Sejuro Medina, Mario Gabriel |
-| **Attendees (to planning meeting)** | Nuñez Soto, Andy Arturo / Roman Zevallos, Sebastian Jared / Romero Vilela, Dario Alberto / Sanchez Benavente, Leonardo Matias / Sejuro Medina, Mario Gabriel |
-| **Sprint 1 – 1 Review Summary** | Se alcanzaron los objetivos del producto como la realización de todos los capítulos, el despliegue completo de la Landing Page y la mayoría de información necesaria dentro del reporte, sin embargo, una de las tareas/objetivos más importantes que se debía alcanzar fue la presentación de un informe en formato pdf y word. |
-| **Sprint 1 – 1 Retrospective Summary** | El sprint 1 fue un poco menos productivo de lo esperado. El producto resultante no es perfecto, pero sí es funcional. Debemos realizar una mejor coordinación para los futuros trabajos. |
-| **Sprint Goal & User Stories** | |
+| Sprint # | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| :--- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Date** | 2026-04-17                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Time** | 07:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Location** | Google Meet (Reunión virtual)                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Prepared By** | Sejuro Medina, Mario Gabriel                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Attendees (to planning meeting)** | Nuñez Soto, Andy Arturo / Roman Zevallos, Sebastian Jared / Romero Vilela, Dario Alberto / Sanchez Benavente, Leonardo Matias / Sejuro Medina, Mario Gabriel                                                                                                                                                                                                                                                                                       |
+| **Sprint 1 – 1 Review Summary** | Se alcanzaron los objetivos del producto como la realización de todos los capítulos, el despliegue completo de la Landing Page y la mayoría de información necesaria dentro del reporte, sin embargo, una de las tareas/objetivos más importantes que se debía alcanzar fue la presentación de un informe en formato pdf y word.                                                                                                                   |
+| **Sprint 1 – 1 Retrospective Summary** | El sprint 1 fue un poco menos productivo de lo esperado. El producto resultante no es perfecto, pero sí es funcional. Debemos realizar una mejor coordinación para los futuros trabajos.                                                                                                                                                                                                                                                           |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Sprint 1 Goal** | Para este sprint se requiere el cumplimiento de los siguientes objetivos: Finalización de reporte y despliegue sin problemas de la Landing Page que se encuentran en nuestro repositorio. La métrica de cumplimiento se basará en el proceso de cómo nuestro "Board de Trello" luzca con el paso del tiempo, nuestro resultado final debe de mostrar todas las tareas en el lado derecho de la herramienta, ubicándolos en la columna "Terminado". |
-| **Sprint 1 Velocity** | 25 |
-| **Sum of Story Points** | 25 |
+| **Sprint 1 Velocity** | 20                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Sum of Story Points** | 20                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 La sesión de Sprint Planning es clave dentro de la metodología ágil, ya que en ella el equipo organiza con detalle las actividades de la siguiente iteración. Aquí se determinan las tareas a realizar, los tiempos estimados y los responsables. Su objetivo principal es trazar una hoja de ruta definida y realista, promoviendo el trabajo en equipo y garantizando que todos compartan la misma visión sobre las metas trazadas.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
+
+En la primera iteración (Sprint 1), el equipo concentró sus esfuerzos en la implementación de la **Landing Page**, correspondiente al **Epic 1: Landing Page (Static Web Site)**. El objetivo principal fue establecer la presencia digital de **VetCare** y validar la estructura base de navegación y captación de leads.
+
+**Historias de Usuario Abordadas**
+
+| ID | Título | Descripción | Estimación (Horas) | Asignado a | Estado |
+| :--- | :--- | :--- |:------------------:| :--- | :---: |
+| **US001** | View Value Proposition | Como visitante, quiero leer la propuesta de valor principal en la página de inicio para entender qué ofrece el software. |         3          | Nuñez Soto, Andy Arturo | Done |
+| **US002** | Select Veterinarian Segment | Como veterinario, quiero acceder a la sección de funciones clínicas para evaluar las herramientas relevantes para mi práctica. |         5          | Roman Zevallos, Sebastian Jared | Done |
+| **US003** | Request Software Demo | Como administrador, quiero enviar un formulario de contacto para solicitar una demostración del sistema. |         4          | Romero Vilela, Dario Alberto | Done |
+| **US004** | View Pricing Plans | Como visitante, quiero visualizar los planes de suscripción para evaluar el costo financiero del software. |         3          | Sanchez Benavente, Leonardo Matias | Done |
+| **US006** | Read Client Testimonials | Como visitante, quiero leer testimonios de otras clínicas para generar confianza en el producto. |         4          | Sejuro Medina, Mario Gabriel | Done |
+| **US007** | Subscribe to Newsletter | Como visitante, quiero suscribirme al boletín informativo para recibir actualizaciones y consejos de gestión. |         2          | Nuñez Soto, Andy Arturo | Done |
+
+Evidencia del avance en Trello:
+
+<img src="../assets/Sprint_01_Trello.png" alt="Foto Sprint 01 en Trello"/>
+
+Este Sprint permitió entregar la Landing Page inicial de VetCare, proporcionando a los visitantes un primer acercamiento a la propuesta de valor, las herramientas de gestión para administradores, las funcionalidades clínicas para veterinarios, testimonios del sector e información general de la aplicación.
 
 #### 5.2.1.3. Sprint Backlog 1
 
