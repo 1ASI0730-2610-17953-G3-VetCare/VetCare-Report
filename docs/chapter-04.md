@@ -103,7 +103,11 @@ El etiquetado es conciso y familiar para evitar confusiones: "Dashboard", "Sched
 ### 4.4.4. Web Applications User Flow Diagrams
 ![User Flow Diagram](../assets/web-user-flow-diagram.png)
 
+## 4.5. Web Applications Prototyping
+
 ## 4.6. Domain-Driven Software Architecture
+
+### 4.6.1 Design-Level EventStorming
 
 ### 4.6.2. Software Architecture Context Diagram
 ![Context Diagram](../assets/architecture-context-diagram.png)
