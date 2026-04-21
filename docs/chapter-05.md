@@ -225,7 +225,7 @@ En la primera iteración (Sprint 1), el equipo concentró sus esfuerzos en la im
 | **US003** | Request Software Demo | Como administrador, quiero enviar un formulario de contacto para solicitar una demostración del sistema. |         4          | Romero Vilela, Dario Alberto | Done |
 | **US004** | View Pricing Plans | Como visitante, quiero visualizar los planes de suscripción para evaluar el costo financiero del software. |         3          | Sanchez Benavente, Leonardo Matias | Done |
 | **US006** | Read Client Testimonials | Como visitante, quiero leer testimonios de otras clínicas para generar confianza en el producto. |         4          | Sejuro Medina, Mario Gabriel | Done |
-| **US007** | Subscribe to Newsletter | Como visitante, quiero suscribirme al boletín informativo para recibir actualizaciones y consejos de gestión. |         2          | Nuñez Soto, Andy Arturo | Done |
+| **US007** | Subscribe to Newsletter | Como visitante, quiero suscribirme al boletín informativo para recibir actualizaciones y consejos de gestión. |         2          | Sanchez Benavente, Leonardo Matias | Done |
 
 Evidencia del avance en Trello:
 
@@ -234,6 +234,24 @@ Evidencia del avance en Trello:
 Este Sprint permitió entregar la Landing Page inicial de VetCare, proporcionando a los visitantes un primer acercamiento a la propuesta de valor, las herramientas de gestión para administradores, las funcionalidades clínicas para veterinarios, testimonios del sector e información general de la aplicación.
 
 #### 5.2.1.3. Sprint Backlog 1
+
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+
+| User Story / Task Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- |:------------------:| :--- | :---: |
+| **WK01** | Development environment setup | Configuration of GitHub organization, branch strategy, and Trello board. |         2          | All team members | Done |
+| **WK02** | Complete Chapter 01 | Finalizing Startup Profile, Solution Profile, and team organization. |         4          | All team members | Done |
+| **WK03** | Complete Chapter 02 | Documentation of User Personas, Empathy Maps, and Requirements Elicitation. |         6          | All team members | Done |
+| **WK04** | Complete Chapter 03 | Specification of User Stories, Impact Mapping, and Product Backlog. |         6          | All team members | Done |
+| **WK05** | Complete Chapter 04 | **Extensive Design Phase:** Style guidelines, UX/UI Mockups (Wireframes & Hi-Fi), and Database Design. |         9          | All team members | Done |
+| **WK06** | Complete Chapter 05 | **Implementation Setup:** Documentation of SCM, environment setup, and deployment evidence. |         8          | All team members | Done |
+| **US001** | View Value Proposition | As a visitor, I want to read the main value proposition of VET-Smart on the home page. |         3          | Nuñez Soto, Andy Arturo | Done |
+| **US002** | Select Veterinarian Segment | As a visitor of the veterinarian segment, I want to access a specific section detailing clinical features. |         5          | Roman Zevallos, Sebastian Jared | Done |
+| **US003** | Request Software Demo | As a visitor of the administrator segment, I want to submit a contact form to request a software demo. |         4          | Romero Vilela, Dario Alberto | Done |
+| **US004** | View Pricing Plans | As a visitor, I want to view the available subscription plans to evaluate the financial cost. |         3          | Sanchez Benavente, Leonardo Matias | Done |
+| **US006** | Read Client Testimonials | As a visitor, I want to read testimonials from current clinics to build trust in the product. |         4          | Sejuro Medina, Mario Gabriel | Done |
+| **US007** | Subscribe to Newsletter | As a visitor, I want to subscribe to the newsletter to receive updates and tips. |         2          | Sanchez Benavente, Leonardo Matias | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
