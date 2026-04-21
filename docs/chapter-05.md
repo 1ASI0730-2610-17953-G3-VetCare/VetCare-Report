@@ -231,6 +231,8 @@ Evidencia del avance en Trello:
 
 <img src="../assets/Sprint_01_Trello.png" alt="Foto Sprint 01 en Trello"/>
 
+**Enlace de Trello:** https://trello.com/invite/b/6917adb24db7620443624f0e/ATTI85cc7a18b5b39f3d16f5326d772e99912ECEDAEC/vetcare-user-stories
+
 Este Sprint permitió entregar la Landing Page inicial de VetCare, proporcionando a los visitantes un primer acercamiento a la propuesta de valor, las herramientas de gestión para administradores, las funcionalidades clínicas para veterinarios, testimonios del sector e información general de la aplicación.
 
 #### 5.2.1.3. Sprint Backlog 1
