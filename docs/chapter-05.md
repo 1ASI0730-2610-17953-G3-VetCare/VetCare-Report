@@ -117,6 +117,54 @@ Son una convención para nombrar mensajes de commit en Git de forma estructurada
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+El equipo ha definido un conjunto de reglas y estándares de programación con el objetivo de garantizar la legibilidad, mantenibilidad y coherencia del código en el proyecto Vetalis. Como regla transversal y obligatoria, toda la nomenclatura de los elementos del sistema se realizará en el idioma inglés.
+
+#### General Naming Conventions
+
+Se adoptan las convenciones de capitalización estándar para diferenciar la naturaleza de los componentes:
+
+* **PascalCase:** Utilizado para nombres de clases, interfaces, métodos y propiedades en C#.
+* **camelCase:** Utilizado para variables locales, parámetros de métodos y variables en JavaScript.
+* **kebab-case:** Utilizado para nombres de archivos, selectores CSS (IDs y clases) y nombres de componentes en el DOM de HTML.
+
+#### HTML & CSS Style Guide
+
+Basado en la Google HTML/CSS Style Guide y las directrices de la W3C:
+
+* **HTML:** Uso obligatorio de etiquetas semánticas para mejorar el SEO y la accesibilidad. Se requiere una indentación de 2 espacios y el uso de comillas dobles para los atributos.
+* **CSS:** Se prioriza el uso de selectores de clase. Las propiedades deben agruparse de manera lógica (posicionamiento, luego modelo de caja, luego tipografía). Se prohíbe el uso de estilos en línea (inline styles).
+
+#### JavaScript & Vue.js Style Guide
+
+Siguiendo la Google JavaScript Style Guide, MDN Guidelines y la Vue Style Guide:
+
+* **Sintaxis:** Uso de ES6+ (Arrow functions, destructuring y template literals). Se prefiere `const` para todas las declaraciones, usando `let` solo cuando sea estrictamente necesario.
+* **Vue.js:** Los nombres de los componentes deben seguir la convención de múltiples palabras (Multi-word component names) para evitar conflictos con elementos HTML estándar.
+
+#### C# & ASP.NET Core Coding Conventions
+
+Siguiendo las Microsoft C# Coding Conventions y las guías de ASP.NET Core:
+
+* **Estructura:** Las interfaces deben comenzar con el prefijo "I". Los campos privados deben utilizar el prefijo de guion bajo (`_camelCase`).
+* **Asincronía:** Se debe implementar el patrón Task-based Asynchronous Pattern (TAP), añadiendo el sufijo `Async` a todos los métodos que retornen un `Task`.
+
+#### Gherkin Conventions for Readable Specifications
+
+Para la redacción de criterios de aceptación y pruebas de comportamiento:
+
+* **Formato:** Uso riguroso de la estructura `Given / When / Then`.
+* **Lenguaje:** Las especificaciones deben redactarse desde la perspectiva del negocio (usuario de la veterinaria), evitando tecnicismos de implementación en los pasos de Gherkin.
+
+#### Referencias de Estándares Adoptados
+
+| Tecnología | Referencia Principal |
+| :--- | :--- |
+| HTML / CSS | Google HTML/CSS Style Guide / W3C |
+| JavaScript | Google JS Style Guide / MDN |
+| C# | Microsoft C# Coding Conventions |
+| ASP.NET Core | Microsoft ASP.NET Core Coding Guidelines |
+| Vue.js | Vue Style Guide (Priority A) |
+| Gherkin | Gherkin Conventions for Readable Specifications |
 ### 5.1.4. Software Deployment Configuration
 
 Como se mencionó previamente, la gestión de nuestro código fuente se realizará a través de GitHub. Asimismo, se utilizará GitHub Pages para la publicación y despliegue de la página.
