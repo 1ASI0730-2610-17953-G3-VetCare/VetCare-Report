@@ -67,17 +67,12 @@ El etiquetado es conciso y familiar para evitar confusiones: "Dashboard", "Sched
 
 ### 4.3.1. Landing Page Wireframe
 <div style="text-align: center;">
-<<<<<<< HEAD
-  <img src="../assets/web-wireframe-1.png" width="90%" />
-=======
   <img src="https://i.imgur.com/blwW1Ip.jpeg" width="90%" />
   <img src="https://i.imgur.com/jUOEB7J.png" width="90%"/>
   <img src="https://i.imgur.com/swhzUFv.png" width="90%"/>
   <img src="https://i.imgur.com/0DGaWa2.png" width="90%"/>
   <img src="https://i.imgur.com/fipGm38.png" width="90%"/>
   <img src="https://i.imgur.com/I9K7Wr9.png" width="90%"/>
-
->>>>>>> 5e5c2d8 (docs(chapter-04): revert changes on files)
 </div>
 
 ### 4.3.2. Landing Page Mock-up
