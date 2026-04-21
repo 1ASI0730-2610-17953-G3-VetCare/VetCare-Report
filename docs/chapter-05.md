@@ -66,12 +66,12 @@ Es una estructura aplicada al desarrollo de un producto de software. Se utiliza 
   | Link de referencia: | https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion |
   | --- | --- |
 
-* **TypeScript:** Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases.
-  | Link de referencia: | https://www.typescriptlang.org/ |
+* **JavaScript:** Es un lenguaje de programación ligero, interpretado o compilado justo a tiempo (JIT) con funciones de primera clase, esencial para el desarrollo de aplicaciones web interactivas.
+  | Link de referencia: | https://developer.mozilla.org/es/docs/Web/JavaScript |
   | --- | --- |
 
-* **Angular:** Framework de TypeScript, de código abierto, utilizado para desarrollar SPA (Single Page Application).
-  | Link de referencia: | https://angular.io |
+* **Vue.js:** Framework progresivo de JavaScript utilizado para construir interfaces de usuario y aplicaciones de una sola página (SPA).
+  | Link de referencia: | https://vuejs.org/ |
   | --- | --- |
 
 * **GitHub Pages:** Servicio de Github que nos permitió alojar nuestra landing page y nos permitirá alojar nuestras web applications.
