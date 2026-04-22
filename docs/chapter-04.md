@@ -138,6 +138,8 @@ Los Wireframes de la página son una versión simplificada de la manera en la qu
 
 Un mockup es una representación visual de un producto que muestra cómo lucirá, a diferencia de un wireframe, que se enfoca en la estructura. Aunque no es interactivo, al ser un prototipo de alta fidelidad, ayuda a tomar decisiones finales sobre aspectos como los esquemas de colores (tonos corporativos de VetCare: Azul Marino Profundo, Cian Vibrante, Blanco Puro), el estilo visual enfocado en salud y la tipografía seleccionada. Es una valiosa herramienta en nuestro proceso de diseño para alinear expectativas antes de la codificación y despliegue del landing page.
 
+Enlace para acceder a los Landing Page Mock-up en Figma: https://www.figma.com/design/7ZgHbtQwGETyMA1dPqxlX1/Mock-Ups-VetCare?node-id=0-1&t=fc3DNOs4kuDIE58K-1
+
 <div align="center">
   <img src="../assets/landing-page-mockup.png" alt="Landing Page Mock-up" width="90%">
 </div>
@@ -147,6 +149,8 @@ Un mockup es una representación visual de un producto que muestra cómo lucirá
 ---
 
 ### 4.4.1. Web Applications Wireframes
+
+Enlace para acceder a los wireframes en Figma: https://www.figma.com/design/7ZgHbtQwGETyMA1dPqxlX1/Mock-Ups-VetCare?node-id=0-1&t=fc3DNOs4kuDIE58K-1
 
 ![Web Applications Wireframe 1](../assets/web-wireframe-1.png)
 ![Web Applications Wireframe 2](../assets/web-wireframe-2.png)
