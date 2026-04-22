@@ -125,12 +125,12 @@ El diseño de la interfaz de usuario para la landing page de VetCare será un el
 Los Wireframes de la página son una versión simplificada de la manera en la que se organizará la información. Se hace una organización de la estructura visual de todos los componentes previo a centrarse en la estética de la página. Gracias a esto, podemos observar la jerarquía de los elementos de VetCare y qué características se necesitan cambiar, agilizando el tiempo de desarrollo.
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/blwW1Ip.jpeg" width="90%" />
-  <img src="https://i.imgur.com/jUOEB7J.png" width="90%" />
-  <img src="https://i.imgur.com/swhzUFv.png" width="90%" />
-  <img src="https://i.imgur.com/0DGaWa2.png" width="90%" />
-  <img src="https://i.imgur.com/fipGm38.png" width="90%" />
-  <img src="https://i.imgur.com/I9K7Wr9.png" width="90%" />
+  <img src="https://i.imgur.com/blwW1Ip.jpeg" width="90%"/>
+  <img src="https://i.imgur.com/jUOEB7J.png" width="90%"/>
+  <img src="https://i.imgur.com/swhzUFv.png" width="90%"/>
+  <img src="https://i.imgur.com/0DGaWa2.png" width="90%"/>
+  <img src="https://i.imgur.com/fipGm38.png" width="90%"/>
+  <img src="https://i.imgur.com/I9K7Wr9.png" width="90%"/>
 
 </div>
 
