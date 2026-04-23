@@ -260,7 +260,7 @@ Los prototipos presentados corresponden directamente a los **User Flows** defini
 ---
 
 ### 4.6.1. Design-Level EventStorming
-
+![Event Storming](../assets/design-level-event-storming.png)
 ### 4.6.2. Software Architecture Context Diagram
 
 ![Context Diagram](../assets/architecture-context-diagram.png)
