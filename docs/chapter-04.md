@@ -277,166 +277,120 @@ Los prototipos presentados corresponden directamente a los **User Flows** defini
 
 ### 4.7.1. Class Diagrams
 
-El diagrama de clases del sistema representa la estructura del módulo de atención veterinaria, mostrando las principales entidades del dominio, sus atributos y las relaciones entre ellas. Este modelo está basado en principios de diseño orientado a objetos y en el enfoque *Domain-Driven Design (DDD)*, donde cada clase representa un concepto clave del negocio.
+#### 1. BC: Gestión Clínica
+![Class Diagram](../assets/class-diagram-clinic-context.png)
 
-Las clases principales incluyen **Cliente**, **Mascota**, **Cita**, **Consulta**, **Tratamiento**, **Vacuna** y **Hospitalización**. La clase **Mascota** actúa como una entidad central dentro del dominio clínico, ya que concentra la información médica del paciente. A partir de ella se relacionan las consultas, vacunas y procesos de hospitalización.
+#### 2. BC: Gestión de Clientes
+![Class Diagram](../assets/class-diagram-client-context.png)
 
-La clase **Consulta** representa el núcleo del sistema clínico, ya que almacena la atención médica realizada a la mascota, incluyendo el modelo SOAP (*Subjetivo, Objetivo, Evaluación y Plan*). A su vez, esta clase se relaciona con **Tratamiento**, permitiendo registrar las acciones médicas derivadas.
+#### 3. BC: Agenda Veterinaria
+![Class Diagram](../assets/class-diagram-appointment-context.png)
 
-Por otro lado, la clase **Cita** gestiona la planificación de atenciones, conectando la agenda del veterinario con el proceso clínico. Asimismo, **Hospitalización** permite modelar casos de atención prolongada, incluyendo la administración de medicamentos a través de la clase **MedicacionHospitalaria**.
-
-Las relaciones entre clases reflejan asociaciones uno a muchos, como **Cliente → Mascota**, **Mascota → Consulta**, y **Consulta → Tratamiento**, garantizando una estructura coherente y alineada con el dominio del problema.
-
-![Class Diagram](../assets/class-diagram-medical-context.png)
+#### 4. BC: Administración
+![Class Diagram](../assets/class-diagram-admin-context.png)
 
 ---
 
 ### 4.7.2. Class Dictionary
 
-**Contexto:** Atención Médica Veterinaria (*Core Domain*)
+#### 1. BC: Gestión Clínica (Core Domain)
 
-Este contexto agrupa todas las entidades relacionadas con la atención clínica de las mascotas dentro del sistema.
+#### **Mascota (Entity - Aggregate Root)**
+* **Propósito:** Representa al paciente central del ecosistema veterinario y es el eje de la historia clínica.
+* **Atributos:** `id`, `nombre`, `sexo`, `fechaNacimiento`, `peso`.
+* **Métodos:** `registrarPeso(nuevoPeso: float)`, `obtenerHistorialCompleto(): List<Consulta>`.
+* **Relaciones:** Posee múltiples registros de **Consultas**, **Vacunas** y **Hospitalizaciones**. Pertenece a un **Cliente**.
 
----
+#### **Consulta (Entity)**
+* **Propósito:** Registro detallado del acto médico, diagnóstico y hallazgos clínicos (SOAP).
+* **Atributos:** `id`, `fecha`, `subjetivo`, `objetivo`, `evaluacion`, `plan`.
+* **Métodos:** `agregarObservacion(nota: text)`, `finalizarConsulta()`.
+* **Relaciones:** Se origina a partir de una **Cita**. Contiene uno o más **Tratamientos**.
 
-#### Cliente *(Entity)*
+#### **Tratamiento (Entity)**
+* **Propósito:** Define las prescripciones, dosis y acciones terapéuticas indicadas por el veterinario durante la consulta.
+* **Atributos:** `id`, `descripcion`, `dosis`, `frecuencia`, `duracion`.
+* **Métodos:** `validarConsistencia(): boolean`.
+* **Relaciones:** Parte integral de una **Consulta**. Prescribe **Medicamentos** y genera un **Pago** en el módulo administrativo.
 
-**Propósito:** Representa al dueño o tutor de las mascotas.
+#### **Hospitalización (Entity)**
+* **Propósito:** Gestión de cuidados críticos, internamiento y monitoreo del paciente en la clínica.
+* **Atributos:** `id`, `fechaIngreso`, `fechaSalida`.
+* **Métodos:** `calcularDiasInternamiento(): int`.
+* **Relaciones:** Vinculada a una **Mascota**. Puede utilizar un **DispensadorIoT** para la automatización de dietas.
 
-**Atributos:**
-- id  
-- nombre  
-- dni  
-- telefono  
-- email  
-- direccion  
-
-**Relaciones:**
-- Un cliente puede tener múltiples mascotas.
-
----
-
-#### Mascota *(Entity - Aggregate Root)*
-
-**Propósito:** Representa al paciente del sistema veterinario.
-
-**Atributos:**
-- id  
-- nombre  
-- especie  
-- raza  
-- sexo  
-- fecha_nacimiento  
-- peso  
-
-**Relaciones:**
-- Pertenece a un cliente.  
-- Tiene múltiples citas, consultas, vacunas y hospitalizaciones.
+#### **Vacuna (Entity)**
+* **Propósito:** Registro de inmunizaciones aplicadas para el control preventivo de enfermedades.
+* **Atributos:** `id`, `fechaAplicacion`, `proximaDosis`.
+* **Métodos:** `esRefuerzo(): boolean`.
+* **Relaciones:** Asociada a una **Mascota** y categorizada por un **TipoVacuna**.
 
 ---
 
-#### Cita *(Entity)*
+#### 2. BC: Gestión de Clientes y Especies (Supporting Domain)
 
-**Propósito:** Gestiona la programación de atenciones veterinarias.
+#### **Cliente (Entity)**
+* **Propósito:** Persona responsable legal, de contacto y financiera del paciente.
+* **Atributos:** `id`, `nombre`, `dni`, `telefono`, `email`, `direccion`.
+* **Métodos:** `actualizarDatosContacto(tel: string, mail: string)`.
+* **Relaciones:** Posee una o más **Mascotas**.
 
-**Atributos:**
-- id  
-- fecha  
-- estado  
-- motivo  
+#### **Especie (Value Object)**
+* **Propósito:** Clasificación biológica general de los pacientes (ej. Canino, Felino).
+* **Atributos:** `id`, `nombre`.
+* **Relaciones:** Clasifica a múltiples **Razas**.
 
-**Relaciones:**
-- Asociada a una mascota.  
-- Puede generar una consulta.
-
----
-
-#### Consulta *(Entity - Core)*
-
-**Propósito:** Representa la atención médica realizada.
-
-**Atributos:**
-- id  
-- fecha  
-- observaciones  
-- subjetivo  
-- objetivo  
-- evaluacion  
-- plan  
-
-**Relaciones:**
-- Asociada a una cita.  
-- Tiene múltiples tratamientos.
+#### **Raza (Value Object)**
+* **Propósito:** Clasificación específica de linaje que determina predisposiciones genéticas.
+* **Atributos:** `id`, `nombre`.
+* **Relaciones:** Define la tipología biológica de una **Mascota**.
 
 ---
 
-#### Tratamiento *(Entity)*
+#### 3. BC: Agenda Veterinaria (Generic Subdomain)
 
-**Propósito:** Define las acciones médicas indicadas en una consulta.
+#### **Cita (Entity)**
+* **Propósito:** Reserva de tiempo y recursos de la clínica para una atención futura.
+* **Atributos:** `id`, `fecha`, `motivo`, `estado` (EstadoCita).
+* **Métodos:** `reprogramar(nuevaFecha: datetime)`, `cancelarCita()`.
+* **Relaciones:** Vinculada a una **Mascota**. Puede evolucionar a una **Consulta**.
 
-**Atributos:**
-- id  
-- descripcion  
-- dosis  
-- frecuencia  
-- duracion  
-
-**Relaciones:**
-- Pertenece a una consulta.
+#### **EstadoCita (Enum)**
+* **Propósito:** Define los estados lógicos finitos por los que atraviesa una cita.
+* **Valores:** `PENDIENTE`, `CONFIRMADA`, `CANCELADA`, `ATENDIDA`.
 
 ---
 
-#### Vacuna *(Entity)*
+#### 4. BC: Administración e Inventario (Supportive Domain)
 
-**Propósito:** Registra las vacunas aplicadas a la mascota.
+#### **Administrador (Entity)**
+* **Propósito:** Perfil de usuario encargado de la gestión logística, financiera y auditoría del sistema.
+* **Atributos:** `id`, `nombre`.
+* **Métodos:** `supervisarStock()`, `validarPagos()`.
+* **Relaciones:** Gestiona el **Inventario**, supervisa los **Pagos** y audita los **DispensadoresIoT**.
 
-**Atributos:**
-- id  
-- fecha_aplicacion  
-- proxima_dosis  
+#### **Inventario (Entity)**
+* **Propósito:** Control de existencias físicas y niveles de stock de insumos médicos.
+* **Atributos:** `id`, `stockActual`, `puntoReorden`.
+* **Métodos:** `descontarStock(cant: int)`, `registrarIngreso(cant: int)`.
+* **Relaciones:** Monitorea el stock vinculado a cada **Medicamento**.
 
-**Relaciones:**
-- Asociada a una mascota.
+#### **Medicamento (Entity)**
+* **Propósito:** Insumo farmacéutico disponible para tratamientos clínicos y hospitalarios.
+* **Atributos:** `id`, `nombre`, `descripcion`.
+* **Relaciones:** Utilizado en **Tratamientos** y **MedicaciónHospitalaria**. Vinculado al **Inventario**.
 
----
+#### **Pago (Entity)**
+* **Propósito:** Registro de la transacción económica derivada de los servicios médicos prestados.
+* **Atributos:** `id`, `monto`, `estado`.
+* **Métodos:** `generarComprobante()`.
+* **Relaciones:** Se genera desde un **Tratamiento**. Validado por el **Administrador**.
 
-#### Hospitalización *(Entity)*
-
-**Propósito:** Gestiona el internamiento de la mascota.
-
-**Atributos:**
-- id  
-- fecha_ingreso  
-- fecha_salida  
-- estado  
-
-**Relaciones:**
-- Asociada a una mascota.  
-- Tiene múltiples registros de medicación.
-
----
-
-#### MedicacionHospitalaria *(Entity)*
-
-**Propósito:** Controla los medicamentos administrados durante la hospitalización.
-
-**Atributos:**
-- id  
-- dosis  
-- frecuencia  
-
-**Relaciones:**
-- Asociada a hospitalización.  
-- Referencia a medicamento.
-
----
-
-#### Value Objects (VO)
-
-- **EstadoCita:** pendiente, atendido, cancelado  
-- **EstadoHospitalizacion:** crítico, estable, alta  
-- **TipoVacuna:** catálogo de vacunas  
-- **Medicamento:** catálogo de medicamentos  
+#### **DispensadorIoT (Entity - Aggregate Root)**
+* **Propósito:** Hardware inteligente encargado de la alimentación automatizada y envío de telemetría.
+* **Atributos:** `id`, `serie`, `nivelAlimento`.
+* **Métodos:** `enviarTelemetria()`, `dispensarAlimento(gramos: float)`.
+* **Relaciones:** Auditado por el **Administrador** y asignado opcionalmente a una **Hospitalización**. 
 
 ---
 
