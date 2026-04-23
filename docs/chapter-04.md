@@ -144,9 +144,20 @@ Enlace para acceder a los Landing Page Mock-up en Figma: https://www.figma.com/d
   <img src="../assets/landing-page-mockup.png" alt="Landing Page Mock-up" width="90%">
 </div>
 
+---
+
+#### Mobile Landing Page Mock-up
+
+<div align="center">
+  <img src="../assets/mobile-landing-page.png" alt="Mobile Landing Page" width="90%">
+</div>
+
+---
+
 ## 4.4. Web Applications UX/UI Design
 
 ---
+
 
 ### 4.4.1. Web Applications Wireframes
 
