@@ -149,7 +149,7 @@ Enlace para acceder a los Landing Page Mock-up en Figma: https://www.figma.com/d
 #### Mobile Landing Page Mock-up
 
 <div align="center">
-  <img src="../assets/mobile-landing-page.png" alt="Mobile Landing Page" width="90%">
+  <img src="../assets/mobile-landing-page.png" alt="Mobile Landing Page" width="300%">
 </div>
 
 ---
