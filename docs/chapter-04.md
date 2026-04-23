@@ -386,11 +386,6 @@ Los prototipos presentados corresponden directamente a los **User Flows** defini
 * **Métodos:** `generarComprobante()`.
 * **Relaciones:** Se genera desde un **Tratamiento**. Validado por el **Administrador**.
 
-#### **DispensadorIoT (Entity - Aggregate Root)**
-* **Propósito:** Hardware inteligente encargado de la alimentación automatizada y envío de telemetría.
-* **Atributos:** `id`, `serie`, `nivelAlimento`.
-* **Métodos:** `enviarTelemetria()`, `dispensarAlimento(gramos: float)`.
-* **Relaciones:** Auditado por el **Administrador** y asignado opcionalmente a una **Hospitalización**. 
 
 ---
 
