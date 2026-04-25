@@ -344,9 +344,7 @@ El comando utilizado fue:
 
 npm run deploy
 
-A continuación, se proporciona el enlace a la *landing page* desplegada:
-
-[Landing Page](https://1asi0730-2610-17953-g3-vetcare.github.io/VetCare-Landing-Page/)
+A continuación, se proporciona el enlace a la *landing page* desplegada: https://1asi0730-2610-17953-g3-vetcare.github.io/VetCare-Landing-Page/
 
 ![Deployment Evidence](../assets/Deploy.png)
 
