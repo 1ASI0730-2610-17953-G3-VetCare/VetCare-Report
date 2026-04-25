@@ -41,6 +41,11 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 | :---: | :---: | :--- | :--- |
 | 1.0 | 10/04/2026 | Sejuro Medina, Mario Gabriel | Creación del reporte en formato Markdown. |
+| 1.1 | 12/04/2026 | Sanchez Benavente, Leonardo Matias | Completado el Capítulo 1. |
+| 1.2 | 14/04/2026 | Roman Zevallos, Sebastian Jared | Completado el Capítulo 2. |
+| 1.3 | 16/04/2026 | Romero Vilela, Dario Alberto | Completado el Capítulo 3. |
+| 1.4 | 18/04/2026 | Nuñez Soto, Andy Arturo | Completado el Capítulo 4. |
+| 1.5 | 23/04/2026 | Sejuro Medina, Mario Gabriel | Completado el Capítulo 5. |
 
 <br>
 
@@ -65,10 +70,10 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-| :--- | :--- | :---: |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | Nuñez Soto, Andy Arturo <br><br> Roman Zevallos, Sebastian Jared <br><br> Romero Vilela, Dario Alberto <br><br> Sanchez Benavente, Leonardo Matias <br><br> Sejuro Medina, Mario Gabriel |  |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | Nuñez Soto, Andy Arturo <br><br> Roman Zevallos, Sebastian Jared <br><br> Romero Vilela, Dario Alberto <br><br> Sanchez Benavente, Leonardo Matias <br><br> Sejuro Medina, Mario Gabriel |  |
+| Criterio específico                                                       | Acciones realizadas | Conclusiones |
+|:--------------------------------------------------------------------------| :--- | :--- |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**       | **Nuñez Soto, Andy Arturo:** Sustentación del análisis competitivo y las tácticas frente a los competidores identificados.<br><br>**Roman Zevallos, Sebastian Jared:** Presentación de los User Stories y el Impact Mapping ante los interesados del proyecto.<br><br>**Romero Vilela, Dario Alberto:** Exposición detallada de la arquitectura de software, incluyendo diagramas de contenedores y componentes.<br><br>**Sanchez Benavente, Leonardo Matias:** Comunicación de los hallazgos obtenidos durante el registro y análisis de las entrevistas a usuarios.<br><br>**Sejuro Medina, Mario Gabriel:** Presentación de la propuesta de solución basada en el Lean UX Canvas y los objetivos de la Startup. | El equipo se maneja muy bien al explicar tanto la parte técnica como la de negocio. Al repartirse las presentaciones, quedó claro que cada uno domina su tema, logrando que la comunicación fluya y que el proyecto se entienda perfectamente, ya sea que te escuche un experto o alguien del área comercial. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Nuñez Soto, Andy Arturo:** Elaboración de los perfiles de usuario (User Personas) y la matriz de tareas de usuario (Task Matrix).<br><br>**Roman Zevallos, Sebastian Jared:** Redacción técnica de la arquitectura de software dirigida por el dominio (Domain-Driven Design).<br><br>**Romero Vilela, Dario Alberto:** Documentación de las guías de estilo y el diseño de la arquitectura de información (SEO, etiquetas y navegación).<br><br>**Sanchez Benavente, Leonardo Matias:** Redacción de los enunciados de problemas, supuestos e hipótesis dentro del proceso Lean UX.<br><br>**Sejuro Medina, Mario Gabriel:** Documentación del reporte final en Markdown, detallando la configuración del entorno y la gestión del código fuente. | La documentación está muy bien organizada y va directo al grano. Se nota un buen equilibrio entre los detalles técnicos para los desarrolladores y las explicaciones funcionales para el resto de los interesados, lo que hace que el reporte sea una guía súper útil para cualquiera que lo lea. |
 
 <br>
 
