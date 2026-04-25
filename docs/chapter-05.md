@@ -285,9 +285,70 @@ Primero, se mostrarán los commits más importantes para el Reporte, los cuales 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 Durante el Sprint 1 se llevaron a cabo las actividades de diseño, desarrollo e implementación de las principales secciones de la landing page. Estas secciones permiten a los usuarios obtener información clara y estructurada sobre la startup y el producto ofrecido. A continuación, se presentan las evidencias correspondientes al trabajo realizado.
 
+![Evidence for Sprint1](../assets/ESprint1.png)
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 1 se elaboró la documentación funcional de la *landing page* correspondiente a la plataforma de optimización energética. Esta documentación describe las principales secciones implementadas, así como los servicios y funcionalidades disponibles para el usuario final.
+
+### 1. Información General del Producto
+
+En primer lugar, se definió la sección de **información general del producto**, orientada a proporcionar a los visitantes una comprensión clara del propósito de la plataforma y de los beneficios asociados a la reducción del consumo energético y el ahorro en costos.
+
+### 2. Funcionalidades Principales
+
+Asimismo, se documentaron las funcionalidades principales del sistema, tales como:
+
+- Monitoreo en tiempo real  
+- Generación de reportes energéticos  
+- Envío de alertas para optimizar el consumo en el hogar  
+
+### 3. Recomendaciones de Ahorro Energético
+
+Adicionalmente, se incluyó una sección de **recomendaciones de ahorro energético**, en la cual se presentan buenas prácticas para el uso eficiente de dispositivos y la mejora de hábitos de consumo.
+
+### 4. Testimonios y Casos de Éxito
+
+La documentación también contempla la incorporación de **testimonios y casos de éxito**, con el objetivo de reforzar la credibilidad del producto mediante evidencia de resultados reales obtenidos por usuarios o entidades.
+
+### 5. Planes y Precios
+
+Por otro lado, se especificó la sección de **planes y precios**, donde se detallan las distintas opciones disponibles:
+
+- Básico  
+- Pro  
+- Empresarial  
+
+Cada plan incluye sus respectivas características y beneficios asociados.
+
+### 6. ¿Cómo Funciona?
+
+De igual manera, se documentó la sección **“¿Cómo funciona?”**, la cual explica de forma clara y estructurada el flujo de uso de la plataforma, desde la creación de una cuenta hasta la obtención de reportes de consumo energético.
+
+### 7. Aspectos Técnicos y de Usabilidad
+
+Finalmente, se consideraron aspectos técnicos y de usabilidad, tales como:
+
+- Implementación de un formulario de contacto para la comunicación con el equipo de soporte  
+- Verificación del correcto funcionamiento de los componentes interactivos  
+- Adaptabilidad a dispositivos móviles (*responsive design*)  
+- Inclusión de llamadas a la acción (*CTA*) estratégicamente ubicadas en la interfaz
+  
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para el despliegue de la *landing page* del proyecto **VetCare**, se utilizó **GitHub Pages** como plataforma de publicación, permitiendo que la aplicación sea accesible de manera pública a través de la web.
+
+El proceso de despliegue fue automatizado mediante el uso de la herramienta **angular-cli-ghpages (v3.0.2)**, integrada dentro del flujo de trabajo del proyecto Angular. Para facilitar este procedimiento, se configuró un script en el archivo `package.json`, el cual permite ejecutar el despliegue mediante un único comando.
+
+El comando utilizado fue:
+
+npm run deploy
+
+A continuación, se proporciona el enlace a la *landing page* desplegada:
+
+[Landing Page](https://1asi0730-2610-17953-g3-vetcare.github.io/VetCare-Landing-Page/)
+
+![Deployment Evidence](../assets/Deploy.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
