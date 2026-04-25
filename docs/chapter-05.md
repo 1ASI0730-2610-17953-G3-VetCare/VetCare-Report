@@ -352,6 +352,14 @@ A continuación, se proporciona el enlace a la *landing page* desplegada:
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
+Durante el desarrollo del sprint, se emplearon herramientas como **WebStorm** y **Git** para facilitar la colaboración y gestión del código fuente entre los miembros del equipo.
+
+La *landing page* fue dividida en diferentes secciones, las cuales fueron asignadas de manera individual a cada integrante del equipo. Esta estrategia permitió un desarrollo paralelo, optimizando el tiempo y mejorando la productividad del grupo.
+
+Finalmente, un miembro del equipo asumió la responsabilidad de integrar todas las contribuciones, consolidando el producto final y asegurando la coherencia funcional y visual de la aplicación.
+
+![Team Collaboration Insights during Sprint1](../assets/TCSprint1.png)
+
 ## 5.3. Validation Interviews
 
 ---
