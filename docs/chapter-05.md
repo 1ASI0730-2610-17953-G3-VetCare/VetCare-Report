@@ -283,6 +283,7 @@ Primero, se mostrarán los commits más importantes para el Reporte, los cuales 
 | Nuñez Soto, Andy Arturo | 19/04/2026 | Add files via upload (Chapter 04 assets) | d54684d |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+Durante el Sprint 1 se llevaron a cabo las actividades de diseño, desarrollo e implementación de las principales secciones de la landing page. Estas secciones permiten a los usuarios obtener información clara y estructurada sobre la startup y el producto ofrecido. A continuación, se presentan las evidencias correspondientes al trabajo realizado.
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
