@@ -155,3 +155,24 @@ Dentro de este panorama, VET-Smart concentrará su fase inicial en dos segmentos
 * **Administradores de centros veterinarios**, usualmente entre 30 y 55 años, enfocados en la eficiencia operativa y financiera. La plataforma (ERP) les brindará herramientas de inteligencia de negocios, control de flujo de caja y pagos integrados mediante reportes claros, facilitando decisiones para maximizar la rentabilidad.
 
 Esta selección prioriza usuarios con una necesidad crítica de optimización y mayor disposición tecnológica. Esto permitirá una implementación ágil y generará evidencia de impacto para, en el futuro, expandirse hacia otros segmentos del mercado del cuidado animal.
+
+### 1.3.1. Definición de Segmentos (Variables Demográficas)
+
+| Variable | Segmento 1: Administrador / Dueño de Clínica | Segmento 2: Médico Veterinario Operativo |
+| :--- | :--- | :--- |
+| **Edad** | 30 a 55 años. | 24 a 45 años. |
+| **Ubicación** | Zonas urbanas de Lima Metropolitana y principales ciudades (Arequipa, Trujillo, Piura). | Clínicas veterinarias de mediano y alto flujo en zonas urbanas. |
+| **Nivel Socioeconómico** | B y C+. | B y C. |
+| **Rol en el Negocio** | Propietario o Gerente Administrativo. | Médico de staff, Cirujano o Especialista. |
+| **Intereses** | Rentabilidad, escalabilidad, control de costos y fidelización de clientes. | Diagnóstico preciso, ahorro de tiempo en registros y actualización médica. |
+| **Punto de Dolor** | Fuga de capital, falta de reportes y descontrol de stock. | Carga administrativa y lentitud en el registro de historias clínicas. |
+
+### 1.3.2. Dimensionamiento del Mercado (TAM, SAM, SOM)
+
+Para validar la rentabilidad del proyecto, hemos proyectado el alcance del mercado basado en datos del **Colegio Médico Veterinario del Perú (CMVP)**:
+
+*   **TAM (Total Addressable Market):** Se estima que existen aproximadamente **5,500 centros veterinarios** registrados legalmente a nivel nacional. Con una suscripción promedio anual de **$600 USD**, el mercado total potencial es de **$3.3M USD**.
+*   **SAM (Serviceable Addressable Market):** Apuntamos a clínicas en entornos urbanos digitalizados que cuentan con al menos 2 computadoras y conexión a internet estable, estimadas en **2,200 establecimientos** (40% del TAM). El mercado direccionable es de **$1.32M USD**.
+*   **SOM (Serviceable Obtainable Market):** Nuestra meta para los primeros 24 meses es capturar el **10% del SAM**, lo que representa **220 clínicas**. Esto generaría un ingreso anual proyectado de **$132,000 USD**.
+
+---
