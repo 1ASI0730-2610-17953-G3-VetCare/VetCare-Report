@@ -29,6 +29,7 @@
 | | Canales de <br> Distribución | Plataforma Web (SaaS) responsiva.                                                                                            | Web y aplicación móvil nativa. | Software local con servicios en la nube e interfaz web. | Multiplataforma: Web, Android e iOS. |
 
 <br>
+
 ### Análisis SWOT (FODA)
 
 | Categoría | <div align="center"><img src="../assets/vetcare_logo.png" alt="VetCare" width="40"><br>VetCare</div> | <div align="center"><img src="../assets/gvet_logo.png" alt="GVET" width="40"><br>Gvet</div> | <div align="center"><img src="../assets/qvet_logo.jpg" alt="QVET" width="40"><br>qVet</div> | <div align="center"><img src="../assets/wakyma_logo.png" alt="Wakyma" width="40"><br>Wakyma Vets</div> |
