@@ -435,8 +435,8 @@ As a developer, I want to create an endpoint that verifies if a JWT is still act
 
 A continuación se presenta el Product Backlog del proyecto. El orden ha sido determinado estrictamente por el **valor para el negocio**, priorizando la Landing Page en los primeros sprints para asegurar la presencia web y captación temprana de leads. Las historias técnicas y de seguridad (como autenticación y JWT) se han planificado estratégicamente luego de definir el core de valor de negocio, previniendo así un enfoque incorrecto de desarrollo.
 
-| Orden | ID | User Story / Technical Story | Story Points | Bounded Context |
-| :--- | :--- | :--- | :--- | :--- |
+| Orden | ID    | User Story / Technical Story | Story Points | Bounded Context |
+| :--- |:------| :--- | :--- | :--- |
 | 01 | US001 | View Value Proposition | 3 | Landing Page |
 | 02 | US002 | Select Veterinarian Segment | 3 | Landing Page |
 | 03 | US003 | Request Software Demo | 5 | Landing Page |
@@ -451,11 +451,11 @@ A continuación se presenta el Product Backlog del proyecto. El orden ha sido de
 | 12 | US012 | Record Vital Signs | 3 | Clinical Management |
 | 13 | US014 | Create Digital Prescription | 5 | Clinical Management |
 | 14 | US018 | Add Clinical Notes | 3 | Clinical Management |
-| 15 | US031 | Retrieve Patient History Endpoint | 5 | Clinical API |
+| 15 | TS001 | Retrieve Patient History Endpoint | 5 | Clinical API |
 | 16 | US020 | Send Charges to Checkout | 5 | Clinical Management |
 | 17 | US026 | Add New Inventory Product | 3 | Administrative & ERP |
 | 18 | US022 | Deduct Stock Automatically | 5 | Administrative & ERP |
-| 19 | US032 | Update Stock Quantity Endpoint | 5 | Inventory API |
+| 19 | TS002 | Update Stock Quantity Endpoint | 5 | Inventory API |
 | 20 | US021 | Perform Daily Cash Closing | 5 | Administrative & ERP |
 | 21 | US028 | Process Multi-Payment Method | 5 | Administrative & ERP |
 | 22 | US013 | View Allergy Alerts | 3 | Clinical Management |
@@ -464,16 +464,16 @@ A continuación se presenta el Product Backlog del proyecto. El orden ha sido de
 | 25 | US017 | Schedule Vaccination Reminder | 3 | Clinical Management |
 | 26 | US019 | View Medical History Timeline | 5 | Clinical Management |
 | 27 | US023 | Receive Low Stock Alert | 3 | Administrative & ERP |
-| 28 | US039 | Query Low Stock Products | 3 | Inventory API |
+| 28 | TS009 | Query Low Stock Products | 3 | Inventory API |
 | 29 | US024 | Void Billing Transaction | 3 | Administrative & ERP |
-| 30 | US038 | Soft Delete Voided Invoice | 3 | Billing API |
+| 30 | TS008 | Soft Delete Voided Invoice | 3 | Billing API |
 | 31 | US025 | Register Petty Cash Expense | 3 | Administrative & ERP |
 | 32 | US027 | Apply Client Discount | 3 | Administrative & ERP |
 | 33 | US029 | Generate Monthly Sales Report | 5 | Administrative & ERP |
 | 34 | US030 | Calculate Doctor Commissions | 5 | Administrative & ERP |
-| 35 | US034 | Create Consultation Transaction | 5 | Clinical API |
-| 36 | US035 | Create New Appointment Endpoint | 5 | Scheduling API |
-| 37 | US036 | Dashboard Metrics Aggregation | 5 | Reporting API |
-| 38 | US037 | User Login & Token Generation | 5 | IAM / Security |
-| 39 | US033 | Validate JWT Authentication | 5 | IAM / Security |
-| 40 | US040 | Validate Token Endpoint | 3 | IAM / Security |
+| 35 | TS004 | Create Consultation Transaction | 5 | Clinical API |
+| 36 | TS005 | Create New Appointment Endpoint | 5 | Scheduling API |
+| 37 | TS006 | Dashboard Metrics Aggregation | 5 | Reporting API |
+| 38 | TS007 | User Login & Token Generation | 5 | IAM / Security |
+| 39 | TS003 | Validate JWT Authentication | 5 | IAM / Security |
+| 40 | TS010 | Validate Token Endpoint | 3 | IAM / Security |
