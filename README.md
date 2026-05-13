@@ -13,7 +13,7 @@
 
   <br>
 
-  <h2>Informe de Trabajo Final</h2>
+  <h2>Informe de Trabajo Parcial</h2>
   <h2>Nombre del startup: VET-Smart</h2>
   <h2>Nombre del producto: VetCare</h2>
 
@@ -46,6 +46,11 @@
 | 1.3 | 16/04/2026 | Romero Vilela, Dario Alberto | Completado el Capítulo 3. |
 | 1.4 | 18/04/2026 | Nuñez Soto, Andy Arturo | Completado el Capítulo 4. |
 | 1.5 | 23/04/2026 | Sejuro Medina, Mario Gabriel | Completado el Capítulo 5. |
+| 1.6 | 10/05/2026 | Nuñez Soto, Andy Arturo | Implementación del módulo de alertas de alergia (US013) y bloqueo de registro clínico (US015) en el frontend. |
+| 1.7 | 10/05/2026 | Sanchez Benavente, Leonardo Matias | Implementación del módulo de triaje con registro de signos vitales (US012) en el frontend. |
+| 1.8 | 11/05/2026 | Roman Zevallos, Sebastian Jared | Implementación del módulo de notas clínicas (US018) en el frontend. |
+| 1.9 | 11/05/2026 | Romero Vilela, Dario Alberto | Implementación del módulo de prescripciones digitales (US014) en el frontend. |
+| 2.0 | 12/05/2026 | Sejuro Medina, Mario Gabriel | Implementación del módulo de adjuntar resultados de laboratorio (US016) en el frontend. |
 
 <br>
 
