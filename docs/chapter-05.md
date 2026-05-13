@@ -470,6 +470,7 @@ El despliegue de la aplicación web frontend se realizó utilizando **Netlify**,
 
 <img src="../assets/deploy_image.png" alt="Deploy"/>
 
+![Deployment Evidence](../assets/deploy-evidence.jpeg)
 **URL de la Web App:** vtcare.netlify.app
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
