@@ -358,6 +358,127 @@ Finalmente, un miembro del equipo asumió la responsabilidad de integrar todas l
 
 ![Team Collaboration Insights during Sprint1](../assets/TCSprint1.png)
 
+### 5.2.2. Sprint 2
+
+La segunda iteración representa un avance estratégico en el desarrollo de **Vetalis**. Durante este periodo, el equipo enfocó su capacidad operativa en la construcción y despliegue de la aplicación web frontend, priorizando las interfaces de gestión clínica y la arquitectura basada en componentes de **Angular**. Este proceso consistió en traducir los requisitos de experiencia de usuario en componentes visuales operativos, expandiendo los cimientos funcionales hacia una solución interactiva.
+
+#### 5.2.2.1. Sprint Planning 2
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | Sesión de planificación enfocada en la configuración y desarrollo del frontend, asignando tareas para los módulos clínicos. |
+| **Date** | 2026-05-11 |
+| **Time** | 05:00 PM |
+| **Location** | Google Meet (Reunión virtual) |
+| **Prepared By** | Nuñez Soto, Andy Arturo |
+| **Attendees** | Nuñez Soto, Andy Arturo / Roman Zevallos, Sebastian Jared / Romero Vilela, Dario Alberto / Sanchez Benavente, Leonardo Matias / Sejuro Medina, Mario Gabriel |
+| **Sprint 1 Review Summary** | Se logró implementar y desplegar con éxito la Landing Page estática. Se validó la presentación de la propuesta de valor y planes ante el Product Owner. |
+| **Sprint 1 Retrospective Summary** | Se identificó que la comunicación vía GitFlow fue fluida, pero se acordó mejorar la estimación de tiempos en diseño responsivo. |
+| **Sprint Goal** | Desplegar el frontend de gestión clínica para facilitar el manejo de triajes e historiales médicos mediante una aplicación interactiva en Angular. |
+| **Sprint 2 Velocity** | 34 |
+| **Sum of Story Points** | 34 |
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante la ejecución de la segunda iteración, el equipo focalizó sus capacidades en el desarrollo y estructuración de la aplicación web frontend, abordando los requerimientos priorizados dentro del **Epic 2: Clinical Management - EHR (Veterinarian)**. La finalidad de este ciclo fue consolidar las interfaces operativas de la plataforma y habilitar los módulos interactivos para optimizar el flujo de trabajo de los profesionales veterinarios.
+
+| Team Member (Last Name, First Name) | GitHub Username | Configuración y Despliegue Frontend Leader (L) / Collaborator (C) | Módulo de Búsqueda y Alertas Leader (L) / Collaborator (C) | Módulo de Historial y Recetas Leader (L) / Collaborator (C) | Módulo de Triaje Leader (L) / Collaborator (C) |
+| :--- |:----------------| :---: | :---: | :---: | :---: |
+| Nuñez Soto, Andy Arturo | arturo-ns       | L | C | C | C |
+| Roman Zevallos, Sebastian Jared | Chebas19        | C | C | L | C |
+| Romero Vilela, Dario Alberto | patatitis9-alt  | C | C | L | C |
+| Sanchez Benavente, Leonardo Matias | Matiassb06      | C | C | C | L |
+| Sejuro Medina, Mario Gabriel | maghetthi       | C | L | C | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+
+| User Story / Task Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :---: | :--- | :---: |
+| **WK07** | Configuración y Despliegue del Frontend | Configuración del entorno de desarrollo en Angular y despliegue de la aplicación en GitHub Pages para generar la URL pública. | 5 | Todos los miembros | Done |
+| **US012** | Record Vital Signs | Implementación del formulario para el registro de peso y temperatura durante el proceso de triaje médico. | 5 | Sanchez Benavente, Leonardo Matias | Done |
+| **US013** | View Allergy Alerts | Implementación visual de banners de alta prioridad en la vista del historial clínico para notificar alergias críticas. | 4 | Nuñez Soto, Andy Arturo | Done |
+| **US014** | Create Digital Prescription | Desarrollo del módulo de recetas médicas para la generación de prescripciones digitales estandarizadas. | 8 | Romero Vilela, Dario Alberto | Done |
+| **US015** | Lock Clinical Record | Implementación de la función para restringir la edición de registros una vez finalizada la consulta, garantizando integridad legal. | 4 | Nuñez Soto, Andy Arturo | Done |
+| **US016** | Attach Lab Results | Desarrollo de la funcionalidad para cargar y previsualizar archivos PDF o imágenes de resultados de laboratorio. | 7 | Sejuro Medina, Mario Gabriel | Done |
+| **US018** | Add Clinical Notes | Implementación de campos de texto libre para detallar síntomas específicos y observaciones durante el examen físico. | 4 | Roman Zevallos, Sebastian Jared | Done |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+A continuación, se detallan los commits más significativos realizados en el repositorio de la Web Application durante el Sprint 2, los cuales evidencian la implementación de las historias de usuario del Epic 2 y la configuración inicial del proyecto.
+
+| Repository | Branch | Commit ID | Commit Message | Author |
+| :--- | :---: | :---: | :--- | :--- |
+| VetCare-Frontend | main | 721be78 | feature(main): Add US14 | Chebas19 |
+| VetCare-Frontend | main | 7976bac | feature(main): Add US16 | blackdollie |
+| VetCare-Frontend | main | 314c04a | feature(main): Add US012 | Matiassb06 |
+| VetCare-Frontend | main | 2ad0864 | feature(main): Add US018 | Matiassb06 |
+| VetCare-Frontend | main | bf8edf8 | feature(main): Add US013 US015 US023 | Matiassb06 |
+| VetCare-Frontend | main | 1cc6dab | Delete server/update_db.js | arturo-ns |
+| VetCare-Frontend | main | 393039e | Initial commit: VetCare frontend | arturo-ns |
+
+**Evidencia de Repositorio:**
+
+<img src="../assets/evidencia_repositorio.png" alt="Evidencia Commits"/>
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante este segundo Sprint, el equipo completó la implementación de los módulos interactivos de gestión clínica en la Web App. A continuación, se presenta la evidencia visual de las funcionalidades operativas que permiten al veterinario gestionar la consulta de manera digital:
+
+<img src="../assets/frontend_1.png" alt="Frontend 1"/>
+<img src="../assets/frontend_2.png" alt="Frontend 2"/>
+<img src="../assets/frontend_3.png" alt="Frontend 3"/>
+<img src="../assets/frontend_4.png" alt="Frontend 4"/>
+<img src="../assets/frontend_5.png" alt="Frontend 5"/>
+<img src="../assets/frontend_6.png" alt="Frontend 6"/>
+<img src="../assets/frontend_7.png" alt="Frontend 7"/>
+<img src="../assets/frontend_8.png" alt="Frontend 8"/>
+<img src="../assets/frontend_9.png" alt="Frontend 9"/>
+<img src="../assets/frontend_10.png" alt="Frontend 10"/>
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, se documentaron los servicios y componentes clave que permiten la interactividad de la Web Application. A diferencia de la Landing Page, este desarrollo se centró en la lógica de negocio para la gestión de pacientes y la integridad de los datos médicos.
+
+**1. Módulo de Triaje y Signos Vitales (US012):**
+Se implementó un servicio centralizado para la captura de constantes fisiológicas. El sistema permite el ingreso de datos numéricos (peso en kg y temperatura en °C), validando que los rangos sean consistentes con la especie del paciente antes de su almacenamiento.
+
+**2. Sistema de Alertas de Seguridad (US013):**
+Se diseñó un servicio de notificaciones prioritarias que consulta el perfil del paciente al cargar la historia clínica. Si existen registros de alergias (ej. Penicilina), el sistema dispara un componente visual de advertencia inamovible en la cabecera de la interfaz.
+
+**3. Servicio de Prescripción Digital (US014):**
+Se desarrolló un generador de formularios para recetas médicas que permite estandarizar la dosificación y las instrucciones de uso. Este servicio está vinculado al ID de la consulta actual para mantener la trazabilidad del tratamiento.
+
+**4. Gestión de Documentos y Resultados (US016):**
+Se integró un módulo de manejo de archivos que permite la asociación de resultados de laboratorio (PDF/JPG) directamente al historial del paciente, facilitando la consulta centralizada de diagnósticos externos.
+
+**5. Control de Notas y Cierre de Consulta (US018, US015):**
+Se documentó la lógica de persistencia para las notas de anamnesis. Asimismo, se implementó el servicio de "bloqueo de registro" que, una vez finalizada la atención, cambia el estado de la consulta a solo lectura para cumplir con los estándares de integridad legal de la historia clínica.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+El despliegue de la aplicación web frontend se realizó utilizando **Netlify**, una plataforma de computación en la nube que ofrece servicios de alojamiento y backend para aplicaciones web estáticas y dinámicas. Se seleccionó esta herramienta por su capacidad de despliegue continuo (Continuous Deployment), permitiendo que cada actualización en el repositorio de la organización Animatik se refleje automáticamente en la URL de producción.
+
+**Configuración del despliegue:**
+* **Plataforma:** Netlify, uso de Swagger.
+* **Rama de despliegue:** `main`.
+* **Proceso:** Build automático mediante el comando `ng build` configurado en la plataforma.
+* **Estado:** Operativo.
+
+<img src="../assets/deploy_image.png" alt="Deploy"/>
+
+**URL de la Web App:** vtcare.netlify.app
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, la colaboración se centró en la transición hacia una arquitectura escalable en Angular. El equipo utilizó **Trello** para el seguimiento de las User Stories (12, 13, 14, 15, 16 y 18) y **GitFlow** para gestionar las contribuciones al código.
+
+**Contribuciones al desarrollo del Frontend:**
+<img src="../assets/Commits_image.png" alt="Commits"/>
+
 ## 5.3. Validation Interviews
 
 ---
