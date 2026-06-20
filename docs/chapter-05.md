@@ -644,55 +644,57 @@ Para cada uno de los dos segmentos objetivo (Médicos Veterinarios y Administrad
 
 A continuación, se documentan las sesiones de validación realizadas para cada segmento objetivo. Cada entrevista fue grabada en video y consolidada en el video de evidencia de entrevistas correspondiente a este Sprint, indicado en el Anexo "Videos de Exposiciones" de este informe.
 
-**Segmento 1: Médicos veterinarios en clínicas de mediano a alto flujo**
+**Segmento 1: Médico Veterinario**
 
 Entrevista N°1
 
-● Nombre: Diego Lavado
+● Nombre: Luis Matías Gamero Miranda
 
 ● Sexo: Masculino
 
-● Edad: 28
+● Edad: 21
 
-● Distrito: Surco
-
-● Labor: Practicante de Veterinaria
+● Labor: Asistente de Médico Veterinario
 
 Detalles de la entrevista:
 
-● Duración: 04:12
+● Duración: 03:31
 
-● URL: [Pendiente de carga en Microsoft Stream]
+● URL: https://drive.google.com/file/d/1S28zYvt2MLrwdFxsgoW5bWsgf_Znoc78/view?usp=sharing
 
-<div align="center"><img src="../assets/validation_entrevista1_segmento1.png" width="100%"><br></div>
+<div align="center"><img src="../assets/entrevist1-segmento1.png"  width="100%"><br></div>
+
 Resumen de los puntos clave en la entrevista:
 
-Diego recorrió el flujo completo de búsqueda de paciente y registro de triaje sobre el Frontend desplegado en Netlify. Valoró positivamente que el formulario de signos vitales validara automáticamente los rangos numéricos ingresados, señalando que esto reduce el riesgo de errores de digitación que antes cometía en Excel. Indicó que la alerta de alergia se distingue con claridad gracias al color rojo y a su ubicación fija en la parte superior de la pantalla, aunque sugirió que el texto de la alerta podría ser más específico (nombre exacto del alérgeno). Finalmente, destacó que la generación de la receta digital fue más rápida que su proceso actual en papel, validando la hipótesis de reducción de tiempo administrativo planteada en el Lean UX Process del Capítulo I.
+La entrevista evalúa el uso de la plataforma desde la perspectiva de un asistente de médico veterinario. El entrevistado destaca la rapidez y limpieza visual del sistema desde el inicio de sesión, el cual toma solo un par de segundos. La búsqueda de pacientes es muy precisa, permitiendo filtrar de manera eficiente tanto por el nombre de la mascota como por el apellido del dueño. Resalta que el registro del triaje guarda las constantes vitales (peso, temperatura, frecuencia cardíaca) al instante y se refleja inmediatamente en la ficha del paciente. El historial clínico carga de forma fluida y estructurada, mostrando la cronología de consultas previas sin las demoras o pantallas en blanco que suelen tener otros programas. Además, considera que el módulo de recetas digitales es muy amigable gracias al buscador integrado de medicamentos, y enfatiza que el banner de alertas visuales de alergias en color rojo es imposible de pasar por alto, lo cual es vital para la seguridad del paciente antes de recetar. En términos generales, concluye que la plataforma reduce drásticamente el papeleo digital, lo que le permite concentrarse más en la atención del paciente y menos en lidiar con el software.
  
 ---
 
+**Segmento 1: Médico Veterinario**
+
 Entrevista N°2
 
-● Nombre: Adrian Cerdan
+● Nombre: Anghelo Faustino
 
 ● Sexo: Masculino
 
-● Edad: 30
+● Edad: 23
 
-● Distrito: La Molina
-
-● Labor: Practicante de Veterinaria
+● Labor: Médico Veterinario
 
 Detalles de la entrevista:
 
-● Duración: 03:48
+● Duración: 03:28
 
-● URL: [Pendiente de carga en Microsoft Stream]
+● URL: https://drive.google.com/file/d/1LFs0zrtwF89BY_IDh0h3BzqmrpHI6ieY/view?usp=sharing
 
-<div align="center"><img src="../assets/validation_entrevista2_segmento1.png" width="100%"><br></div>
+<div align="center"><img src="../assets/entrevist2-segmento1.png"  width="100%"><br></div>
+
 Resumen de los puntos clave en la entrevista:
 
-Adrián evaluó el módulo de historial clínico, destacando que la línea de tiempo de consultas pasadas le permite entender rápidamente la evolución de un paciente crónico sin tener que revisar carpetas físicas. Sin embargo, notó que, al tratarse de datos de prueba (mock data) en esta etapa del proyecto, algunas fechas no reflejaban un orden cronológico completamente realista, lo cual atribuyó correctamente a que el Backend aún no estaba conectado en el momento de la sesión. Confirmó que la interfaz de carga de resultados de laboratorio es intuitiva y que el límite de tamaño de archivo (10MB) le parece razonable para los estudios que maneja habitualmente.
+La entrevista evalúa el uso de la plataforma desde la perspectiva de un profesional veterinario. Anghelo destaca que el inicio de sesión es directo y con un diseño limpio, lo cual agiliza el acceso durante las consultas recurrentes. Resalta que el buscador de pacientes con autocompletado e indexación funciona de manera excelente, aproximando los resultados correctos incluso con errores de tipeo, lo que facilita el trabajo en situaciones de alto flujo. Menciona que el registro de triaje persiste correctamente los datos y los actualiza de inmediato en la cola de atención del consultorio sin tener que recargar la página.
+
+Sobre el historial clínico, valora la excelente disposición visual de la línea de tiempo para entender rápidamente los antecedentes de la mascota, sin experimentar demoras ni problemas en la carga de la información. Considera que el módulo de recetas es muy lógico, destacando la automatización para añadir la firma y los datos del veterinario colegiado directamente en el documento final. Finalmente, enfatiza que las alertas de alergias cumplen su función preventiva al ser sumamente llamativas y ubicarse estratégicamente, concluyendo que el sistema moderniza la carga operativa diaria al sincronizar la información y evitar la doble transcripción manual de los datos.
  
 ---
 
