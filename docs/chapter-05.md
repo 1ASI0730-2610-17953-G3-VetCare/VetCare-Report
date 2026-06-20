@@ -554,7 +554,7 @@ A continuación, se detallan los commits más significativos realizados en el re
 **Evidencia de Repositorio:**
 
 <img src="../assets/evidencia_repositorio_backend.png" alt="Evidencia Commits Backend"/>
-**Nota:** Al cierre de este Sprint, el repositorio `VetCare-Backend` (https://github.com/1ASI0730-2610-17953-G3-VetCare/VetCare-Backend) contiene la totalidad de los Bounded Contexts del dominio (`iam`, `clinicManagement`, `backoffice`, `scheduling`, `dashboard`, `profile`, `communication`, `shared`) y los archivos de configuración para contenedorización (`Dockerfile`, `.dockerignore`), trabajados de forma local por el equipo y consolidados sobre la rama `main` previo a su despliegue en la nube.
+**NOTA:** Al cierre de este Sprint, el repositorio `VetCare-Backend` (https://github.com/1ASI0730-2610-17953-G3-VetCare/VetCare-Backend) contiene la totalidad de los Bounded Contexts del dominio (`iam`, `clinicManagement`, `backoffice`, `scheduling`, `dashboard`, `profile`, `communication`, `shared`) y los archivos de configuración para contenedorización (`Dockerfile`, `.dockerignore`), trabajados de forma local por el equipo y consolidados sobre la rama `main` previo a su despliegue en la nube.
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
 
