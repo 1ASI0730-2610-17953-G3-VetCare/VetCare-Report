@@ -585,7 +585,9 @@ Durante el Sprint 3, se documentaron los diez endpoints del RESTful API mediante
 
 <img src="../assets/swagger_ui_1.png" alt="Swagger UI - Listado de Endpoints"/>
 <img src="../assets/swagger_ui_2.png" alt="Swagger UI - Ejemplo de Request y Response"/>
+
 **Repositorio del RESTful API:** https://github.com/1ASI0730-2610-17953-G3-VetCare/VetCare-Backend
+
 **Swaggerr UI:** https://vetcare-backend-x0tf.onrender.com/swagger/index.html
 
 **Commits de documentación relacionados:** `33f8c47` (docs: configure Swagger/OpenAPI for all implemented endpoints)
