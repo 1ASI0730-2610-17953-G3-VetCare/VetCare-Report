@@ -554,18 +554,13 @@ A continuación, se detallan los commits más significativos realizados en el re
 **Evidencia de Repositorio:**
 
 <img src="../assets/evidencia_repositorio_backend.png" alt="Evidencia Commits Backend"/>
-> **Nota:** Al cierre de este Sprint, el repositorio `VetCare-Backend` (https://github.com/1ASI0730-2610-17953-G3-VetCare/VetCare-Backend) contiene la totalidad de los Bounded Contexts del dominio (`iam`, `clinicManagement`, `backoffice`, `scheduling`, `dashboard`, `profile`, `communication`, `shared`) y los archivos de configuración para contenedorización (`Dockerfile`, `.dockerignore`), trabajados de forma local por el equipo y consolidados sobre la rama `main` previo a su despliegue en la nube.
+**Nota:** Al cierre de este Sprint, el repositorio `VetCare-Backend` (https://github.com/1ASI0730-2610-17953-G3-VetCare/VetCare-Backend) contiene la totalidad de los Bounded Contexts del dominio (`iam`, `clinicManagement`, `backoffice`, `scheduling`, `dashboard`, `profile`, `communication`, `shared`) y los archivos de configuración para contenedorización (`Dockerfile`, `.dockerignore`), trabajados de forma local por el equipo y consolidados sobre la rama `main` previo a su despliegue en la nube.
 
-#### 5.2.3.5. Execution Evidence for Sprint Review
+### 5.2.3.5. Execution Evidence for Sprint Review
 
-Durante este Sprint, el equipo verificó el funcionamiento de los diez endpoints implementados mediante pruebas manuales mediante Postman, contrastando las respuestas del API contra los escenarios Gherkin definidos en las Technical Stories del Capítulo III. A continuación, se presenta la evidencia visual de las pruebas de ejecución sobre el entorno local:
+Durante este Sprint, el equipo verificó el funcionamiento de los diez endpoints implementados mediante pruebas manuales mediante Postman, contrastando las respuestas del API contra los escenarios Gherkin definidos en las Technical Stories del Capítulo III.
 
-<img src="../assets/backend_1.png" alt="Backend 1 - Login y generación de token"/>
-<img src="../assets/backend_2.png" alt="Backend 2 - Historial clínico"/>
-<img src="../assets/backend_3.png" alt="Backend 3 - Transacción de consulta"/>
-<img src="../assets/backend_4.png" alt="Backend 4 - Actualización de inventario"/>
-<img src="../assets/backend_5.png" alt="Backend 5 - Dashboard de métricas"/>
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 3, se documentaron los diez endpoints del RESTful API mediante **Swagger/OpenAPI**, integrado de forma nativa en el proyecto ASP.NET Core. A continuación, se detalla la relación de Endpoints documentados, agrupados por Bounded Context.
 
@@ -584,7 +579,6 @@ Durante el Sprint 3, se documentaron los diez endpoints del RESTful API mediante
 **Evidencia de la interacción con Swagger UI:**
 
 <img src="../assets/swagger_ui_1.png" alt="Swagger UI - Listado de Endpoints"/>
-<img src="../assets/swagger_ui_2.png" alt="Swagger UI - Ejemplo de Request y Response"/>
 
 **Repositorio del RESTful API:** https://github.com/1ASI0730-2610-17953-G3-VetCare/VetCare-Backend
 
@@ -603,8 +597,7 @@ Como parte de la preparación para un despliegue posterior, se realizaron las si
 * **Verificación local:** Se validó que la imagen Docker construida localmente expone correctamente los diez endpoints documentados en Swagger, confirmando que el servicio está listo para una migración a un entorno administrado (Azure App Service / Azure Container Apps).
   **Estado:** Backend completo y funcional en entorno local y contenedorizado vía Docker. Despliegue en la nube planificado para el Sprint 4 (TB2), una vez completada la integración del Frontend con los endpoints reales.
 
-<img src="../assets/docker_build_backend.png" alt="Build de la imagen Docker del Backend"/>
-#### 5.2.3.8. Team Collaboration Insights during Sprint
+### 5.2.3.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 3, la colaboración del equipo se organizó por Bounded Context, asignando un líder técnico responsable de cada módulo del RESTful API (ver sección 5.2.3.2). Se utilizó **Trello** para el seguimiento de las Technical Stories (TS001 a TS010) y **GitFlow** para gestionar las contribuciones al repositorio `VetCare-Backend`, manteniendo ramas `feature/` independientes por endpoint antes de su integración a `main`.
 
