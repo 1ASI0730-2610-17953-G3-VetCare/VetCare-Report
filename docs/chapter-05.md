@@ -478,7 +478,7 @@ El despliegue de la aplicación web frontend se realizó utilizando **Netlify**,
 Durante el Sprint 2, la colaboración se centró en la transición hacia una arquitectura escalable en Angular. El equipo utilizó **Trello** para el seguimiento de las User Stories (12, 13, 14, 15, 16 y 18) y **GitFlow** para gestionar las contribuciones al código.
 
 **Contribuciones al desarrollo del Frontend:**
-<img src="../assets/Commits_image.png" alt="Commits_backend" width="1000" height="500"/>/>
+<img src="../assets/Commits_image.png" alt="Commits_back" width="1000" height="500"/>/>
 
 ### 5.2.3. Sprint 3
 
@@ -604,7 +604,7 @@ Durante el Sprint 3, la colaboración del equipo se organizó por Bounded Contex
 Todos los miembros del equipo tuvieron participación activa en la implementación del Backend, distribuyendo equitativamente la carga de trabajo entre los cuatro grandes bloques funcionales (IAM/Security, Clinical API, Inventory & Billing API, Scheduling & Reporting API).
 
 **Contribuciones al desarrollo del Backend:**
-<img src="../assets/Commits_image.png" alt="Commits_backend" width="1000" height="500"/>/>
+<img src="../assets/Commits_image.png" alt="Commits_back" width="1000" height="500"/>/>
 
 ## 5.3. Validation Interviews
  
