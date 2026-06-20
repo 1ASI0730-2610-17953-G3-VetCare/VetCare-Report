@@ -696,55 +696,54 @@ Sobre el historial clínico, valora la excelente disposición visual de la líne
  
 ---
 
-**Segmento 2: Administradores de centros veterinarios**
+*Segmento 2: Administradores de centros veterinarios*
 
-Entrevista N°3
+Entrevista N°1
 
-● Nombre: Eduardo Aguirre
+● Nombre: Ángel
+● Sexo: Masculino
+● Edad: 25
+● Estado Civil: No especificado
+● Labor: Administrador de Veterinaria
+
+Detalles de la entrevista:
+● Duración: 3:16 min
+● URL: https://drive.google.com/drive/folders/10VP5Tw78AokVTs9uspZML6ruvbSFfPgs?usp=sharing
+
+<img src="../assets/entrevista_Angel.png" alt="Commits_back"/>
+
+Resumen de los puntos clave en la entrevista:
+La evaluación de la plataforma por parte de Ángel se centra en la eficiencia operativa y el procesamiento de datos. Destaca la alta velocidad de carga del panel de control principal, señalando que la visualización inmediata de los indicadores clave de rendimiento (KPIs) supera la latencia habitual de otros sistemas del mercado. En la gestión de la agenda, resalta el impacto de la sincronización en tiempo real y la exactitud de la información, elementos que eliminan por completo el solapamiento de horarios o la duplicación de citas. Asimismo, indica que el sistema de etiquetado visual facilita la supervisión del flujo de trabajo en recepción, permitiendo identificar al instante posibles cuellos de botella en la admisión de pacientes.
+
+Durante la navegación por los módulos financieros y de almacén, enfatiza la capacidad de la plataforma para resolver consultas complejas (como la correlación entre facturación mensual y costos de existencias) de forma ágil y sin caídas de rendimiento. Valora las alertas automáticas de inventario por detallar con precisión las unidades remanentes y los puntos de reorden, optimizando la gestión de compras y reduciendo el error humano. Finalmente, pondera la estructura del módulo de tesorería para simplificar el balance diario, agilizando las auditorías de cierre nocturno y las conciliaciones bancarias. Concluye que la centralización de la información suprime la dependencia de reportes manuales por área, entregando datos en tiempo real sobre la rentabilidad de los servicios y la rotación de insumos para la toma de decisiones estratégicas.
+
+---
+
+Entrevista N°2
+
+● Nombre: Becker
 
 ● Sexo: Masculino
 
-● Edad: 26
+● Edad: 22
 
-● Distrito: San Borja
+● Estado Civil: No especificado
 
 ● Labor: Administrador de Veterinaria
 
 Detalles de la entrevista:
 
-● Duración: 05:02
+● Duración: 03:22
 
-● URL: [Pendiente de carga en Microsoft Stream]
+● URL: https://drive.google.com/file/d/1532zH9McjCue69rOXcx0SnPynALhWvb4/view?usp=sharing
 
-<div align="center"><img src="../assets/validation_entrevista1_segmento2.png" width="100%"><br></div>
+<img src="../assets/entrevista_becker.png" alt="Commits_back"/>
+
 Resumen de los puntos clave en la entrevista:
 
-Eduardo navegó por la Landing Page antes de ingresar al Frontend, valorando positivamente la sección de planes y precios por su claridad comparativa frente a la competencia analizada en el Capítulo II. Al revisar las alertas de stock mínimo en el dashboard, mencionó que esta funcionalidad responde directamente al problema de quiebres de inventario que describió en su entrevista de Needfinding. Sugirió que, una vez integrado el Backend, las alertas deberían poder filtrarse por proveedor para agilizar el proceso de reposición.
- 
----
+La entrevista evalúa la plataforma desde la perspectiva administrativa. Becker destaca la carga inicial limpia y fluida del dashboard, valorando especialmente que los indicadores clave de rendimiento (KPIs) se renderizan sin las demoras que suelen presentar otros sistemas. En cuanto a la agenda de citas, resalta la precisión de los datos y la sincronización en tiempo real, lo que evita por completo el cruce de horarios o la duplicación de citas. Además, considera que las etiquetas visuales de estado son sumamente intuitivas para supervisar si el área de recepción está gestionando y confirmando correctamente a los pacientes o si existen cuellos de botella.
 
-Entrevista N°4
-
-● Nombre: Luciana Cristobal
-
-● Sexo: Femenino
-
-● Edad: 24
-
-● Distrito: Miraflores
-
-● Labor: Administradora de Veterinaria
-
-Detalles de la entrevista:
-
-● Duración: 04:35
-
-● URL: [Pendiente de carga en Microsoft Stream]
-
-<div align="center"><img src="../assets/validation_entrevista2_segmento2.png" width="100%"><br></div>
-Resumen de los puntos clave en la entrevista:
-
-Luciana destacó la facilidad para adjuntar documentos al historial clínico desde la vista administrativa, y consideró que el diseño visual (paleta de azules y cian) transmite la sensación de profesionalismo y limpieza que ella busca para la imagen de su clínica frente a sus clientes. Como punto de mejora, solicitó que el dashboard incluyera, a futuro, una proyección de ingresos mensuales y no solo el resumen del día, lo cual el equipo registró como una posible historia de usuario adicional para iteraciones futuras del Product Backlog.
+Al navegar por los reportes financieros y de inventario, menciona que el sistema mantiene un comportamiento óptimo y es capaz de procesar consultas complejas (como cruzar ventas mensuales versus costos de inventario) organizando los datos de forma inmediata y sin cuelgues. Destaca que las alertas de stock mínimo son muy oportunas e indican exactamente las unidades restantes y el punto de reorden, lo que automatiza la auditoría de almacén y reduce el error humano en los pedidos. Valora también el diseño ordenado de la sección de tesorería, que simplifica el cuadre de ingresos y egresos en pantalla, facilitando las auditorías nocturnas de caja y la conciliación bancaria. Finalmente, concluye que la confiabilidad y centralización de los datos elimina la necesidad de solicitar reportes manuales a cada área, permitiéndole identificar al instante los servicios más rentables y los insumos de baja rotación para tomar decisiones comerciales estratégicas basadas en datos reales.
 
 ### 5.3.3. Evaluaciones según heurísticas
 
