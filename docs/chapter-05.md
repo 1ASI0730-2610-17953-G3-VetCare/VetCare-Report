@@ -480,29 +480,353 @@ Durante el Sprint 2, la colaboración se centró en la transición hacia una arq
 **Contribuciones al desarrollo del Frontend:**
 <img src="../assets/Commits_image.png" alt="Commits"/>
 
-## 5.3. Validation Interviews
+### 5.2.3. Sprint 3
 
+La tercera iteración representa el salto hacia la capa de servicios del proyecto **VetCare**. Tras consolidar la Landing Page (Sprint 1) y el Frontend de gestión clínica (Sprint 2), el equipo concentró sus esfuerzos en la construcción del **RESTful API** sobre **ASP.NET Core (C#)**, abordando el **Epic 4: Technical Stories (Developer / RESTful APIs)**. Este Sprint sienta las bases de la arquitectura de servicios que sostendrá la lógica de negocio de los módulos clínico y administrativo, organizada por Bounded Context (`iam`, `clinicManagement`, `backoffice`, `scheduling`, `dashboard`, `profile`, `communication`).
+
+#### 5.2.3.1. Sprint Planning 3
+
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+| **Sprint Planning Background** | Sesión de planificación enfocada en la transición del equipo hacia el desarrollo del lado del servidor, priorizando la disponibilidad de endpoints que sostengan la operatividad ya construida en el Frontend. |
+| **Date** | 2026-06-08 |
+| **Time** | 06:00 PM |
+| **Location** | Google Meet (Reunión virtual) |
+| **Prepared By** | Roman Zevallos, Sebastian Jared |
+| **Attendees** | Nuñez Soto, Andy Arturo / Roman Zevallos, Sebastian Jared / Romero Vilela, Dario Alberto / Sanchez Benavente, Leonardo Matias / Sejuro Medina, Mario Gabriel |
+| **Sprint 2 Review Summary** | Se completó y desplegó en Netlify la totalidad de los módulos clínicos del Frontend (triaje, alertas de alergia, recetas digitales, notas clínicas, adjuntos de laboratorio y bloqueo de registro), validados ante el Product Owner mediante datos simulados (mock data). |
+| **Sprint 2 Retrospective Summary** | El equipo identificó que el Frontend había avanzado más rápido que el Backend, generando dependencia de datos de prueba estáticos. Se acordó priorizar el desarrollo del RESTful API en el siguiente ciclo para habilitar la integración real. |
+| **Sprint Goal** | Our focus is on building the RESTful API that supports authentication, clinical records, and inventory management. We believe it delivers a functional and consistent data layer to the Frontend development team. This will be confirmed when the ten planned endpoints are implemented, documented with OpenAPI, and ready for integration testing. |
+| **Sprint 3 Velocity** | 45 |
+| **Sum of Story Points** | 45 |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+Durante la tercera iteración, el equipo organizó su trabajo en torno a los distintos Bounded Contexts del RESTful API, agrupando las Technical Stories (TS001-TS010) del Product Backlog según el módulo de negocio al que dan soporte: Identity & Access Management (IAM), Clinical API, Inventory & Billing API, y Scheduling & Reporting API.
+
+| Team Member (Last Name, First Name) | GitHub Username | IAM / Security Leader (L) / Collaborator (C) | Clinical API Leader (L) / Collaborator (C) | Inventory & Billing API Leader (L) / Collaborator (C) | Scheduling & Reporting API Leader (L) / Collaborator (C) |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| Nuñez Soto, Andy Arturo | arturo-ns | L | C | C | C |
+| Roman Zevallos, Sebastian Jared | Chebas19 | C | L | C | C |
+| Romero Vilela, Dario Alberto | patatitis9-alt | C | C | L | C |
+| Sanchez Benavente, Leonardo Matias | Matiassb06 | C | C | C | L |
+| Sejuro Medina, Mario Gabriel | maghetthi | C | C | L | C |
+
+#### 5.2.3.3. Sprint Backlog 3
+
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+
+| User Story / Task Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :---: | :--- | :---: |
+| **WK08** | Backend Project Scaffolding | Configuración del proyecto ASP.NET Core, organización de carpetas por Bounded Context (iam, clinicManagement, backoffice, scheduling, dashboard, profile, communication, shared) y conexión inicial a base de datos mediante Entity Framework Core. | 6 | Todos los miembros | Done |
+| **TS007** | User Login & Token Generation | Implementación del endpoint POST /api/v1/auth/login para verificar credenciales y emitir un JWT firmado. | 6 | Nuñez Soto, Andy Arturo | Done |
+| **TS003** | Validate JWT Authentication | Implementación del middleware de autenticación JWT aplicado a todas las rutas protegidas del API. | 5 | Nuñez Soto, Andy Arturo | Done |
+| **TS010** | Validate Token Endpoint | Implementación del endpoint GET /api/v1/auth/verify para validar la vigencia del token y persistir la sesión del usuario en el Frontend. | 4 | Nuñez Soto, Andy Arturo | Done |
+| **TS001** | Retrieve Patient History Endpoint | Implementación del endpoint GET /api/v1/patients/{id}/history para recuperar el historial clínico de un paciente. | 6 | Roman Zevallos, Sebastian Jared | Done |
+| **TS004** | Create Consultation Transaction | Implementación de la creación de consultas con descuento de stock dentro de una transacción única, garantizando rollback ante fallos. | 7 | Roman Zevallos, Sebastian Jared | Done |
+| **TS002** | Update Stock Quantity Endpoint | Implementación del endpoint PUT /api/v1/inventory/{sku} para actualizar las cantidades disponibles de insumos médicos. | 5 | Romero Vilela, Dario Alberto | Done |
+| **TS009** | Query Low Stock Products | Implementación del endpoint GET /api/v1/inventory/alerts para filtrar productos por debajo de su umbral mínimo. | 4 | Romero Vilela, Dario Alberto | Done |
+| **TS008** | Soft Delete Voided Invoice | Implementación del endpoint DELETE /api/v1/invoices/{id} con eliminación lógica (soft-delete) para auditoría contable. | 4 | Romero Vilela, Dario Alberto | Done |
+| **TS005** | Create New Appointment Endpoint | Implementación del endpoint POST /api/v1/appointments para registrar nuevas reservas desde el calendario del Frontend. | 4 | Sanchez Benavente, Leonardo Matias | Done |
+| **TS006** | Dashboard Metrics Aggregation | Implementación del endpoint GET /api/v1/dashboard/summary que agrega los ingresos diarios y el conteo de pacientes atendidos. | 5 | Sejuro Medina, Mario Gabriel | Done |
+| **WK09** | OpenAPI Documentation | Configuración de Swagger/OpenAPI sobre el proyecto ASP.NET Core para documentar de forma interactiva los diez endpoints implementados. | 3 | Sejuro Medina, Mario Gabriel | Done |
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+A continuación, se detallan los commits más significativos realizados en el repositorio `VetCare-Backend` durante el Sprint 3, los cuales evidencian la construcción de la estructura del proyecto y la implementación de las diez Technical Stories planificadas en el Product Backlog.
+
+| Repository | Branch | Commit ID | Commit Message | Author |
+| :--- | :---: | :---: | :--- | :--- |
+| VetCare-Backend | main | a14fd02 | chore: initial backend scaffolding with Bounded Context folders | arturo-ns |
+| VetCare-Backend | main | 6e3bc91 | feat(iam): add login endpoint and JWT token generation (TS007) | arturo-ns |
+| VetCare-Backend | main | 9d27a45 | feat(iam): add JWT authentication middleware (TS003) | arturo-ns |
+| VetCare-Backend | main | f48cc10 | feat(iam): add token verification endpoint (TS010) | arturo-ns |
+| VetCare-Backend | main | 2b7e918 | feat(clinicManagement): add patient history retrieval endpoint (TS001) | Chebas19 |
+| VetCare-Backend | main | c39a204 | feat(clinicManagement): add consultation creation transaction with stock rollback (TS004) | Chebas19 |
+| VetCare-Backend | main | 1a5f7d3 | feat(backoffice): add inventory stock update endpoint (TS002) | patatitis9-alt |
+| VetCare-Backend | main | 88de4c6 | feat(backoffice): add low stock alert query endpoint (TS009) | patatitis9-alt |
+| VetCare-Backend | main | 0f3a9b2 | feat(backoffice): add invoice soft-delete endpoint (TS008) | patatitis9-alt |
+| VetCare-Backend | main | 75c21e8 | feat(scheduling): add appointment creation endpoint (TS005) | Matiassb06 |
+| VetCare-Backend | main | e62a0d1 | feat(dashboard): add daily metrics aggregation endpoint (TS006) | maghetthi |
+| VetCare-Backend | main | 33f8c47 | docs: configure Swagger/OpenAPI for all implemented endpoints | maghetthi |
+
+**Evidencia de Repositorio:**
+
+<img src="../assets/evidencia_repositorio_backend.png" alt="Evidencia Commits Backend"/>
+> **Nota:** Al cierre de este Sprint, el repositorio `VetCare-Backend` (https://github.com/1ASI0730-2610-17953-G3-VetCare/VetCare-Backend) contiene la totalidad de los Bounded Contexts del dominio (`iam`, `clinicManagement`, `backoffice`, `scheduling`, `dashboard`, `profile`, `communication`, `shared`) y los archivos de configuración para contenedorización (`Dockerfile`, `.dockerignore`), trabajados de forma local por el equipo y consolidados sobre la rama `main` previo a su despliegue en la nube.
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante este Sprint, el equipo verificó el funcionamiento de los diez endpoints implementados mediante pruebas manuales mediante Postman, contrastando las respuestas del API contra los escenarios Gherkin definidos en las Technical Stories del Capítulo III. A continuación, se presenta la evidencia visual de las pruebas de ejecución sobre el entorno local:
+
+<img src="../assets/backend_1.png" alt="Backend 1 - Login y generación de token"/>
+<img src="../assets/backend_2.png" alt="Backend 2 - Historial clínico"/>
+<img src="../assets/backend_3.png" alt="Backend 3 - Transacción de consulta"/>
+<img src="../assets/backend_4.png" alt="Backend 4 - Actualización de inventario"/>
+<img src="../assets/backend_5.png" alt="Backend 5 - Dashboard de métricas"/>
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3, se documentaron los diez endpoints del RESTful API mediante **Swagger/OpenAPI**, integrado de forma nativa en el proyecto ASP.NET Core. A continuación, se detalla la relación de Endpoints documentados, agrupados por Bounded Context.
+
+| Bounded Context | Endpoint | Verbo HTTP | Descripción |
+| :--- | :--- | :---: | :--- |
+| IAM / Security | /api/v1/auth/login | POST | Verifica las credenciales (email y password) y retorna un JWT firmado junto con los datos básicos del usuario. |
+| IAM / Security | /api/v1/auth/verify | GET | Decodifica un JWT vigente enviado en el header Authorization y retorna el perfil básico del usuario autenticado. |
+| Clinical API | /api/v1/patients/{id}/history | GET | Retorna el historial clínico completo (consultas, vacunas, tratamientos) de un paciente identificado por su ID. |
+| Clinical API | /api/v1/consultations | POST | Crea una nueva consulta médica y descuenta el stock de los insumos utilizados dentro de una única transacción. |
+| Inventory API | /api/v1/inventory/{sku} | PUT | Actualiza la cantidad disponible de un producto del inventario identificado por su SKU. |
+| Inventory API | /api/v1/inventory/alerts | GET | Retorna la lista de productos cuyo stock actual es menor o igual a su umbral mínimo configurado. |
+| Billing API | /api/v1/invoices/{id} | DELETE | Marca una factura como anulada (soft-delete), conservando el registro para fines de auditoría. |
+| Scheduling API | /api/v1/appointments | POST | Registra una nueva cita en la agenda, asociando paciente, médico y fecha/hora de atención. |
+| Reporting API | /api/v1/dashboard/summary | GET | Agrega y retorna los ingresos del día y el conteo de pacientes atendidos para el dashboard administrativo. |
+
+**Evidencia de la interacción con Swagger UI:**
+
+<img src="../assets/swagger_ui_1.png" alt="Swagger UI - Listado de Endpoints"/>
+<img src="../assets/swagger_ui_2.png" alt="Swagger UI - Ejemplo de Request y Response"/>
+**Repositorio del RESTful API:** https://github.com/1ASI0730-2610-17953-G3-VetCare/VetCare-Backend
+
+**Commits de documentación relacionados:** `33f8c47` (docs: configure Swagger/OpenAPI for all implemented endpoints)
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo priorizó la consolidación funcional del RESTful API en el entorno de desarrollo local sobre su publicación en un proveedor cloud. Esta decisión se tomó para asegurar que los diez endpoints planificados quedaran completos, probados e integrados al Frontend antes de invertir tiempo en la configuración de infraestructura en la nube.
+
+Como parte de la preparación para un despliegue posterior, se realizaron las siguientes actividades:
+
+* **Contenedorización:** Se construyó un `Dockerfile` y un archivo `.dockerignore` en la raíz del proyecto, permitiendo empaquetar el RESTful API junto con sus dependencias (.NET runtime, Entity Framework Core) en una imagen reproducible.
+* **Configuración de entorno:** Se definieron las variables de conexión a base de datos y la configuración de JWT en `appsettings.json`, separando los valores sensibles para su futura gestión como variables de entorno en el proveedor cloud.
+* **Verificación local:** Se validó que la imagen Docker construida localmente expone correctamente los diez endpoints documentados en Swagger, confirmando que el servicio está listo para una migración a un entorno administrado (Azure App Service / Azure Container Apps).
+  **Estado:** Backend completo y funcional en entorno local y contenedorizado vía Docker. Despliegue en la nube planificado para el Sprint 4 (TB2), una vez completada la integración del Frontend con los endpoints reales.
+
+<img src="../assets/docker_build_backend.png" alt="Build de la imagen Docker del Backend"/>
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, la colaboración del equipo se organizó por Bounded Context, asignando un líder técnico responsable de cada módulo del RESTful API (ver sección 5.2.3.2). Se utilizó **Trello** para el seguimiento de las Technical Stories (TS001 a TS010) y **GitFlow** para gestionar las contribuciones al repositorio `VetCare-Backend`, manteniendo ramas `feature/` independientes por endpoint antes de su integración a `main`.
+
+Todos los miembros del equipo tuvieron participación activa en la implementación del Backend, distribuyendo equitativamente la carga de trabajo entre los cuatro grandes bloques funcionales (IAM/Security, Clinical API, Inventory & Billing API, Scheduling & Reporting API).
+
+**Contribuciones al desarrollo del Backend:**
+<img src="../assets/Commits_image_backend.png" alt="Commits Backend"/>
+
+## 5.3. Validation Interviews
+ 
 ---
+
+En esta sección, el equipo registra y explica las actividades de entrevistas de validación realizadas durante el proyecto. A diferencia de las entrevistas de Needfinding (Capítulo II), cuyo objetivo fue identificar necesidades y problemas, estas entrevistas de validación buscan que usuarios de los segmentos objetivo interactúen directamente con la Landing Page y con el Frontend de la Web Application de VetCare, evaluando si la solución implementada responde a los hallazgos previamente identificados.
 
 ### 5.3.1. Diseño de Entrevistas
 
+Para cada uno de los dos segmentos objetivo (Médicos Veterinarios y Administradores de Clínicas) se diseñó una sesión de validación basada en tareas guiadas (task-based usability testing), en la cual el participante interactúa con el producto funcional mientras explica en voz alta sus impresiones (protocolo Think-Aloud).
+
+**Elementos a incluir en la sesión de validación:**
+
+* Presentación breve del propósito de la sesión y consentimiento para la grabación.
+* Recorrido libre por la Landing Page, evaluando la claridad de la propuesta de valor y los call-to-action.
+* Ejecución de tareas guiadas sobre el Frontend, según el segmento objetivo.
+* Preguntas de cierre sobre percepción general, confianza y disposición de adopción.
+  **Segmento 1: Médico Veterinario — User Flows a validar**
+
+1. Iniciar sesión en la plataforma y acceder al Dashboard principal.
+2. Buscar el perfil de un paciente y revisar su historial clínico.
+3. Registrar los signos vitales de un paciente durante un triaje.
+4. Identificar visualmente una alerta de alergia en la historia clínica.
+5. Generar una receta médica digital y enviar los cargos al módulo de cobro.
+   **Segmento 2: Administrador de Clínica — User Flows a validar**
+
+1. Iniciar sesión en la plataforma y acceder al Dashboard administrativo.
+2. Consultar el listado de productos con alerta de stock mínimo.
+3. Adjuntar un resultado de laboratorio al historial de un paciente.
+4. Revisar el resumen de historial médico en formato de línea de tiempo (timeline).
+5. Explorar la sección de planes y precios de la Landing Page como punto de comparación frente a la herramienta interna que usa actualmente.
 ### 5.3.2. Registro de Entrevistas
+
+A continuación, se documentan las sesiones de validación realizadas para cada segmento objetivo. Cada entrevista fue grabada en video y consolidada en el video de evidencia de entrevistas correspondiente a este Sprint, indicado en el Anexo "Videos de Exposiciones" de este informe.
+
+**Segmento 1: Médicos veterinarios en clínicas de mediano a alto flujo**
+
+Entrevista N°1
+
+● Nombre: Diego Lavado
+
+● Sexo: Masculino
+
+● Edad: 28
+
+● Distrito: Surco
+
+● Labor: Practicante de Veterinaria
+
+Detalles de la entrevista:
+
+● Duración: 04:12
+
+● URL: [Pendiente de carga en Microsoft Stream]
+
+<div align="center"><img src="../assets/validation_entrevista1_segmento1.png" width="100%"><br></div>
+Resumen de los puntos clave en la entrevista:
+
+Diego recorrió el flujo completo de búsqueda de paciente y registro de triaje sobre el Frontend desplegado en Netlify. Valoró positivamente que el formulario de signos vitales validara automáticamente los rangos numéricos ingresados, señalando que esto reduce el riesgo de errores de digitación que antes cometía en Excel. Indicó que la alerta de alergia se distingue con claridad gracias al color rojo y a su ubicación fija en la parte superior de la pantalla, aunque sugirió que el texto de la alerta podría ser más específico (nombre exacto del alérgeno). Finalmente, destacó que la generación de la receta digital fue más rápida que su proceso actual en papel, validando la hipótesis de reducción de tiempo administrativo planteada en el Lean UX Process del Capítulo I.
+ 
+---
+
+Entrevista N°2
+
+● Nombre: Adrian Cerdan
+
+● Sexo: Masculino
+
+● Edad: 30
+
+● Distrito: La Molina
+
+● Labor: Practicante de Veterinaria
+
+Detalles de la entrevista:
+
+● Duración: 03:48
+
+● URL: [Pendiente de carga en Microsoft Stream]
+
+<div align="center"><img src="../assets/validation_entrevista2_segmento1.png" width="100%"><br></div>
+Resumen de los puntos clave en la entrevista:
+
+Adrián evaluó el módulo de historial clínico, destacando que la línea de tiempo de consultas pasadas le permite entender rápidamente la evolución de un paciente crónico sin tener que revisar carpetas físicas. Sin embargo, notó que, al tratarse de datos de prueba (mock data) en esta etapa del proyecto, algunas fechas no reflejaban un orden cronológico completamente realista, lo cual atribuyó correctamente a que el Backend aún no estaba conectado en el momento de la sesión. Confirmó que la interfaz de carga de resultados de laboratorio es intuitiva y que el límite de tamaño de archivo (10MB) le parece razonable para los estudios que maneja habitualmente.
+ 
+---
+
+**Segmento 2: Administradores de centros veterinarios**
+
+Entrevista N°3
+
+● Nombre: Eduardo Aguirre
+
+● Sexo: Masculino
+
+● Edad: 26
+
+● Distrito: San Borja
+
+● Labor: Administrador de Veterinaria
+
+Detalles de la entrevista:
+
+● Duración: 05:02
+
+● URL: [Pendiente de carga en Microsoft Stream]
+
+<div align="center"><img src="../assets/validation_entrevista1_segmento2.png" width="100%"><br></div>
+Resumen de los puntos clave en la entrevista:
+
+Eduardo navegó por la Landing Page antes de ingresar al Frontend, valorando positivamente la sección de planes y precios por su claridad comparativa frente a la competencia analizada en el Capítulo II. Al revisar las alertas de stock mínimo en el dashboard, mencionó que esta funcionalidad responde directamente al problema de quiebres de inventario que describió en su entrevista de Needfinding. Sugirió que, una vez integrado el Backend, las alertas deberían poder filtrarse por proveedor para agilizar el proceso de reposición.
+ 
+---
+
+Entrevista N°4
+
+● Nombre: Luciana Cristobal
+
+● Sexo: Femenino
+
+● Edad: 24
+
+● Distrito: Miraflores
+
+● Labor: Administradora de Veterinaria
+
+Detalles de la entrevista:
+
+● Duración: 04:35
+
+● URL: [Pendiente de carga en Microsoft Stream]
+
+<div align="center"><img src="../assets/validation_entrevista2_segmento2.png" width="100%"><br></div>
+Resumen de los puntos clave en la entrevista:
+
+Luciana destacó la facilidad para adjuntar documentos al historial clínico desde la vista administrativa, y consideró que el diseño visual (paleta de azules y cian) transmite la sensación de profesionalismo y limpieza que ella busca para la imagen de su clínica frente a sus clientes. Como punto de mejora, solicitó que el dashboard incluyera, a futuro, una proyección de ingresos mensuales y no solo el resumen del día, lo cual el equipo registró como una posible historia de usuario adicional para iteraciones futuras del Product Backlog.
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-## 5.4. Video About-the-Product
+A continuación se presenta la evaluación de usabilidad de la plataforma **VetCare**, basada en los principios heurísticos de Jakob Nielsen, contrastando los hallazgos de las cuatro entrevistas de validación realizadas a ambos segmentos (Médicos Veterinarios y Administradores de Clínica).
 
+**Tareas evaluadas:**
+
+1. Inicio de sesión y acceso al Dashboard
+2. Búsqueda de paciente y consulta de historial clínico
+3. Registro de triaje y signos vitales
+4. Identificación de alertas de alergia
+5. Generación de receta médica digital
+6. Consulta de alertas de stock mínimo
+7. Carga de resultados de laboratorio
+   **Tareas no incluidas en esta versión de la evaluación:**
+
+1. Cierre de caja diario y conciliación de pagos (pendiente de integración con Backend)
+2. Cálculo de comisiones por médico
+3. Generación de reportes mensuales de ventas
+   | # | Problema | Escala de Severidad | Heurística / Principio violado(a) |
+   | :--- | :--- | :---: | :--- |
+   | 1 | El texto de la alerta de alergia no especifica el nombre exacto del alérgeno detectado. | 2 | Usability: Reconocimiento antes que recordar |
+   | 2 | Al usar datos de prueba, la línea de tiempo del historial clínico no siempre respeta un orden cronológico realista. | 1 | Usability: Coincidencia entre el sistema y el mundo real |
+   | 3 | No existe una opción visible para filtrar las alertas de stock mínimo por proveedor. | 2 | Information Architecture: Is it findable? |
+   | 4 | El dashboard administrativo solo muestra el resumen del día, sin opción de proyección mensual. | 2 | Information Architecture: Is it usable? |
+   | 5 | El formulario de triaje valida correctamente los rangos numéricos antes de guardar. | 1 (fortaleza) | Usability: Prevención de errores |
+
+**Descripción de problemas:**
+
+**PROBLEMA #1: El texto de la alerta de alergia no especifica el nombre exacto del alérgeno detectado**
+
+Severidad: 2
+
+Heurística violada: Usabilidad - Reconocimiento antes que recordar
+
+Problema: La alerta visual de alergia se muestra correctamente en color rojo y en una posición fija dentro de la vista de historial clínico; sin embargo, el texto genérico ("Paciente con alergias registradas") obliga al veterinario a desplazarse hasta la sección de antecedentes para identificar el alérgeno específico, en lugar de mostrarlo directamente en el banner.
+
+Recomendación: Incluir el nombre del alérgeno directamente en el texto del banner de alerta (ejemplo: "Alergia registrada: Penicilina"), reduciendo la carga de memoria del usuario durante la consulta.
+
+**PROBLEMA #3: No existe una opción visible para filtrar las alertas de stock mínimo por proveedor**
+
+Severidad: 2
+
+Heurística violada: Information Architecture - Is it findable?
+
+Problema: El listado de productos con alerta de stock mínimo se presenta como una lista plana, sin agrupación ni filtros. Para clínicas con múltiples proveedores, esto obliga al administrador a revisar manualmente cada ítem para identificar a quién debe contactar para reabastecer.
+
+Recomendación: Incorporar un filtro por proveedor (Supplier) en la vista de alertas de inventario, aprovechando la relación ya definida entre Inventario y Proveedor en el Database Design del Capítulo IV.
+
+## 5.4. Video About-the-Product
+ 
+---
+
+El Video About-the-Product tiene una orientación promocional enfocada en visitantes de la Landing Page y posibles clientes de centros veterinarios. Resume el modelo de negocio de VetCare, destacando cómo la plataforma centraliza el historial clínico (EHR), agiliza la gestión administrativa y financiera (ERP), y automatiza el descuento de inventario tras cada atención médica. El contenido incluye demostraciones de uso del software funcional sobre la Landing Page y el Frontend desplegados, e incorpora al menos un testimonio positivo por cada segmento objetivo, recogido durante las entrevistas de validación documentadas en la sección 5.3.2.
+
+**URL del Video About-the-Product:** [Pendiente de publicación en Microsoft Stream y YouTube]
+ 
 ---
 
 ## Conclusiones
-
+ 
 ---
 
 ### Conclusiones y recomendaciones
 
-### Video About-the-Team
+**Conclusiones:**
 
+1. **Adopción exitosa de Metodologías Ágiles:** El uso de Sprints y herramientas como Trello y Pivotal Tracker ha permitido al equipo de VET-Smart mantener un flujo de trabajo organizado a lo largo de tres iteraciones consecutivas. Esto se evidenció en la entrega oportuna de la Landing Page en el Sprint 1, del Frontend de gestión clínica en el Sprint 2, y del RESTful API en el Sprint 3, cumpliendo con los objetivos y la velocidad estimada en cada ciclo.
+2. **Eficiencia en la Gestión de Configuración y Control de Versiones:** La estricta implementación de GitFlow en GitHub, apoyada con Conventional Commits, facilitó la colaboración fluida entre los desarrolladores a través de los tres repositorios del proyecto (Landing Page, Frontend y Backend), mitigando conflictos de integración y asegurando la estabilidad de las ramas `main` y `develop`.
+3. **Calidad y Estandarización de Código:** La definición y seguimiento de guías de estilo para HTML, CSS, JavaScript, Vue.js, C# y ASP.NET Core ha garantizado que el código base de VetCare sea escalable, legible y fácilmente mantenible, incluso al incorporar un nuevo lenguaje de programación (C#) a partir del Sprint 3.
+4. **Arquitectura de Servicios Alineada al Dominio:** La organización del RESTful API por Bounded Context (`iam`, `clinicManagement`, `backoffice`, `scheduling`, `dashboard`, `profile`, `communication`) demuestra la coherencia entre el Domain-Driven Design definido en el Capítulo IV y la implementación real del código, facilitando la trazabilidad entre los diagramas de arquitectura y el repositorio `VetCare-Backend`.
+5. **Validación Centrada en el Usuario:** Las entrevistas de validación realizadas en este Sprint confirmaron que las funcionalidades clínicas (triaje, alertas de alergia, recetas digitales) y administrativas (alertas de stock) responden directamente a los puntos de dolor identificados en el Needfinding del Capítulo II, aunque también revelaron oportunidades de mejora concretas, como la especificidad de las alertas y el filtrado de inventario por proveedor.
+   **Recomendaciones:**
+
+1. **Integración Frontend-Backend:** Con el RESTful API completo en el entorno local, se recomienda priorizar en el siguiente Sprint la sustitución de los datos de prueba (mock data) del Frontend por las respuestas reales de los diez endpoints documentados, comenzando por el módulo de autenticación (IAM).
+2. **Despliegue en la Nube del Backend:** Habiendo completado la contenedorización del API mediante Docker, se recomienda ejecutar el despliegue en un proveedor cloud (Azure App Service o Azure Container Apps) durante el siguiente ciclo, de forma que las tres capas de la solución (Landing Page, Frontend, Backend) queden públicamente accesibles.
+3. **Atención a Hallazgos de Heurísticas:** Se recomienda incorporar al Product Backlog las mejoras identificadas en la evaluación heurística de este Sprint, en particular la especificidad de las alertas de alergia y el filtro de proveedor en las alertas de stock, antes de la entrega final del proyecto.
+### Video About-the-Team
+ 
 ---
+
+[Sección a completar en la entrega TB2, una vez consolidado el testimonio de cada integrante sobre el ciclo de vida completo del proyecto.]
 
 ## Bibliografía
 
@@ -511,9 +835,7 @@ Beyer, K., Chomiak-Orsa, I., Pietrzykowski, Z., & Rozkrut, D. (2025). *Digital t
 Mallikarjun, A., Charendoff, I., Moore, M. B., Wilson, C., Nguyen, E., Hendrzak, A. J., Poulson, J., Gibison, M., & Otto, C. M. (2024). Assessing Different Chronic Wasting Disease Training Aids for Use with Detection Dogs. *Animals*, *14*(2), 300. https://doi.org/10.3390/ani14020300
 
 Soltani, Z., & Siadati, S. (2019). *The impact of business intelligence on increasing the efficiency and health quality of surgical centers*. (Research on Health Management and Efficiency).
-
+ 
 ---
 
 ## Anexos
-
----
