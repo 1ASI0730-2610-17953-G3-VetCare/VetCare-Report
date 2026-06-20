@@ -478,7 +478,7 @@ El despliegue de la aplicación web frontend se realizó utilizando **Netlify**,
 Durante el Sprint 2, la colaboración se centró en la transición hacia una arquitectura escalable en Angular. El equipo utilizó **Trello** para el seguimiento de las User Stories (12, 13, 14, 15, 16 y 18) y **GitFlow** para gestionar las contribuciones al código.
 
 **Contribuciones al desarrollo del Frontend:**
-<img src="../assets/Commits_image.png" alt="Commits"/>
+<img src="../assets/Commits_image.png" alt="Commits_backend" width="1000" height="500"/>/>
 
 ### 5.2.3. Sprint 3
 
@@ -553,7 +553,7 @@ A continuación, se detallan los commits más significativos realizados en el re
 
 **Evidencia de Repositorio:**
 
-<img src="../assets/evidencia_repositorio_backend.png" alt="Evidencia Commits Backend"/>
+<img src="../assets/Commits_image.png" alt="Commits"/>
 Al cierre de este Sprint, el repositorio `VetCare-Backend` (https://github.com/1ASI0730-2610-17953-G3-VetCare/VetCare-Backend) contiene la totalidad de los Bounded Contexts del dominio (`iam`, `clinicManagement`, `backoffice`, `scheduling`, `dashboard`, `profile`, `communication`, `shared`) y los archivos de configuración para contenedorización (`Dockerfile`, `.dockerignore`), trabajados de forma local por el equipo y consolidados sobre la rama `main` previo a su despliegue en la nube.
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
@@ -604,7 +604,7 @@ Durante el Sprint 3, la colaboración del equipo se organizó por Bounded Contex
 Todos los miembros del equipo tuvieron participación activa en la implementación del Backend, distribuyendo equitativamente la carga de trabajo entre los cuatro grandes bloques funcionales (IAM/Security, Clinical API, Inventory & Billing API, Scheduling & Reporting API).
 
 **Contribuciones al desarrollo del Backend:**
-<img src="../assets/Commits_image_backend.png" alt="Commits Backend"/>
+<img src="../assets/Commits_image.png" alt="Commits_backend" width="1000" height="500"/>/>
 
 ## 5.3. Validation Interviews
  
