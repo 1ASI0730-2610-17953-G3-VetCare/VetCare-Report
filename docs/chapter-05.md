@@ -701,13 +701,19 @@ Sobre el historial clínico, valora la excelente disposición visual de la líne
 Entrevista N°1
 
 ● Nombre: Ángel
+
 ● Sexo: Masculino
+
 ● Edad: 25
+
 ● Estado Civil: No especificado
+
 ● Labor: Administrador de Veterinaria
 
 Detalles de la entrevista:
+
 ● Duración: 3:16 min
+
 ● URL: https://drive.google.com/drive/folders/10VP5Tw78AokVTs9uspZML6ruvbSFfPgs?usp=sharing
 
 <img src="../assets/entrevista_Angel.png" alt="Commits_back"/>
